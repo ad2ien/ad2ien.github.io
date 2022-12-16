@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+/* Global default styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default Pages content styles */
+#page-content a {
+    @apply underline;
+}
+#page-content p, h2 {
+    @apply py-4;
+}
+#page-content :is(h1, h2, h3, h4, h5, h6) {
+    @apply underline;
+}
+#page-content pre {
+    @apply p-4 my-4 overflow-x-auto;
+}

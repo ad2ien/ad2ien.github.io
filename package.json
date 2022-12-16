@@ -1,0 +1,37 @@
+{
+  "name": "zola-tailwind",
+  "version": "0.1.0",
+  "description": "A theme for Zola SSG built with tailwind css",
+  "scripts": {
+    "uglify": "uglifyjs ./src/js/main.js --compress --mangle -o ./static/js/main.js && uglifyjs ./src/js/page.js --compress --mangle -o ./static/js/page.js && uglifyjs ./src/js/search.js --compress --mangle -o ./static/js/search.js && uglifyjs ./src/js/lang.js --compress --mangle -o ./static/js/lang.js",
+    "watch": "NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css -w --verbose",
+    "dev": "npm run uglify && NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css --verbose",
+    "prod": "npm run uglify && NODE_ENV=production postcss ./src/css/main.css -o ./static/css/main.css --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchartron/zola-tailwind.git"
+  },
+  "keywords": [
+    "zola",
+    "ssg",
+    "theme",
+    "tailwindcss",
+    "tailwind",
+    "tchartron"
+  ],
+  "author": "Thomas Chartron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tchartron/zola-tailwind/issues"
+  },
+  "homepage": "https://github.com/tchartron/zola-tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.9",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19",
+    "uglify-js": "^3.14.3"
+  }
+}
