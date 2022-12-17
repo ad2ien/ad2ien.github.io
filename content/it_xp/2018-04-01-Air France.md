@@ -1,8 +1,8 @@
----
-title: Développeur chez Air France
-published: true
-tag: [xp_it]
----
++++
+title = "Développeur chez Air France"
+[taxonomies]
+categories=["xp_it"]
++++
 
 #### Air France Toulouse (31)
 

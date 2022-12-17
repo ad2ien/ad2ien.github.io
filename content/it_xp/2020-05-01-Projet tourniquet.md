@@ -1,8 +1,8 @@
----
-title: Projet Tourniquet d'accès
-published: true
-tag: [xp_it]
----
++++
+title = "Projet Tourniquet d'accès"
+[taxonomies]
+categories=["xp_it"]
++++
 
 #### Toulouse (31)
 
