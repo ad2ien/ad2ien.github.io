@@ -3,7 +3,7 @@
 -[ ] english version
 -[ ] emojis in titles
 -[ ] Introduction, links likedin github
--[ ] xp attribute : place and duration, logo
+-[ ] xp attribute : place and duration, logo, link
 -[ ] Readme
 -[ ] customize really photo...
 -[ ] list categories only tags
