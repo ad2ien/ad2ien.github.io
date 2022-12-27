@@ -10,3 +10,4 @@
 -[ ] formatting : tag list post entreprise logo
 -[ ] ci : linting and publish
 -[ ] blog really at least funny stuffs.
+-[ ] package.json
