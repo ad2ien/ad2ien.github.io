@@ -30,3 +30,6 @@ html {
 #page-content pre {
     @apply p-4 my-4 overflow-x-auto;
 }
+#page-content ul {
+  @apply list-disc pl-5 space-y-3;
+}
