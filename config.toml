@@ -191,6 +191,10 @@ items = [
 ]
 title = "Adrien Touzouli"
 
+[extra.social]
+email="adrien.touzouli@protonmail.com"
+github="https://github.com/ad2ien"
+linkedin="https://www.linkedin.com/in/adrien-touzouli-892180138"
 
 [extra.index]
 title = "Adrien Touzouli"
