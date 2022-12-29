@@ -1,7 +1,7 @@
 {
-  "name": "zola-tailwind",
+  "name": "ad2ien-cv",
   "version": "0.1.0",
-  "description": "A theme for Zola SSG built with tailwind css",
+  "description": "An online resume made with Blow theme for Zola SSG built with tailwind css",
   "scripts": {
     "mkdir": "mkdir -p ./static/js && ./static/css",
     "uglify": "npm run mkdir && uglifyjs ./src/js/main.js --compress --mangle -o ./static/js/main.js && uglifyjs ./src/js/page.js --compress --mangle -o ./static/js/page.js && uglifyjs ./src/js/search.js --compress --mangle -o ./static/js/search.js && uglifyjs ./src/js/lang.js --compress --mangle -o ./static/js/lang.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tchartron/zola-tailwind.git"
+    "url": "git+https://github.com/ad2ien/cv.git"
   },
   "keywords": [
     "zola",
@@ -22,12 +22,9 @@
     "tailwind",
     "tchartron"
   ],
-  "author": "Thomas Chartron",
+  "author": "Adrien Touzouli",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tchartron/zola-tailwind/issues"
-  },
-  "homepage": "https://github.com/tchartron/zola-tailwind#readme",
+  "homepage": "https://github.com/ad2ien/cv",
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "cssnano": "^5.0.9",
