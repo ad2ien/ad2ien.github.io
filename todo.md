@@ -1,12 +1,13 @@
 # Todo list
 
--[ ] english version
+-[x] english version
 -[ ] emojis in titles
--[ ] main page Introduction, links likedin github
+-[ ] specific mail
+-[x] main page Introduction, links likedin github
 -[ ] xp attribute : place and duration, logo, link
 -[ ] Readme
--[ ] customize really photo...
--[ ] list categories only tags
+-[ ] customize real photo...
+-[x] list categories only tags
 -[ ] formatting : tag list post entreprise logo
 -[ ] ci : linting and publish
 -[ ] blog really at least funny stuffs.

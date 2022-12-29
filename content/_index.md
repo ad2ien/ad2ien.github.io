@@ -4,5 +4,8 @@ description = "Personnal blog"
 date = 2021-11-12
 +++
 
-Main page content
+Hello 👋
 
+I am a full stack developer with backend affinities and agile management, devops and continuous integration skills.
+
+I'm available for your web projects, especially if it involves open source coding 😇

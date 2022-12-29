@@ -1,8 +1,11 @@
 +++
-title = "Website title"
-description = "Personnal blog"
-date = 2021-11-12
+title = "Adischatz!"
+description = "Blog personnel"
+date = 2022-12-12
 +++
 
-Contenu page principale
+Bonjour 👋
 
+Je suis un développeur full stack avec des affinités plutôt back end et des compétences en gestion agile, devops et intégration continue.
+
+Disponible pour vos projets web, surtout si vous êtes impliqués dans une démarche de logiciel libre 😇
