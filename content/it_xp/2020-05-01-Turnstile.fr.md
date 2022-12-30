@@ -4,6 +4,8 @@ title = "Projet Tourniquet d'accès"
 location=["Toulouse"]
 categories=["xp_it"]
 tags=["Springboot", "Angular", "Java", "Python", "Debian", "Jhipster" ]
+[extra]
+logo = "https://media.licdn.com/dms/image/C510BAQFUloocbX_Jwg/company-logo_100_100/0/1519870370519?e=1680739200&v=beta&t=__l6PdDubBM9PvPr7RbNWFpsPX5w5dybDQscceSDIKs"
 +++
 
 ### Projet
