@@ -1,6 +1,6 @@
 +++
 title = "Adischatz!"
-description = "Blog personnel"
+description = "Introduction"
 date = 2022-12-12
 +++
 

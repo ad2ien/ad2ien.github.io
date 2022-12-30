@@ -1,6 +1,6 @@
 +++
-title = "Website title"
-description = "Personnal blog"
+title = "Hi, there"
+description = "Introduction"
 date = 2021-11-12
 +++
 
