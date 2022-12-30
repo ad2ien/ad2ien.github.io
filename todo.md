@@ -12,5 +12,5 @@
 - [ ] ci : linting and publish
 - [ ] blog really at least funny stuffs.
 - [x] package.json
-- [x] fix search
+- [ ] fix search in franch
 - [ ] Other XP

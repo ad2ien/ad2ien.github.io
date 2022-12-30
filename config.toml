@@ -123,8 +123,9 @@ include_path = true
 include_content = true
 # At which character to truncate the content to. Useful if you have a lot of pages and the index would
 # become too big to load on the site. Defaults to not being set.
-truncate_content_length = 100
+truncate_content_length = 1000
 
+default_language = "fr"
 # Optional translation object for the default language
 # Example:
 #     default_language = "fr"
@@ -150,7 +151,6 @@ taxonomies = [
     {name = "location"},
 
 ]
-# build_search_index = false
 
 # You can put any kind of data here. The data
 # will be accessible in all templates
