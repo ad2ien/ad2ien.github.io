@@ -1,8 +1,8 @@
 +++
-title = "🛞 Projet Tourniquet d'accès"
+title = "🛞 Access turnstile"
 [taxonomies]
 location=["Toulouse"]
-categories=["xp_it"]
+categories=["IT XP"]
 tags=["Springboot", "Angular", "Java", "Python", "Debian", "Jhipster" ]
 [extra]
 logo = "https://media.licdn.com/dms/image/C510BAQFUloocbX_Jwg/company-logo_100_100/0/1519870370519?e=1680739200&v=beta&t=__l6PdDubBM9PvPr7RbNWFpsPX5w5dybDQscceSDIKs"
@@ -10,19 +10,19 @@ logo = "https://media.licdn.com/dms/image/C510BAQFUloocbX_Jwg/company-logo_100_1
 
 ### Projet
 
-Tourniquet d'accès avec mesure d'électricité statique pour usine de composant électronique. Développement embarqué sur carte Debian.
+Access turnstile with static electricity measurement for electronic component factory. Embedded development on Debian board.
 
 ### Réalisation
 
-- Serveur web avec JHipster (Springboot / Angular)
-- Appli Python
-- Processus d'installation système.
+- Web server with JHipster (Springboot / Angular)
+- Python App
+- System installation process.
 
-Afin de :
+To:
 
-- Logger des accès
-- Configurer le matériel
-- Lancer et valider des mesures
+- Access logger
+- Configure the hardware
+- Launch and validate measurements
 
 ### Environnement Technique
 

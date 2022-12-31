@@ -181,11 +181,11 @@ items = [
 items = [
     { lang = "en", links = [
         { url = "/", name = "Home" },
-        { url = "/categories/xp-it", name = "IT XP" },
+        { url = "/categories/it-xp", name = "IT XP" },
         { url = "/tags", name = "Tags" },
     ] }, { lang = "fr", links = [
         { url = "/", name = "Home" },
-        { url = "/categories/xp-it", name = "IT XP" },
+        { url = "/categories/it-xp", name = "IT XP" },
         { url = "/tags", name = "Tags" },
     ] },
 ]
