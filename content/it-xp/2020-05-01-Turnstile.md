@@ -13,6 +13,8 @@ duration_month = "7"
 
 Access turnstile with static electricity measurement for electronic component factory. Embedded development on Debian board.
 
+<!-- more -->
+
 ### Réalisation
 
 - Web server with JHipster (Springboot / Angular)

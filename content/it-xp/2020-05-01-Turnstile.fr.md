@@ -13,6 +13,8 @@ duration_month = "7"
 
 Tourniquet d'accès avec mesure d'électricité statique pour usine de composant électronique. Développement embarqué sur carte Debian.
 
+<!-- more -->
+
 ### Réalisation
 
 - Serveur web avec JHipster (Springboot / Angular)

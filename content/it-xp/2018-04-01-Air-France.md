@@ -9,6 +9,9 @@ logo = "https://media.licdn.com/dms/image/C4E0BAQG_jFdctRyOfg/company-logo_100_1
 duration_month = "15"
 +++
 
+This mission is mainly related to the management of documentation embedded in Air France aircraft.
+<!-- more -->
+
 ## Projet ACDC
 
 Solution to monitor EFB (Electronic Flight Bag: aircraft embedded tablet)

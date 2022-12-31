@@ -9,6 +9,10 @@ logo = "https://media.licdn.com/dms/image/C4E0BAQG_jFdctRyOfg/company-logo_100_1
 duration_month = "15"
 +++
 
+Cette mission concerne en particulier la gestion de la documentation embarquée dans les avions Air France.
+
+<!-- more -->
+
 ## Projet ACDC
 
 Solution permettant de monitorer l'état des EFB (Electronic Flight Bag: tablettes tactiles embarquées dans les cockpits) en temps réel. Composé d'un backend springboot d'un frontend angular et d'une partie embarquée en NodeJs, le tout communiquant par websocket.
