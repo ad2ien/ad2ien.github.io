@@ -32,11 +32,11 @@
       <div class="flex w-2/3 sm:space-x-3 text-gray-900 dark:text-gray-400 justify-end">
         <span class="flex">
           <!-- Icon clock -->
+          {% if page.extra.duration_month %}
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
           </svg>
-          {% if page.extra.duration_month %}
           <span class="ml-1">{{ page.extra.duration_month }} {{ trans(key="month", lang=lang) }}</span>
           {% endif %}
         </span>
