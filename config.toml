@@ -102,7 +102,6 @@ skip_prefixes = [
 
 # Skip anchor checking for external URLs that start with these prefixes
 skip_anchor_prefixes = [
-    "https://caniuse.com/",
 ]
 
 # Various slugification strategies, see below for details
@@ -129,6 +128,7 @@ default_language = "en"
 [translations]
 month = "months"
 published-on = "Published on"
+read-more = "Read more"
 
 # Additional languages definition
 # You can define language specific config values and translations:
@@ -148,6 +148,7 @@ taxonomies = [
 [languages.fr.translations]
 month = "mois"
 published-on = "Publié le"
+read-more = "Lire la suite"
 
 [extra]
 enable_multilingue = true
@@ -171,10 +172,12 @@ items = [
     { lang = "en", links = [
         { url = "/", name = "Home" },
         { url = "/categories/it-xp", name = "IT XP" },
+        { url = "/categories/other-xp", name = "Other XP" },
         { url = "/tags", name = "Tags" },
     ] }, { lang = "fr", links = [
         { url = "/fr", name = "Accueil" },
         { url = "/fr/categories/it-xp", name = "IT XP" },
+        { url = "/fr/categories/other-xp", name = "Other XP" },
         { url = "/tags", name = "Tags" },
     ] },
 ]
@@ -187,7 +190,7 @@ linkedin="https://www.linkedin.com/in/adrien-touzouli-892180138"
 
 [extra.index]
 title = "Adrien Touzouli"
-image = "https://nextcloud.ad2ien.dev/s/YPrPnGGxteNCY7Q/preview"
+image = "images/avatar.svg"
 image_alt = "Oily ad2ien"
 
 [extra.default_author]
