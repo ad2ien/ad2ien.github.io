@@ -37,7 +37,9 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
+              {% if page.extra.duration_month %}
               <span class="ml-1">{{ page.extra.duration_month }} {{ trans(key="month", lang=lang) }}</span>
+              {% endif %}
             </span>
             <span class="flex">
               <!-- Icon pencil -->
