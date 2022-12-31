@@ -83,6 +83,7 @@
       <!-- Summary -->
       <div class="text-bold mt-2">
         {{ page.summary | safe }}
+        {% if page.extra.noreadmore %}
         <a class="flex py-2" href='{{ page.permalink }}'>
           {{ trans(key="read-more", lang=lang) }}...
           <svg class="w-6 h-6 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -90,6 +91,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
           </svg>
         </a>
+        {% endif %}
       </div>
 
       <!-- Categories and Tags -->
