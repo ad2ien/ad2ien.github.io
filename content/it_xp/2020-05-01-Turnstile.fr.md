@@ -1,5 +1,5 @@
 +++
-title = "Projet Tourniquet d'accès"
+title = "🛞 Projet Tourniquet d'accès"
 [taxonomies]
 location=["Toulouse"]
 categories=["xp_it"]

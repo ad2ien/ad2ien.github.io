@@ -1,5 +1,5 @@
 +++
-title = "Air France developer"
+title = "✈️ Air France developer"
 [taxonomies]
 location=["Toulouse"]
 categories=["xp_it"]

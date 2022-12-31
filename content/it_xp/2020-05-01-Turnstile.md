@@ -1,5 +1,5 @@
 +++
-title = "Access turnstile"
+title = "🛞 Access turnstile"
 [taxonomies]
 location=["Toulouse"]
 categories=["xp_it"]
