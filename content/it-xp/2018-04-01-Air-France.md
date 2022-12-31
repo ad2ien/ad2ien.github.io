@@ -6,6 +6,7 @@ categories=["IT XP"]
 tags=["Java", "NodeJS", "Springboot", "Electron"]
 [extra]
 logo = "https://media.licdn.com/dms/image/C4E0BAQG_jFdctRyOfg/company-logo_100_100/0/1652984799874?e=1680739200&v=beta&t=pCY3WDsk0BVmeYOtoT61CBfXSvHjBPNXRxu36VS62Dk"
+duration_month = "15"
 +++
 
 ## Projet ACDC
