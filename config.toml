@@ -54,8 +54,8 @@ hard_link_static = false
 #     ]
 #
 taxonomies = [
-    {name = "tags", paginate_by = 5, feed = true},
-    {name = "categories", paginate_by = 5, feed = true},
+    {name = "tags", paginate_by = 10, feed = true},
+    {name = "categories", paginate_by = 10, feed = true},
     {name = "location"},
 ]
 
@@ -140,8 +140,8 @@ title = "Adrien Touzouli"
 description = "Site web professionel / personnel"
 generate_feed = false
 taxonomies = [
-    {name = "tags", paginate_by = 5, feed = true},
-    {name = "categories", paginate_by = 5, feed = true},
+    {name = "tags", paginate_by = 10, feed = true},
+    {name = "categories", paginate_by = 10, feed = true},
     {name = "location"},
 
 ]
@@ -177,7 +177,7 @@ items = [
     ] }, { lang = "fr", links = [
         { url = "/fr", name = "Accueil" },
         { url = "/fr/categories/it-xp", name = "IT XP" },
-        { url = "/fr/categories/other-xp", name = "Other XP" },
+        { url = "/fr/categories/other-xp", name = "Autres XP" },
         { url = "/tags", name = "Tags" },
     ] },
 ]

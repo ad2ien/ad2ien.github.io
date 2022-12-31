@@ -84,6 +84,8 @@
       <div class="text-bold mt-2">
         {{ page.summary | safe }}
         {% if page.extra.noreadmore %}
+        <!-- don't display read more -->
+        {% else %}
         <a class="flex py-2" href='{{ page.permalink }}'>
           {{ trans(key="read-more", lang=lang) }}...
           <svg class="w-6 h-6 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
