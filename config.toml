@@ -125,22 +125,16 @@ include_content = true
 # become too big to load on the site. Defaults to not being set.
 truncate_content_length = 1000
 
-default_language = "fr"
-# Optional translation object for the default language
-# Example:
-#     default_language = "fr"
-#
-#     [translations]
-#     title = "Un titre"
-#
+default_language = "en"
 [translations]
+month = "months"
+published-on = "Published on"
 
 # Additional languages definition
 # You can define language specific config values and translations:
 # title, description, generate_feed, feed_filename, taxonomies, build_search_index
 # as well as its own search configuration and translations (see above for details on those)
 [languages]
-# For example
 [languages.fr]
 title = "Adrien Touzouli"
 description = "Site web professionel / personnel"
@@ -151,15 +145,10 @@ taxonomies = [
     {name = "location"},
 
 ]
+[languages.fr.translations]
+month = "mois"
+published-on = "Publié le"
 
-# You can put any kind of data here. The data
-# will be accessible in all templates
-# Example:
-#     [extra]
-#     author = "Famous author"
-#
-# author value will be available using {{ config.extra.author }} in templates
-#
 [extra]
 enable_multilingue = true
 enable_search = true
@@ -184,8 +173,8 @@ items = [
         { url = "/categories/it-xp", name = "IT XP" },
         { url = "/tags", name = "Tags" },
     ] }, { lang = "fr", links = [
-        { url = "/", name = "Home" },
-        { url = "/categories/it-xp", name = "IT XP" },
+        { url = "/fr", name = "Accueil" },
+        { url = "/fr/categories/it-xp", name = "IT XP" },
         { url = "/tags", name = "Tags" },
     ] },
 ]
