@@ -3,7 +3,7 @@ title = "✈️ Développeur chez Air France"
 [taxonomies]
 location=["Toulouse"]
 categories=["IT XP"]
-tags=["Java", "NodeJS", "Springboot"]
+tags=["Java", "NodeJS", "Spring", "Springboot", "Electron"]
 [extra]
 logo = "https://media.licdn.com/dms/image/C4E0BAQG_jFdctRyOfg/company-logo_100_100/0/1652984799874?e=1680739200&v=beta&t=pCY3WDsk0BVmeYOtoT61CBfXSvHjBPNXRxu36VS62Dk"
 duration_month = "15"
@@ -64,7 +64,6 @@ Composé d’une application web, de batchs de traitements ainsi que des loaders
 - Springboot 5,
 - Angular 6, typescript
 - NodeJs
-- Kotlin
 - Websocket
 - Junit
 - Xsd, xml, jaxB

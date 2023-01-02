@@ -3,7 +3,7 @@ title = "✈️ Air France developer"
 [taxonomies]
 location=["Toulouse"]
 categories=["IT XP"]
-tags=["Java", "NodeJS", "Springboot", "Electron"]
+tags=["Java", "NodeJS", "Spring", "Springboot", "Electron"]
 [extra]
 logo = "https://media.licdn.com/dms/image/C4E0BAQG_jFdctRyOfg/company-logo_100_100/0/1652984799874?e=1680739200&v=beta&t=pCY3WDsk0BVmeYOtoT61CBfXSvHjBPNXRxu36VS62Dk"
 duration_month = "15"
@@ -12,7 +12,7 @@ duration_month = "15"
 This mission is mainly related to the management of documentation embedded in Air France aircraft.
 <!-- more -->
 
-## Projet ACDC
+## ACDC Projet
 
 Solution to monitor EFB (Electronic Flight Bag: aircraft embedded tablet)
 • Springboot backend
@@ -21,19 +21,19 @@ Solution to monitor EFB (Electronic Flight Bag: aircraft embedded tablet)
 • Everything communicating with websocket
 • CI (continuous integration) configuration with Bamboo and Nexus
 
-### Projet LoaderBoard
+### LoaderBoard Projet
 
 Loaders are windows 7 PC laptops used to update documents and tools of embedded EFBs. Loaderboard is a PC application to manage a fleet of loaders.
 Electron framework allowing to access system PC libraries using Angular 4. PO (product owner) and developer.
 
-### Projet ACARSWEB
+### ACARSWEB Projet
 
 This project is an interface with ACARS messages (message format use to communicate with aircrafts) it allows to exploit flight data.
 • Java agent that parse and compile ACARS messages and send a report to a fuel consumption tool.
 • Interface avec KLM (Netherland)
 • Real TDD Development! (Test Driven Development.)
 
-### Projet : AMPHORE
+### AMPHORE Projet
 
 EFB Document management system for various aircraft types. Consists of a web application, java agents and Loaders.
 • Development
@@ -51,7 +51,6 @@ EFB Document management system for various aircraft types. Consists of a web app
 - Springboot 5,
 - Angular 6, typescript
 - NodeJs
-- Kotlin
 - Websocket
 - Junit
 - Xsd, xml, jaxB
