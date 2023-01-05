@@ -173,11 +173,13 @@ items = [
         { url = "/", name = "Home" },
         { url = "/categories/it-xp", name = "IT XP" },
         { url = "/categories/other-xp", name = "Other XP" },
+        { url = "/categories/blog", name = "Blog" },
         { url = "/tags", name = "Tags" },
     ] }, { lang = "fr", links = [
         { url = "/fr", name = "Accueil" },
         { url = "/fr/categories/it-xp", name = "IT XP" },
         { url = "/fr/categories/other-xp", name = "Autres XP" },
+        { url = "/fr/categories/blog", name = "Blog" },
         { url = "/tags", name = "Tags" },
     ] },
 ]
@@ -191,9 +193,9 @@ linkedin="https://www.linkedin.com/in/adrien-touzouli-892180138"
 [extra.index]
 title = "Adrien Touzouli"
 image = "images/avatar.svg"
-image_alt = "Oily ad2ien"
+image_alt = "avatar"
 
 [extra.default_author]
 name = "Adrien Touzouli"
-avatar = "https://nextcloud.ad2ien.dev/s/YPrPnGGxteNCY7Q/preview"
-avatar_alt = "Oily ad2ien"
+avatar = "images/avatar.svg"
+avatar_alt = "avatar"
