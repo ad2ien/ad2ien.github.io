@@ -4,7 +4,7 @@
   "description": "An online resume made with Blow theme for Zola SSG built with tailwind css",
   "scripts": {
     "mkdir": "mkdir -p ./static/js && mkdir -p ./static/css",
-    "uglify": "npm run mkdir && uglifyjs ./src/js/main.js --compress --mangle -o ./static/js/main.js && uglifyjs ./src/js/page.js --compress --mangle -o ./static/js/page.js && uglifyjs ./src/js/search.js --compress --mangle -o ./static/js/search.js && uglifyjs ./src/js/lang.js --compress --mangle -o ./static/js/lang.js",
+    "uglify": "uglifyjs-folder ./src/js/ -eo ./static/js -x .js",
     "watch": "NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css -w --verbose",
     "dev": "npm run uglify && NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css --verbose",
     "prod": "npm run uglify && NODE_ENV=production postcss ./src/css/main.css -o ./static/css/main.css --verbose",
@@ -31,6 +31,6 @@
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.2",
     "tailwindcss": "^2.2.19",
-    "uglify-js": "^3.14.3"
+    "uglifyjs-folder": "^3.2.0"
   }
 }

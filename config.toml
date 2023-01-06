@@ -143,8 +143,9 @@ taxonomies = [
     {name = "tags", paginate_by = 10, feed = true},
     {name = "categories", paginate_by = 10, feed = true},
     {name = "location"},
-
 ]
+build_search_index = true
+
 [languages.fr.translations]
 month = "mois"
 published-on = "Publié le"
