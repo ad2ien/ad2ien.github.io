@@ -11,7 +11,7 @@
 - [ ] blog really at least funny stuffs.
 - [x] package.json
 - [ ] fix search in french
-- [ ] Other XP
+- [x] Other XP
 - [ ] Rearrange tags
 - [ ] Improve IT xp title
 
@@ -19,7 +19,7 @@
 
 - [ ] specific mail
 - [ ] customize real photo...
-- [ ] logo / brand ideas : 
+- [ ] logo / brand ideas :
   - genet
   - ma gueule svg
-  - 
+  - tete d'ail

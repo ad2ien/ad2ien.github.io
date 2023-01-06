@@ -8,7 +8,7 @@ categories=["blog"]
 
 _« Techniquement, les développeuses et développeurs informatiques sont des sorcières» dixit Bakounine_
 
-### Standing on the shoulders of giants, oh yeah!
+### Standing on the shoulders of giants, __oh yeah!__
 
 <!-- more -->
 

@@ -8,7 +8,7 @@ categories=["blog"]
 
 _"Technically, computer developers are witches," says Bakunin_
 
-### Standing on the shoulders of giants, oh yeah!
+### Standing on the shoulders of giants, __oh yeah!__
 
 <!-- more -->
 
