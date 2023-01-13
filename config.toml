@@ -129,6 +129,7 @@ default_language = "en"
 month = "months"
 published-on = "Published on"
 read-more = "Read more"
+path-lang = ""
 
 # Additional languages definition
 # You can define language specific config values and translations:
@@ -150,6 +151,7 @@ build_search_index = true
 month = "mois"
 published-on = "Publié le"
 read-more = "Lire la suite"
+path-lang = "fr"
 
 [extra]
 enable_multilingue = true
@@ -193,10 +195,10 @@ linkedin="https://www.linkedin.com/in/adrien-touzouli-892180138"
 
 [extra.index]
 title = "Adrien Touzouli"
-image = "images/avatar.svg"
+image = "images/avatar-stable-diffusion.jpeg"
 image_alt = "avatar"
 
 [extra.default_author]
 name = "Adrien Touzouli"
-avatar = "images/avatar.svg"
+avatar = "images/avatar-stable-diffusion.jpeg"
 avatar_alt = "avatar"
