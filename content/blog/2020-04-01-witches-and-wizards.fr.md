@@ -14,7 +14,6 @@ _« Techniquement, les développeuses et développeurs informatiques sont des s
 
 Si vous lisez ceci, vous disposez d’un appareil incroyable\*. Un objet physique, certe, mais dont la magie réside surtout dans une richesse intangible : le côde. Ce qui anime les écrans, les machines et vous rend des services. Pour se connecter à un site, accéder à des données tout à fait triviales, le nombre de briques logicielles, et de gens qui y ont travaillé dessus est… je sais pas du tout mais dites un chiffre.…
 
-<!-- ![](/assets/weeeee.png) { width: 200px; } -->
 <p align="center">
     <img alt="weeeeee" src="/images/weeeee.png" width="320">
 </p>

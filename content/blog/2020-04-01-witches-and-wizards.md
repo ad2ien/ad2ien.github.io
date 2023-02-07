@@ -14,7 +14,6 @@ _"Technically, computer developers are witches," says Bakunin_
 
 If you are reading this, you have access to an incredible device\*. A physical object, certainly, but which magic mostly resides in an intangible wealth: the __Code__. What animates screens, machines and serves you. To connect to a site, access quite trivial data, the number of software bricks, and people who have worked on it is... I don't know at all but give a figure.…
 
-<!-- ![](/assets/weeeee.png) { width: 200px; } -->
 <p align="center">
     <img alt="weeeeee" src="/images/weeeee.png" width="320">
 </p>
