@@ -194,10 +194,10 @@ linkedin="https://www.linkedin.com/in/adrien-touzouli-892180138"
 
 [extra.index]
 title = "Adrien Touzouli"
-image = "images/avatar-stable-diffusion.jpeg"
+image = "/images/avatar-stable-diffusion.jpeg"
 image_alt = "avatar"
 
 [extra.default_author]
 name = "Adrien Touzouli"
-avatar = "images/avatar-stable-diffusion.jpeg"
+avatar = "/images/avatar-stable-diffusion.jpeg"
 avatar_alt = "avatar"
