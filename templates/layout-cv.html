@@ -1,0 +1,77 @@
+<!doctype html>
+    <html lang="{{lang}}">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- FAVICON -->
+      {% if config.extra.favicon.webmanifest %}
+      <link href="{{ config.extra.favicon.manifest }}"" rel="manifest" />
+      {% endif %}
+      {% if config.extra.favicon.favicon_16x16 %}
+      <link href='{{ config.extra.favicon.favicon_16x16 }}' rel="icon" sizes="16x16" type="image/png" />
+      {% endif %}
+      {% if config.extra.favicon.favicon_32x32 %}
+      <link href='{{ config.extra.favicon.favicon_32x32 }}' rel="icon" sizes="32x32" type="image/png" />
+      {% endif %}
+      {% if config.extra.favicon.android_chrome_512 %}
+      <link href='{{ config.extra.favicon.android_chrome_512 }}' rel="android-chrome" sizes="512x512" />
+      {% endif %}
+      {% if config.extra.favicon.android_chrome_192 %}
+      <link href='{{ config.extra.favicon.android_chrome_192 }}' rel="android-chrome" sizes="192x192" />
+      {% endif %}
+      {% if config.extra.favicon.apple_touch_icon %}
+      <link href='{{ config.extra.favicon.apple_touch_icon }}' rel="apple-touch-icon" sizes="180x180" />
+      {% endif %}
+      {% if config.extra.favicon.apple_touch_icon %}
+      <link href='{{ config.extra.favicon.apple_touch_icon }}' rel="apple-touch-icon" sizes="180x180" />
+      {% endif %}
+
+      <link href="/css/main.css" rel="stylesheet">
+      <link id="syntax_highlight" href="#" rel="stylesheet">
+
+      <title>
+        {% block title %}
+        {{ config.title }}
+        {% endblock title %}
+      </title>
+  </head>
+  <body class="dark:bg-gray-700 flex flex-col h-screen justify-between">
+  <!---------------------------------------------------------->
+  <!------------------------- NO NAVBAR ---------------------->
+  <!---------------------------------------------------------->
+
+  <!----------------------------------------------------------->
+  <!------------------------- CONTENT ------------------------->
+  <!----------------------------------------------------------->
+  <main class="max-w-7xl mx-auto text-black dark:text-gray-200 w-full mb-auto">
+    {% block content %}
+    {% endblock content %}
+  </main>
+
+  <!----------------------------------------------------------->
+  <!------------------------- PAGINATION ---------------------->
+  <!----------------------------------------------------------->
+  {% block pagination %}
+  {% endblock%}
+
+  <!---------------------------------------------------------->
+  <!------------------------- FOOTER ------------------------->
+  <!---------------------------------------------------------->
+  <footer class="max-w-7xl mx-auto relative pt-1 px-2 border-b-2 border-gray-300 dark:border-gray-200 w-full">
+    <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+      <div class="sm:w-2/3 text-center py-6">
+        <p class="text-sm text-black dark:text-white font-bold mb-2">
+          Website made with <a href="https://github.com/tchartron/blow" target="_blank"> blow theme</a> and <a href="https://www.getzola.org/" target="_blank">Zola</a>. Thanks 💖
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!------------------------- SCRIPTS ------------------------->
+  <script defer src="/js/main.js"></script>
+  {% if config.extra.enable_multilingue %}
+    <script defer src="/js/lang.js"></script>
+  {% endif %}
+  </body>
+</html>

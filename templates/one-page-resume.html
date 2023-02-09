@@ -1,0 +1,18 @@
+{% extends "layout-cv.html" %}
+
+{% block content %}
+<div class="flex">
+  {% set categories = get_taxonomy(kind="categories") %}
+  {% set xpObj = categories.items | filter(attribute="slug", value="it-xp") %}
+
+  {% for page in xpObj[0].pages %}
+  <div>
+  {{ page.title }}
+</div>
+  {% endfor %}
+
+</div>
+{% endblock %}
+{% block extra_js %}
+<script defer src="/js/page.js"></script>
+{% endblock %}
