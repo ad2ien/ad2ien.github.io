@@ -1,16 +1,95 @@
 {% extends "layout-cv.html" %}
 
 {% block content %}
-<div class="flex">
-  {% set categories = get_taxonomy(kind="categories") %}
-  {% set xpObj = categories.items | filter(attribute="slug", value="it-xp") %}
-
+{% set categories = get_taxonomy(kind="categories") %}
+{% set xpObj = categories.items | filter(attribute="slug", value="it-xp") %}
+<div class="flex flex-col">
   {% for page in xpObj[0].pages %}
   <div>
-  {{ page.title }}
-</div>
-  {% endfor %}
+    <div
+      class="flex flex-col sm:w-3/4 w-full border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl bg-gray-200 dark:bg-gray-800">
+      <h1 class="text-2xl text-bold">
+        {{ page.title }}
+      </h1>
+      <div class="flex flex-col py-2 justify-center">
+        <p class="text-bold">{{ page.description }}</p>
+      </div>
 
+      <!-- Read time and word count -->
+      <div class="flex flex-wrap py-2">
+        <div class="flex items-center w-1/3">
+          <div class="flex flex-col sm:flex-row sm:space-x-3 text-gray-900 dark:text-gray-400">
+            <span class="flex">
+              <span class="flex items-center">
+                {% if page.extra.logo %}
+                <img alt="logo" src="{{ page.extra.logo }}" />
+                {% endif %}
+              </span>
+            </span>
+          </div>
+        </div>
+        <!-- Author and publish date -->
+        <div class="flex w-2/3 sm:space-x-3 text-gray-900 dark:text-gray-400 justify-end">
+          <span class="flex">
+            <!-- Icon clock -->
+            {% if page.extra.duration_month %}
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span class="ml-1">{{ page.extra.duration_month }} {{ trans(key="month", lang=lang) }}</span>
+            {% endif %}
+          </span>
+          <span class="flex">
+            <!-- publish date -->
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <span class="ml-1"><time datetime="{{ page.date }}">Started on : {{ page.date
+                |
+                date(format='%Y-%m-%d')
+                }}</time></span>
+          </span>
+
+        </div>
+      </div>
+
+      <!-- Categories and Tags -->
+      <div class="flex flex-wrap py-2">
+        
+        <div class="w-2/3 flex flex-wrap gap-x-8">
+          {% if page.taxonomies.tags %}
+          <p>
+            Tags:
+          </p>
+          {% for tag in page.taxonomies.tags %}
+          <a class="text-gray-900 dark:text-gray-400 flex py-1 items-center"
+            href="{{ get_taxonomy_url(kind='tags', name=tag) }}">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z">
+              </path>
+            </svg>
+            <span class="pl-1">{{tag}}</span>
+          </a>
+          {% endfor %}
+
+          {% endif %}
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div id="page-content" class="text-bold mt-2">
+        {{ page.content | safe }}
+      </div>
+
+    </div>
+  </div>
+  {% endfor %}
 </div>
 {% endblock %}
 {% block extra_js %}
