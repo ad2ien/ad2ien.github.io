@@ -9,13 +9,13 @@ logo = "https://media.licdn.com/dms/image/C510BAQFUloocbX_Jwg/company-logo_100_1
 duration_month = "7"
 +++
 
-### Projet
+### Project
 
 Access turnstile with static electricity measurement for electronic component factory. Embedded development on Debian board.
 
 <!-- more -->
 
-### Réalisation
+### Achievements
 
 - Web server with JHipster (Springboot / Angular)
 - Python App
@@ -23,11 +23,11 @@ Access turnstile with static electricity measurement for electronic component fa
 
 To:
 
-- Access logger
+- Access logs
 - Configure the hardware
 - Launch and validate measurements
 
-### Environnement Technique
+### Technical Environment
 
 - Jhipster Springboot Angular
 - Python3
