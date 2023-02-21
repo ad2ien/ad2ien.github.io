@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ad2ien/cv.git"
+    "url": "git+https://github.com/ad2ien/ad2ien.github.io.git"
   },
   "keywords": [
     "zola",
@@ -24,7 +24,7 @@
   ],
   "author": "Adrien Touzouli",
   "license": "MIT",
-  "homepage": "https://github.com/ad2ien/cv",
+  "homepage": "https://ad2ien.github.io/",
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "cssnano": "^5.0.9",
