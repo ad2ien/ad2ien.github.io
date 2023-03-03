@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Adrien Touzouli - Other XP</title>
+	<subtitle>Site web professionel &#x2F; personnel</subtitle>
+	<link href="https://ad2ien.github.io/fr/categories/other-xp/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-12-02T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/fr/categories/other-xp/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>🧑‍🎓 Diplômes</title>
+		<published>2022-12-02T00:00:00+00:00</published>
+		<updated>2022-12-02T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/other-xp/degrees/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/other-xp/degrees/</id>
+		<content type="html">&lt;h2 id=&quot;master-of-science-de-cranfield-university-en-traitement-du-signal-et-de-l-image&quot;&gt;Master of Science de Cranfield University en traitement du signal et de l&#x27;image&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;diplome-d-ingenieur-estia-procedes-automatises&quot;&gt;Diplôme d&#x27;Ingénieur ESTIA procédés automatisés&lt;&#x2F;h2&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;diplome-analyse-et-conduite-de-systemes-d-exploitation-agriculture&quot;&gt;Diplôme : Analyse et Conduite de Systèmes d&#x27;Exploitation (agriculture)&lt;&#x2F;h2&gt;
+&lt;p&gt;Option BIO&lt;&#x2F;p&gt;
+&lt;p&gt;Stage dans une exploitation, grande culture, élevage d&#x27;agneaux, paysans boulanger en Isère (34)&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🍺 Brassage de bière</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/other-xp/brewing/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/other-xp/brewing/</id>
+		<content type="html">&lt;p&gt;Animation d&#x27;ateliers brassage de bière pour le centre de formation INEOPOLE de Brens (81)&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🧗 Escalade</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/other-xp/climbing/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/other-xp/climbing/</id>
+		<content type="html">&lt;p&gt;Initiateur SAE : Site Artificiel d&#x27;Escalade à Auzeville (31) Certificat délivré par la FFME : Fédération Française de Montagne et d&#x27;Escalade&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🌽 Collectif maïs population</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/other-xp/corn/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/other-xp/corn/</id>
+		<content type="html">&lt;p&gt;Membre d&#x27;un collectif de développement d&#x27;une filière de maïs population dans le Gers.&lt;&#x2F;p&gt;
+&lt;p&gt;Production, transformation et vente de polenta et farine de maïs.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🇬🇧 Anglais</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/other-xp/english/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/other-xp/english/</id>
+		<content type="html">&lt;p&gt;1 an en Nouvelle-Zélande, anglais utilisé régulièrement dans le cadre professionnel et privé.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🇪🇸 Espagnol</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/other-xp/spanish/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/other-xp/spanish/</id>
+		<content type="html">&lt;p&gt;2 years travel in South America. 1 year employed in a computer company in Santiago de Chile.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+</feed>

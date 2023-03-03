@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Adrien Touzouli - Other XP</title>
+	<subtitle>Personnal professional presentation web site</subtitle>
+	<link href="https://ad2ien.github.io/categories/other-xp/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-12-02T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/categories/other-xp/atom.xml</id>
+	<entry xml:lang="en">
+		<title>🧑‍🎓 Degrees</title>
+		<published>2022-12-02T00:00:00+00:00</published>
+		<updated>2022-12-02T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/other-xp/degrees/" type="text/html"/>
+		<id>https://ad2ien.github.io/other-xp/degrees/</id>
+		<content type="html">&lt;h2 id=&quot;master-of-science-from-cranfield-university-in-signal-and-image-processing&quot;&gt;Master of Science from Cranfield University in signal and image processing&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;engineer-degree-from-estia-in-automatized-process&quot;&gt;Engineer degree from ESTIA in automatized process&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;degree-in-analysis-and-management-of-agricultural-holding-systems&quot;&gt;Degree in Analysis and management of agricultural holding systems&lt;&#x2F;h2&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;2 years study&lt;&#x2F;p&gt;
+&lt;p&gt;Option organic agriculture&lt;&#x2F;p&gt;
+&lt;p&gt;Internship in a farm, field farming, lamb breeding, and traditional bakers in Isère (34 France)&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>🍺 Beer brewing</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/other-xp/brewing/" type="text/html"/>
+		<id>https://ad2ien.github.io/other-xp/brewing/</id>
+		<content type="html">&lt;p&gt;Beer brewing workshop animation for Brens INEOPOLE (81) training center in agriculture.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>🧗Climbing</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/other-xp/climbing/" type="text/html"/>
+		<id>https://ad2ien.github.io/other-xp/climbing/</id>
+		<content type="html">&lt;p&gt;SAE initiator: Artificial Site Climbing in Auzeville (31 France) Certificate issued by the French climbing federation.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>🌽 Collectif maïs population</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/other-xp/corn/" type="text/html"/>
+		<id>https://ad2ien.github.io/other-xp/corn/</id>
+		<content type="html">&lt;p&gt;Member of an association that tries to develop a sector for an old variety of corn in the Gers, south-west of France.&lt;&#x2F;p&gt;
+&lt;p&gt;Production, processing and sale of polenta, bulgur and corn flour.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>🇬🇧 English language</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/other-xp/english/" type="text/html"/>
+		<id>https://ad2ien.github.io/other-xp/english/</id>
+		<content type="html">&lt;p&gt;1 year in New Zealand, English regularly used professionally and privately.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>🇪🇸 Spanish language</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/other-xp/spanish/" type="text/html"/>
+		<id>https://ad2ien.github.io/other-xp/spanish/</id>
+		<content type="html">&lt;p&gt;1 year in New Zealand, English regularly used professionally and privately.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+</feed>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Adrien Touzouli - Chart.js</title>
+	<subtitle>Personnal professional presentation web site</subtitle>
+	<link href="https://ad2ien.github.io/tags/chart-js/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-01-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/tags/chart-js/atom.xml</id>
+	<entry xml:lang="en">
+		<title>🐝 IOT project : cloud processing</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/it-xp/maya33/" type="text/html"/>
+		<id>https://ad2ien.github.io/it-xp/maya33/</id>
+		<content type="html">&lt;h3 id=&quot;project&quot;&gt;Project&lt;&#x2F;h3&gt;
+&lt;p&gt;Process, display, data from farming sensors : weight, temperature, sound. AWS cloud architecture, website, monitoring, supervision.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;achievements&quot;&gt;Achievements&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Manage AWS services : EC2, SQL Database, IOT core, SQS queues, Python Lambda functions&lt;&#x2F;li&gt;
+&lt;li&gt;Web app Kotlin &#x2F; Angular&lt;&#x2F;li&gt;
+&lt;li&gt;Micro service in Golang to process sound data sent by devices and feed a AWS bucket&lt;&#x2F;li&gt;
+&lt;li&gt;Grafana dashboards&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

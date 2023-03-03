@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Adrien Touzouli - MongoDB</title>
+	<subtitle>Personnal professional presentation web site</subtitle>
+	<link href="https://ad2ien.github.io/tags/mongodb/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2015-01-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/tags/mongodb/atom.xml</id>
+	<entry xml:lang="en">
+		<title>📊 Scrum Master for Intel</title>
+		<published>2015-01-01T00:00:00+00:00</published>
+		<updated>2015-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/it-xp/intel/" type="text/html"/>
+		<id>https://ad2ien.github.io/it-xp/intel/</id>
+		<content type="html">&lt;p&gt;Contractor team Scrum Master for Intel. Business Intelligence BI team of 6 developers in charge of generating reports about maturity of various Android projects.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;First with SSRS (SQL Server Reporting Service) then taking care of a C# backend.
+Manage team backlog and reporting.
+Develop and correct SSRS reports.
+Weekly production deployment on Sharepoint servers.
+Development of C# workers to extract transform and store data needed for reports. Automation of alert mails, data consolidation.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;environment&quot;&gt;Environment&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 8 PC&lt;&#x2F;li&gt;
+&lt;li&gt;Visual 2013 et 2015&lt;&#x2F;li&gt;
+&lt;li&gt;Version management: TFS (Team Fundation Service)&lt;&#x2F;li&gt;
+&lt;li&gt;WPF app.&lt;&#x2F;li&gt;
+&lt;li&gt;Mongo DB, SQL Server,&lt;&#x2F;li&gt;
+&lt;li&gt;Servers IIS et Sharepoint&lt;&#x2F;li&gt;
+&lt;li&gt;SSRS Reports&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

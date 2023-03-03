@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Adrien Touzouli - IT XP</title>
+	<subtitle>Site web professionel &#x2F; personnel</subtitle>
+	<link href="https://ad2ien.github.io/fr/categories/it-xp/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-12-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/fr/categories/it-xp/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>⛓️ Fullstack &#x2F; devops ingénieur pour OKP4</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/okp4/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/okp4/</id>
+		<content type="html">&lt;p&gt;OKP4 développe une blockchain &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cosmos&#x2F;cosmos-sdk&quot;&gt;cosmos&lt;&#x2F;a&gt; de niveau un  qui vise à faciliter l’échange de données en récompensant les acteurs impliqués dans la création de connaissances &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;  et en mettant en place des mécanismes de gouvernance. Parallèlement à l’élaboration de ce protocole, des projets gravitent autour, liés à la data science, à la gouvernance des données dans l&#x27;agriculture ou la logistique.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;achievements&quot;&gt;Achievements&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;devops&quot;&gt;Devops&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Déploiements Docker Compose et Kubernetes&lt;&#x2F;li&gt;
+&lt;li&gt;Github workflow : build, lint and publish different projects en Python, R, Go, Kotlin, React...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;dev&quot;&gt;Dev&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Amélioration d’exportateurs Prometheus en Go&lt;&#x2F;li&gt;
+&lt;li&gt;Kibana plugin pour afficher des polygones sur une carte&lt;&#x2F;li&gt;
+&lt;li&gt;Fonctionnalités pour un Discord bot en Rust&lt;&#x2F;li&gt;
+&lt;li&gt;Github action pour suivre automatiquement les contributeurs d&#x27;un repo&lt;&#x2F;li&gt;
+&lt;li&gt;QGIS scripts&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts bash pour créer des NFT Stargaze et les affecter à des wallets&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🐝 Project IOT : traitement cloud</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/maya33/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/maya33/</id>
+		<content type="html">&lt;h3 id=&quot;projet&quot;&gt;Projet&lt;&#x2F;h3&gt;
+&lt;p&gt;Traiter, afficher, exploiter les données provenant de capteurs de device liés à l&#x27;élevage : poids, température, son. Architecture cloud AWS, site web, monitoring, supervision.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;realisation&quot;&gt;Réalisation&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gestion de services AWS : IOT core, SQS queues, lambda functions&lt;&#x2F;li&gt;
+&lt;li&gt;Web app Angular &#x2F; Kotlin&lt;&#x2F;li&gt;
+&lt;li&gt;Micro service en Golang pour traiter des données de son et alimenter un bucket AWS&lt;&#x2F;li&gt;
+&lt;li&gt;Tableaux de bord Grafana&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🛞 Projet Tourniquet d&#x27;accès</title>
+		<published>2020-05-01T00:00:00+00:00</published>
+		<updated>2020-05-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/turnstile/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/turnstile/</id>
+		<content type="html">&lt;h3 id=&quot;projet&quot;&gt;Projet&lt;&#x2F;h3&gt;
+&lt;p&gt;Tourniquet d&#x27;accès avec mesure d&#x27;électricité statique pour usine de composant électronique. Développement embarqué sur carte Debian.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;realisation&quot;&gt;Réalisation&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Serveur web avec JHipster (Springboot &#x2F; Angular)&lt;&#x2F;li&gt;
+&lt;li&gt;Appli Python&lt;&#x2F;li&gt;
+&lt;li&gt;Processus d&#x27;installation système.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Afin de :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Logger des accès&lt;&#x2F;li&gt;
+&lt;li&gt;Configurer le matériel&lt;&#x2F;li&gt;
+&lt;li&gt;Lancer et valider des mesures&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Jhipster Springboot Angular&lt;&#x2F;li&gt;
+&lt;li&gt;Python3&lt;&#x2F;li&gt;
+&lt;li&gt;Debian&lt;&#x2F;li&gt;
+&lt;li&gt;Visual Studio Code et IntelliJ&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>📡 Développeur chez CLS</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/cls/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/cls/</id>
+		<content type="html">&lt;p&gt;Cette mission concerne l&#x27;amélioration des applications utilisées pour opérer les tournées de ramassage d&#x27;ordure.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;projet-collect-circuit&quot;&gt;Projet Collect + Circuit&lt;&#x2F;h3&gt;
+&lt;p&gt;Développement sur un client lourd Windows en C++ permettant de concevoir et optimiser les tournées de ramassages d’ordure.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement C++ Visual studio.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement Java de webservices CXF.&lt;&#x2F;li&gt;
+&lt;li&gt;Migration de donnée avec Spoon outil ETL de la suite Pentaho.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;projet-novacore&quot;&gt;Projet Novacore&lt;&#x2F;h3&gt;
+&lt;p&gt;Chaîne de traitement de messages issus des camions poubelles en C#. Visual Studio 2019.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redesign et améliorations pour rendre scalable.&lt;&#x2F;li&gt;
+&lt;li&gt;Mise en place des tests unitaires et d’intégration.&lt;&#x2F;li&gt;
+&lt;li&gt;Intégration continue avec Gitlab CI.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’outils de tests de non-régression et de performance.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’un outil de déploiement en Javafx, Kotlin Maven.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;projet-eazy-collect&quot;&gt;Projet Eazy Collect&lt;&#x2F;h3&gt;
+&lt;p&gt;Développement d’écrans de supervision de la chaîne de traitement : états des modules de traitement, terminaux connectés et messages reçus. Appli web .net C#, aspx, CSS, Javascript.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;environnement&quot;&gt;Environnement&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;C# C++, Gitlab CI, Kotlin&lt;&#x2F;li&gt;
+&lt;li&gt;Visual Studio 2019, IntelliJ&lt;&#x2F;li&gt;
+&lt;li&gt;Javafx et WPF&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>✈️ Développeur chez Air France</title>
+		<published>2018-04-01T00:00:00+00:00</published>
+		<updated>2018-04-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/air-france/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/air-france/</id>
+		<content type="html">&lt;p&gt;Cette mission concerne en particulier la gestion de la documentation embarquée dans les avions Air France.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;projet-acdc&quot;&gt;Projet ACDC&lt;&#x2F;h2&gt;
+&lt;p&gt;Solution permettant de monitorer l&#x27;état des EFB (Electronic Flight Bag: tablettes tactiles embarquées dans les cockpits) en temps réel. Composé d&#x27;un backend springboot d&#x27;un frontend angular et d&#x27;une partie embarquée en NodeJs, le tout communiquant par websocket.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement&lt;&#x2F;li&gt;
+&lt;li&gt;Configuration de l&#x27;environnement d&#x27;intégration continue (Bamboo, Nexus)&lt;&#x2F;li&gt;
+&lt;li&gt;Trouver un bon nom de projet :)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;projet-loaderboard&quot;&gt;Projet LoaderBoard&lt;&#x2F;h2&gt;
+&lt;p&gt;Client lourd permettant de gérer les différents environnements des &amp;quot;loaders&amp;quot; (PC portable sous Windows 7) servant à la mise à jour des documents et outils sur EFB. Outil destiné aux IT. Techno : framework Electron permettant d’utiliser Angular 4 en donnant accès aux librairies système sur lequel il tourne.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations-1&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rôle de PO : rédaction de spécifications&lt;&#x2F;li&gt;
+&lt;li&gt;Développement&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;projet-acarsweb&quot;&gt;Projet ACARSWEB&lt;&#x2F;h2&gt;
+&lt;p&gt;Projet servant d’interface avec les données ACARS (messages échangés par les avions). Ce projet permet d’exploiter les données de vols.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations-2&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Batchs de compilation et parsing de messages ACARS destiné à alimenter un outil de monitoring de consommation de fuel.&lt;&#x2F;li&gt;
+&lt;li&gt;Interface avec KLM (Pays-Bas)&lt;&#x2F;li&gt;
+&lt;li&gt;Développement TDD (Test Driven Development.)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;projet-amphore&quot;&gt;Projet : AMPHORE&lt;&#x2F;h2&gt;
+&lt;p&gt;Système de gestion de documents destinés aux EFB pour les différents type d&#x27;avion.
+Composé d’une application web, de batchs de traitements ainsi que des loaders.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations-3&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement&lt;&#x2F;li&gt;
+&lt;li&gt;Redesigns suivant le paradigme DDD Domain Driven Design.&lt;&#x2F;li&gt;
+&lt;li&gt;Recherche d’amélioration des performances.&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts C# pour les loaders. Système de synchronisation automatique d&#x27;applications.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 7,&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, IntelliJ, Webstorm&lt;&#x2F;li&gt;
+&lt;li&gt;Servers d’application tomcat.&lt;&#x2F;li&gt;
+&lt;li&gt;Server linux&lt;&#x2F;li&gt;
+&lt;li&gt;Java J2E, Maven, Spring, hibernate&lt;&#x2F;li&gt;
+&lt;li&gt;Springboot 5,&lt;&#x2F;li&gt;
+&lt;li&gt;Angular 6, typescript&lt;&#x2F;li&gt;
+&lt;li&gt;NodeJs&lt;&#x2F;li&gt;
+&lt;li&gt;Websocket&lt;&#x2F;li&gt;
+&lt;li&gt;Junit&lt;&#x2F;li&gt;
+&lt;li&gt;Xsd, xml, jaxB&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données DB2, Oracle, Postgres&lt;&#x2F;li&gt;
+&lt;li&gt;Git flow.&lt;&#x2F;li&gt;
+&lt;li&gt;Suite atlassian : Bamboo, Bitbucket, Jira, Confluence.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🌱 🇨🇵 Développeur web au Ministère de l&#x27;agriculture</title>
+		<published>2016-03-01T00:00:00+00:00</published>
+		<updated>2016-03-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/maaf/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/maaf/</id>
+		<content type="html">&lt;p&gt;Développement « from scratch » d’une application web destinée à gérer les dossiers liés à la réglementation française sur la forêt. Démarrage du projet avec mise en place du fonctionnement agile. Développement avec le framework du ministère de l’agriculture appelé Orion, une surcouche de Spring.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement d’une application web Java EE avec le framework « Orion »&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’agents java backend pour automatiser le traitement des dossiers. Récupération et traitement de données sous forme xml d’un organisme partenaire.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 7, Netbeans, Eclipse.&lt;&#x2F;li&gt;
+&lt;li&gt;Servers d’application glassfish, tomcat&lt;&#x2F;li&gt;
+&lt;li&gt;Server linux, application JMX, agent Camel&lt;&#x2F;li&gt;
+&lt;li&gt;Java J2E, Maven, Spring, hibernate&lt;&#x2F;li&gt;
+&lt;li&gt;Junit&lt;&#x2F;li&gt;
+&lt;li&gt;Xsd, xml, jaxB&lt;&#x2F;li&gt;
+&lt;li&gt;Affichage de couches géographiques : gml.&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données PostgreSQL&lt;&#x2F;li&gt;
+&lt;li&gt;SVN&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🛬 Intervenant technique - Tales avionics</title>
+		<published>2015-05-14T00:00:00+00:00</published>
+		<updated>2015-05-14T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/thales/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/thales/</id>
+		<content type="html">&lt;p&gt;Analyse et caractérisation d’un driver A429 utilisé dans le transfert de données entre modules embarqués. Rédaction d’un rapport sur l’amélioration des performances pour une application Java swing qui utilise ce driver.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows XP, 7&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, Ant&lt;&#x2F;li&gt;
+&lt;li&gt;Java Swing&lt;&#x2F;li&gt;
+&lt;li&gt;Visual 2010&lt;&#x2F;li&gt;
+&lt;li&gt;Test bench: cockpits, embedded equipment, A249 sniffer.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>📊 Scrum Master for Intel</title>
+		<published>2015-01-01T00:00:00+00:00</published>
+		<updated>2015-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/intel/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/intel/</id>
+		<content type="html">&lt;p&gt;Assurer la fonction de Scrum Master pour un work package de la division Android d&#x27;INTEL Toulouse. Dans une équipe BI dont le but est de générer des rapports sur l&#x27;état de maturité des différents projets.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Dans un premier temps sur des rapports SSRS (SQL Server Reporting Service). Dans un deuxième temps assurer les tâches de développement back-end pour des rapports similaires dans un nouvel environnement : Server IIS, angular, highchart, telerik.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scrum Master, communication entre l&#x27;équipe (6 personnes) et Intel.&lt;&#x2F;li&gt;
+&lt;li&gt;Gérer les tâches de l&#x27;équipe. Reporting.&lt;&#x2F;li&gt;
+&lt;li&gt;Développer corriger les Rapports SSRS.&lt;&#x2F;li&gt;
+&lt;li&gt;Mise en production hebdomadaire sur les servers Sharepoint.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement C# de démons pour aspirer les données nécessaires à la production des rapports, envoie automatique de mail, consolidation de données...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows 8&lt;&#x2F;li&gt;
+&lt;li&gt;Visual 2013 et 2015&lt;&#x2F;li&gt;
+&lt;li&gt;Gestion de version : TFS (Team Fundation Service)&lt;&#x2F;li&gt;
+&lt;li&gt;Clients lourd en WPF&lt;&#x2F;li&gt;
+&lt;li&gt;NoSql : Mongo DB&lt;&#x2F;li&gt;
+&lt;li&gt;SQL Server&lt;&#x2F;li&gt;
+&lt;li&gt;MongoDB&lt;&#x2F;li&gt;
+&lt;li&gt;Servers IIS et Sharepoint&lt;&#x2F;li&gt;
+&lt;li&gt;SSRS Reports&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🪪 👆️ Développeur pour GAXU S.A.</title>
+		<published>2013-01-01T00:00:00+00:00</published>
+		<updated>2013-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/gaxu/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/gaxu/</id>
+		<content type="html">&lt;p&gt;Le projet d&#x27;affectation permanente : créer un Sdk Android et Windows .NET qui permet aux clients de créer des applications de vérification d&#x27;identité utilisant l’empreinte digitale et les deux versions de la carte d&#x27;identité chilienne.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Intégrer la vérification Match-On-Card : Bibliothèque de communication NFC en C pour Windows, bibliothèque java pour Android.&lt;&#x2F;li&gt;
+&lt;li&gt;Windows environnement ASP.NET :&lt;&#x2F;li&gt;
+&lt;li&gt;Application de démo en C#&lt;&#x2F;li&gt;
+&lt;li&gt;Server IIS 7 .NET 2.0 en C# :&lt;&#x2F;li&gt;
+&lt;li&gt;Web Services.&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données SQL Server&lt;&#x2F;li&gt;
+&lt;li&gt;Interface Web avec framework Oboot.&lt;&#x2F;li&gt;
+&lt;li&gt;Module Applet Java et ActiveX.&lt;&#x2F;li&gt;
+&lt;li&gt;Programme d’installation.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows 7, dispositifs Android, Windows Mobile, lecteurs d&#x27;empreinte digitale, lecteurs NFC, lecteurs de code barre.&lt;&#x2F;li&gt;
+&lt;li&gt;Serveurs IIS&lt;&#x2F;li&gt;
+&lt;li&gt;Java, C, C#&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts SQL Server. Javascript, html, css&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, Visual. SVN (Administrateur), Redmine&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>📨 Développeur embarqué pour Neopost</title>
+		<published>2010-01-01T00:00:00+00:00</published>
+		<updated>2010-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/neopost/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/neopost/</id>
+		<content type="html">&lt;p&gt;Membre d’un plateau forfait chez NEOPOST Fabricant de machines à affranchir. (5 à 8 personnes) pour le développement d’un logiciel commun à différentes gammes de machines.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h4 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Correction de bugs. Développement d&#x27;évolutions. Tests unitaires et d&#x27;intégration.&lt;&#x2F;li&gt;
+&lt;li&gt;Outils pour améliorer la productivité de la R&amp;amp;D python, php, javascript&lt;&#x2F;li&gt;
+&lt;li&gt;Participation à la mise en place de la méthode agile SCRUM localement puis avec une équipe offshore (Vietnam)&lt;&#x2F;li&gt;
+&lt;li&gt;Organisation des meetings journaliers avec le Vietnam.&lt;&#x2F;li&gt;
+&lt;li&gt;Gestion de l&#x27;équipe française et vietnamienne, reporting en l’absence du chef d&#x27;équipe.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PC sous Windows XP&lt;&#x2F;li&gt;
+&lt;li&gt;Windows C.E.&lt;&#x2F;li&gt;
+&lt;li&gt;Serveur apache&lt;&#x2F;li&gt;
+&lt;li&gt;C++, PHP, Python&lt;&#x2F;li&gt;
+&lt;li&gt;Visual C++, Target Process, (Administrateur), SVN, Redmine&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>⚙️ Développeur drivers windows</title>
+		<published>2009-01-01T00:00:00+00:00</published>
+		<updated>2009-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/philog/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/philog/</id>
+		<content type="html">&lt;p&gt;Participation aux projets, de la conception à la recette et au support. Conception et développement de drivers Windows (en C), affectation permanente sur un support de logiciel de supervision de réseau IP et X25 sous HP-UX.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Système de partition privée permettant d&#x27;utiliser une partie d&#x27;un disque dur ou d&#x27;une clé USB en tant que disque indépendant activable ou non.&lt;&#x2F;li&gt;
+&lt;li&gt;Contrôleur Windows d&#x27;imprimante série et USB.&lt;&#x2F;li&gt;
+&lt;li&gt;Driver d&#x27;acquisition vidéo&lt;&#x2F;li&gt;
+&lt;li&gt;Système de récupération de fichier NTFS et FAT32.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows XP, Sniffer USB,&lt;&#x2F;li&gt;
+&lt;li&gt;Windows NT, XP, Vista, Unix HPUX. USB, RS232, systèmes de fichier NTFS FAT32&lt;&#x2F;li&gt;
+&lt;li&gt;C, WDK&lt;&#x2F;li&gt;
+&lt;li&gt;Visual C++, SVN, Redmine, Installshield&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

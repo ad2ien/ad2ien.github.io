@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Adrien Touzouli - blog</title>
+	<subtitle>Personnal professional presentation web site</subtitle>
+	<link href="https://ad2ien.github.io/categories/blog/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-01-13T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/categories/blog/atom.xml</id>
+	<entry xml:lang="en">
+		<title>🖼️ I made an avatar with Stable Diffusion 🤓</title>
+		<published>2023-01-13T00:00:00+00:00</published>
+		<updated>2023-01-13T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/blog/avatar-with-stable-diffusion/" type="text/html"/>
+		<id>https://ad2ien.github.io/blog/avatar-with-stable-diffusion/</id>
+		<content type="html">&lt;p&gt;What to do when you have an illustration idea and no artistic skill at all : use Stable Diffusion.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;the-idea-bulb&quot;&gt;The idea 💡&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;facts&quot;&gt;Facts&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Every collaborative tool legitimately ask its users for an avatar&lt;&#x2F;li&gt;
+&lt;li&gt;I don&#x27;t really want to see my face everywhere all day long&lt;&#x2F;li&gt;
+&lt;li&gt;I have a couple of ideas for an illustration but no artistic skills whatsoever&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Fortunately&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Stable_Diffusion&quot;&gt;Stable Diffusion&lt;&#x2F;a&gt; exists!&lt;&#x2F;li&gt;
+&lt;li&gt;There&#x27;s a github project : &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cmdr2&#x2F;stable-diffusion-ui&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;cmdr2&#x2F;stable-diffusion-ui&lt;&#x2F;a&gt; that makes it very easy to use.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;the-image&quot;&gt;The image&lt;&#x2F;h3&gt;
+&lt;p&gt;There&#x27;s a very little known animal in the south of France: &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Genet_(animal)&quot;&gt;a genet&lt;&#x2F;a&gt;. They live at night, nobody sees them and I find them very cool. So I wanted an anthropomorphized version of it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tips-tricks-to-use-stable-diffusion&quot;&gt;Tips &amp;amp; tricks to use Stable Diffusion&lt;&#x2F;h2&gt;
+&lt;p&gt;I reckon there was a intense use of my CPUs for a couple of days. Trying different prompts and settings to try to get it right.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Some good ideas :&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Don&#x27;t hesitate to generate multiple pictures for the same prompt. Then you can use the least worse version as an input for the next batch.&lt;&#x2F;li&gt;
+&lt;li&gt;Use a specific model, trained with the type of images you want to achieve.&lt;&#x2F;li&gt;
+&lt;li&gt;If you have some drawing, painting or graphic skills it&#x27;d be much faster to do it by hand.&lt;&#x2F;li&gt;
+&lt;li&gt;It&#x27;s hard to have both foreground and background right at the same time so I did them separately.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Here is the result 🎉&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img alt=&quot;Stable Diffusion avatar&quot; src=&quot;&#x2F;images&#x2F;avatar-stable-diffusion.jpeg&quot; width=&quot;320&quot;&gt;
+&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;things-i-never-managed-to-get-right&quot;&gt;Things I never managed to get right&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I drink &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mate_(drink)&quot;&gt;mate&lt;&#x2F;a&gt; and there&#x27;s no way Stable Diffusion has ever been train with images featuring people from Argentina or Uruguay!&lt;&#x2F;li&gt;
+&lt;li&gt;I drink coffee too but the mug always appears in a very surrealistic way&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Agriculture 🌱 VS IT 💻️</title>
+		<published>2020-06-15T00:00:00+00:00</published>
+		<updated>2020-06-15T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/blog/agri-vs-it/" type="text/html"/>
+		<id>https://ad2ien.github.io/blog/agri-vs-it/</id>
+		<content type="html">&lt;p&gt;This is a kind of article that lists the commonalities between agriculture and computer science. Maybe a little biased at the end...&lt;&#x2F;p&gt;
+&lt;p&gt;⚠️ Spoiler alert, there are going to be some platitudes that may not be very interesting if you know the subject.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;1-there-s-no-way-this-is-going-to-work&quot;&gt;&lt;strong&gt;1&lt;&#x2F;strong&gt;: There&#x27;s no way this is going to work&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;agriculture&quot;&gt;Agriculture&lt;&#x2F;h3&gt;
+&lt;p&gt;Every time I sow seeds, I tell myself that the chances of harvesting anything are slim if you take into account germination rates, diseases, pests, mechanical failures.&lt;&#x2F;p&gt;
+&lt;p&gt;Yet, almost every time, it&#x27;s not necessarily perfect, but it ends up working.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;computer-science&quot;&gt;Computer science&lt;&#x2F;h3&gt;
+&lt;p&gt;When you change a line of code, compile, deploy, launch. And you see all the reasons why it might not work, it&#x27;s discouraging.&lt;&#x2F;p&gt;
+&lt;p&gt;Knowing that the slightest misplaced bit is enough to bring everything down, what are the chances that everything will go right?&lt;&#x2F;p&gt;
+&lt;p&gt;We&#x27;re also so used to Murphy&#x27;s law that when we know all the reasons why a program can crash, we think it&#x27;s impossible for it to ever work.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;but-it-does-work&quot;&gt;But it does work&lt;&#x2F;h3&gt;
+&lt;p&gt;It&#x27;s strange to realize that these jobs (like our lives) we are dependent on forces beyond our control. Or that you can spend your life trying to deepen your knowledge without ever mastering more than a tiny part of all the processes at play in our simplest little everyday actions.&lt;&#x2F;p&gt;
+&lt;p&gt;All this because :&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;2-still-standing-on-the-shoulders-of-giants-elephant&quot;&gt;&lt;strong&gt;2&lt;&#x2F;strong&gt;: Still standing on the shoulders of giants 🐘&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;agriculture-1&quot;&gt;Agriculture&lt;&#x2F;h3&gt;
+&lt;p&gt;When we collect seeds we collect the result of millions of years of evolution of adaptation through natural selection. Then thousands of years of human selection.&lt;&#x2F;p&gt;
+&lt;p&gt;There is also the material: the industry: the combustion engine, the single-seed drill, the weather forecast. We plant seeds on heaps of natural and technical processes.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;computer-science-1&quot;&gt;Computer science&lt;&#x2F;h3&gt;
+&lt;p&gt;We just take advantage of the work of many contributors like &lt;a href=&quot;https:&#x2F;&#x2F;ad2ien.github.io&#x2F;blog&#x2F;witches-and-wizards&#x2F;&quot;&gt;I said&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;free-boiler-plates&quot;&gt;Free boiler plates&lt;&#x2F;h3&gt;
+&lt;p&gt;Whether it&#x27;s in IT or agriculture, effortlessly, we have war machines at our disposal: factories with lots of pipes in everywhere.&lt;&#x2F;p&gt;
+&lt;p&gt;And in some cases, you only have to bend down to acquire them.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;but-whose-work-tool-is-it&quot;&gt;But whose work tool is it?&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;agriculture-2&quot;&gt;Agriculture&lt;&#x2F;h3&gt;
+&lt;p&gt;The basis of agriculture is seeds. The big industrial groups have understood this and have set up a seed catalog that allows them to commercialize, i.e. to guarantee the behavior of the plants under certain conditions: they sell the seeds, the phytosanitary products, a quantity of fertilizer and they are guaranteed a yield. This is convenient, but the farmer is then enslaved (price, and way of working) to institutions whose only goal is to generate profits.&lt;&#x2F;p&gt;
+&lt;p&gt;On the other hand, farmer seeds (population, generally old varieties abandoned after the arrival of chemistry in agriculture) do not guarantee a result in yield but have a genetic diversity within their seed lot that will allow them to adapt through a selection over several years.&lt;&#x2F;p&gt;
+&lt;p&gt;The farmer becomes his own breeder. This requires a little more effort and knowledge.&lt;&#x2F;p&gt;
+&lt;p&gt;Seeds are not in the catalog, they do not guarantee a very precise behavior but are perfect to circulate for free from farmer to farmer on a given territory.&lt;&#x2F;p&gt;
+&lt;p&gt;Thanks to seeds, the multi-national agribusinesses have managed to take over the work tools of farmers (even though they are business leaders).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;computer-science-2&quot;&gt;Computer science&lt;&#x2F;h3&gt;
+&lt;p&gt;What a funny idea, when free solutions exist, to choose paying ones and especially those whose source code is not published so that we are dependent on the seller, in terms of functioning, performance and especially security.&lt;&#x2F;p&gt;
+&lt;p&gt;Here too, with a little involvement, we can easily recover the sovereignty over our information technologies. And for small IT craftsmen like me: to have the luxury of owning and controlling my work tool.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;it-s-political-said-didier-wampas&quot;&gt;It&#x27;s political&amp;quot;_ said Didier Wampas&lt;&#x2F;h3&gt;
+&lt;p&gt;Here&#x27;s an analogy, for what it&#x27;s worth: Google, Microsoft, Bayer, Sygenta, same battle. They provide services that enslave us.&lt;&#x2F;p&gt;
+&lt;p&gt;Once we can&#x27;t do anything without them, they have an unimaginable power: influence on the populations, their food, their way of life, they shape humanity the way they want. But we didn&#x27;t really ask them, thank you very much.&lt;&#x2F;p&gt;
+&lt;p&gt;Although the problem is mainly a national political one, we can still fight at our own level by trying to gain sovereignty in our decisions with peasant seeds and open source software.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Of course this requires a bit more work and knowledge. But both areas are full of passionate geeks who will be happy to assist you.&lt;&#x2F;li&gt;
+&lt;li&gt;We will have a little less (performance, digital services) but it will be better.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;At a time when we are talking about collapse, pandemics or turboponies invasion, these solutions bring resilience. Low tech (low resource techno and old varieties) is a good tool to make human life sustainable and less hard (or if we are less optimistic: to make human survival more bearable)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Sobriété numérique&lt;&#x2F;em&gt; de Frédéric bordage&lt;&#x2F;li&gt;
+&lt;li&gt;Un document libre coécrit par Ekylibre : &lt;a href=&quot;https:&#x2F;&#x2F;ekylibre.com&#x2F;open-source&quot;&gt;https:&#x2F;&#x2F;ekylibre.com&#x2F;open-source&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Developers and superpowers 🦸</title>
+		<published>2020-04-01T00:00:00+00:00</published>
+		<updated>2020-04-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/blog/witches-and-wizards/" type="text/html"/>
+		<id>https://ad2ien.github.io/blog/witches-and-wizards/</id>
+		<content type="html">&lt;h2 id=&quot;developers-have-superpowers&quot;&gt;Developers have superpowers&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;Technically, computer developers are witches,&amp;quot; says Bakunin&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;standing-on-the-shoulders-of-giants-oh-yeah&quot;&gt;Standing on the shoulders of giants, &lt;strong&gt;oh yeah!&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;If you are reading this, you have access to an incredible device*. A physical object, certainly, but which magic mostly resides in an intangible wealth: the &lt;strong&gt;Code&lt;&#x2F;strong&gt;. What animates screens, machines and serves you. To connect to a site, access quite trivial data, the number of software bricks, and people who have worked on it is... I don&#x27;t know at all but give a figure.…&lt;&#x2F;p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img alt=&quot;weeeeee&quot; src=&quot;&#x2F;images&#x2F;weeeee.png&quot; width=&quot;320&quot;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s more.&lt;&#x2F;p&gt;
+&lt;p&gt;Because in computer science as well, we walk on the shoulders of giants. Everyone brings their stone to the building to do something new, so that with very little means and knowledge anyone can use the giant, climb on his shoulders and tell him: &amp;quot;Let&#x27;s go Kevin!&amp;quot;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;and-there-are-little-bits-of-developers-everywhere-in-the-world&quot;&gt;And there are little bits of developers everywhere in the world&lt;&#x2F;h3&gt;
+&lt;p&gt;When my guidance counselor asked me what I wanted to remain of me after my death. After saying &amp;quot;the least amount of garbage as possible&amp;quot;, I thought that there were already plenty of little bits of me in codes that runs on objects and servers.&lt;&#x2F;p&gt;
+&lt;p&gt;And as I&#x27;m not filled with over-ambitions, I think that&#x27;s already pretty good! It&#x27;s like putting a small stone on the wall of human glory. Isn&#x27;t that something worth being proud of? Maybe not as much as those who make food or who educate kids and take care of us but still! And anyway it can make their job easier.&lt;&#x2F;p&gt;
+&lt;p&gt;That&#x27;s the beauty of IT and especially of open source software: international cooperation at the service of any average loser. Of course, the history of commits and the identity of authors is not necessarily accessible. In the same way that we don&#x27;t know all the little hands that win wars and make revolutions. We don&#x27;t do it for the glory, but for the cause! No, I&#x27;m kidding, we do it because it&#x27;s fun and it can make money. Nevertheless, we change the landscape, in small steps, like a farmer planting a tree.&lt;&#x2F;p&gt;
+&lt;p&gt;While devs (and digital workers in general) today are considered as antisocial morons (I admit, especially by people for whom it&#x27;s very unlikely to read this article), it&#x27;s the little hands that make the world a bit more interesting. And there are little bits of us scattered all over the world mixed with the drops of blood from the extraction of rare earths, in all electronic devices, behind the web.
+Don&#x27;t thank us, for us it&#x27;s nothing at all. We&#x27;ve built a parallel world, a 5th dimension that gives us superpowers like allowing us to interact simultaneously in several places in the world.&lt;&#x2F;p&gt;
+&lt;p&gt;In a few times, after a well-deserved collapse because we will would have elected Nadine Morano, a computer will be found, a phone with a software, a server, a web client. Some nerd will make Wikipedia work and will be considered as a great wizard. And the the power of magic of ancient humans and the greatness of their civilization will be praised.
+Like in most heroic fantasy novels. &amp;quot;A very ancient and powerful magical artifact&amp;quot;, but how it works, who made it and why will be  forgotten.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;a-thought-for-the-workers-who-make-equipment-in-science-fiction-works&quot;&gt;A thought for the workers who make equipment in science fiction works&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;d like to ask fiction writers and authors to pay a little more attention to the working conditions of the people who make your script writing facilities possible.
+Because I don&#x27;t think you could make your own Palendir or Sorting Hat or even an icewall (it&#x27;s a firewall but in Game of Thrones).&lt;&#x2F;p&gt;
+&lt;p&gt;You are impressed by the virtue of fantasy heroes without knowing anything about the time it takes to make a sword that glows when orcs are nearby? And that is reliable! It&#x27;s like having never seen a car before and concluding &amp;quot;Wow, this guy is very fast!&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;But the good thing is that the existence of the internet makes magical artifacts and science fiction inventions much more credible. And that&#x27;s a good thing because we can now imagine that if magic is based on little bricks of magic that many people have been able to develop step by step. For example, in that perspective, a spell could be based on several combined spells. There would be as many types of magic as there are types of technology. And in the same way that we never talk about small people in fantasy like a soldier serving an exercise he didn&#x27;t choose, the peasants who produce the food for the characters whose story we follow, there are also the geeks who build the magic they use and make us love these stories.&lt;&#x2F;p&gt;
+&lt;p&gt;So okay, it&#x27;s okay not to be considered epic heroes on laser horses, but couldn&#x27;t we say we are anonymous little witches working to build fantasy worlds?&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;* Don&#x27;t tell me you printed that?&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

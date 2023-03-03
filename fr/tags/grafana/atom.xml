@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Adrien Touzouli - Grafana</title>
+	<subtitle>Site web professionel &#x2F; personnel</subtitle>
+	<link href="https://ad2ien.github.io/fr/tags/grafana/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-12-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/fr/tags/grafana/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>⛓️ Fullstack &#x2F; devops ingénieur pour OKP4</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/okp4/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/okp4/</id>
+		<content type="html">&lt;p&gt;OKP4 développe une blockchain &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cosmos&#x2F;cosmos-sdk&quot;&gt;cosmos&lt;&#x2F;a&gt; de niveau un  qui vise à faciliter l’échange de données en récompensant les acteurs impliqués dans la création de connaissances &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;  et en mettant en place des mécanismes de gouvernance. Parallèlement à l’élaboration de ce protocole, des projets gravitent autour, liés à la data science, à la gouvernance des données dans l&#x27;agriculture ou la logistique.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;achievements&quot;&gt;Achievements&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;devops&quot;&gt;Devops&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Déploiements Docker Compose et Kubernetes&lt;&#x2F;li&gt;
+&lt;li&gt;Github workflow : build, lint and publish different projects en Python, R, Go, Kotlin, React...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;dev&quot;&gt;Dev&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Amélioration d’exportateurs Prometheus en Go&lt;&#x2F;li&gt;
+&lt;li&gt;Kibana plugin pour afficher des polygones sur une carte&lt;&#x2F;li&gt;
+&lt;li&gt;Fonctionnalités pour un Discord bot en Rust&lt;&#x2F;li&gt;
+&lt;li&gt;Github action pour suivre automatiquement les contributeurs d&#x27;un repo&lt;&#x2F;li&gt;
+&lt;li&gt;QGIS scripts&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts bash pour créer des NFT Stargaze et les affecter à des wallets&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🐝 Project IOT : traitement cloud</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/maya33/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/maya33/</id>
+		<content type="html">&lt;h3 id=&quot;projet&quot;&gt;Projet&lt;&#x2F;h3&gt;
+&lt;p&gt;Traiter, afficher, exploiter les données provenant de capteurs de device liés à l&#x27;élevage : poids, température, son. Architecture cloud AWS, site web, monitoring, supervision.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;realisation&quot;&gt;Réalisation&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gestion de services AWS : IOT core, SQS queues, lambda functions&lt;&#x2F;li&gt;
+&lt;li&gt;Web app Angular &#x2F; Kotlin&lt;&#x2F;li&gt;
+&lt;li&gt;Micro service en Golang pour traiter des données de son et alimenter un bucket AWS&lt;&#x2F;li&gt;
+&lt;li&gt;Tableaux de bord Grafana&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

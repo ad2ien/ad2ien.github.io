@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Adrien Touzouli - Github actions</title>
+	<subtitle>Personnal professional presentation web site</subtitle>
+	<link href="https://ad2ien.github.io/tags/github-actions/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-12-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/tags/github-actions/atom.xml</id>
+	<entry xml:lang="en">
+		<title>⛓️ Fullstack &#x2F; devops engineer for OKP4</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/it-xp/okp4/" type="text/html"/>
+		<id>https://ad2ien.github.io/it-xp/okp4/</id>
+		<content type="html">&lt;p&gt;OKP4 develops a layer one &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;cosmos&#x2F;cosmos-sdk&quot;&gt;cosmos&lt;&#x2F;a&gt; blockchain that aims to facilitate data exchange by rewarding the actors involved in knowledge creation &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;  by giving then a governance mechanisms. Alongside the development of this protocol, there&#x27;s some gravitating projects related to data science, data sharing gouvernance and BI in agriculture and logistics.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;achievements&quot;&gt;Achievements&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;devops&quot;&gt;Devops&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker compose deployments&lt;&#x2F;li&gt;
+&lt;li&gt;Kubernetes manifests&lt;&#x2F;li&gt;
+&lt;li&gt;Github workflow to build, lint and publish various projects in Python, R, Go, Kotlin, React...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;dev&quot;&gt;Dev&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tweak some Prometheus exporter in Go&lt;&#x2F;li&gt;
+&lt;li&gt;Kibana plugin to display geometry polygons on a map&lt;&#x2F;li&gt;
+&lt;li&gt;Discord bot functionalities in Rust&lt;&#x2F;li&gt;
+&lt;li&gt;Github action to automatically follow contributors&lt;&#x2F;li&gt;
+&lt;li&gt;QGIS scripts&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts that generate wallets and affect instantiated Stargaze NFTs&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

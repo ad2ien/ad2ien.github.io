@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Adrien Touzouli - Electron</title>
+	<subtitle>Personnal professional presentation web site</subtitle>
+	<link href="https://ad2ien.github.io/tags/electron/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2018-04-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/tags/electron/atom.xml</id>
+	<entry xml:lang="en">
+		<title>✈️ Air France developer</title>
+		<published>2018-04-01T00:00:00+00:00</published>
+		<updated>2018-04-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/it-xp/air-france/" type="text/html"/>
+		<id>https://ad2ien.github.io/it-xp/air-france/</id>
+		<content type="html">&lt;p&gt;This mission is mainly related to the management of documentation embedded in Air France aircraft.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;acdc-projet&quot;&gt;ACDC Projet&lt;&#x2F;h2&gt;
+&lt;p&gt;Solution to monitor EFB (Electronic Flight Bag: aircraft embedded tablet)
+• Springboot backend
+• Angular frontend
+• EFB embedded software in NodeJs
+• Everything communicating with websocket
+• CI (continuous integration) configuration with Bamboo and Nexus&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;loaderboard-projet&quot;&gt;LoaderBoard Projet&lt;&#x2F;h3&gt;
+&lt;p&gt;Loaders are windows 7 PC laptops used to update documents and tools of embedded EFBs. Loaderboard is a PC application to manage a fleet of loaders.
+Electron framework allowing to access system PC libraries using Angular 4. PO (product owner) and developer.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;acarsweb-projet&quot;&gt;ACARSWEB Projet&lt;&#x2F;h3&gt;
+&lt;p&gt;This project is an interface with ACARS messages (message format use to communicate with aircrafts) it allows to exploit flight data.
+• Java agent that parse and compile ACARS messages and send a report to a fuel consumption tool.
+• Interface avec KLM (Netherland)
+• Real TDD Development! (Test Driven Development.)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;amphore-projet&quot;&gt;AMPHORE Projet&lt;&#x2F;h3&gt;
+&lt;p&gt;EFB Document management system for various aircraft types. Consists of a web application, java agents and Loaders.
+• Development
+• Redesigns following DDD Domain Driven Design paradigm.
+• Improvement and performance studies.
+• C# Scripts for the loaders.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;environment&quot;&gt;Environment&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 7,&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, IntelliJ, Webstorm&lt;&#x2F;li&gt;
+&lt;li&gt;Servers d’application tomcat.&lt;&#x2F;li&gt;
+&lt;li&gt;Server linux&lt;&#x2F;li&gt;
+&lt;li&gt;Java J2E, Maven, Spring, hibernate&lt;&#x2F;li&gt;
+&lt;li&gt;Springboot 5,&lt;&#x2F;li&gt;
+&lt;li&gt;Angular 6, typescript&lt;&#x2F;li&gt;
+&lt;li&gt;NodeJs&lt;&#x2F;li&gt;
+&lt;li&gt;Websocket&lt;&#x2F;li&gt;
+&lt;li&gt;Junit&lt;&#x2F;li&gt;
+&lt;li&gt;Xsd, xml, jaxB&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données DB2, Oracle, Postgres&lt;&#x2F;li&gt;
+&lt;li&gt;Git flow.&lt;&#x2F;li&gt;
+&lt;li&gt;Suite Atlassian : Bamboo, Bitbucket, Jira, Confluence.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

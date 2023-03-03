@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Adrien Touzouli - C</title>
+	<subtitle>Site web professionel &#x2F; personnel</subtitle>
+	<link href="https://ad2ien.github.io/fr/tags/c/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2019-01-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/fr/tags/c/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>📡 Développeur chez CLS</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/cls/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/cls/</id>
+		<content type="html">&lt;p&gt;Cette mission concerne l&#x27;amélioration des applications utilisées pour opérer les tournées de ramassage d&#x27;ordure.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;projet-collect-circuit&quot;&gt;Projet Collect + Circuit&lt;&#x2F;h3&gt;
+&lt;p&gt;Développement sur un client lourd Windows en C++ permettant de concevoir et optimiser les tournées de ramassages d’ordure.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement C++ Visual studio.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement Java de webservices CXF.&lt;&#x2F;li&gt;
+&lt;li&gt;Migration de donnée avec Spoon outil ETL de la suite Pentaho.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;projet-novacore&quot;&gt;Projet Novacore&lt;&#x2F;h3&gt;
+&lt;p&gt;Chaîne de traitement de messages issus des camions poubelles en C#. Visual Studio 2019.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redesign et améliorations pour rendre scalable.&lt;&#x2F;li&gt;
+&lt;li&gt;Mise en place des tests unitaires et d’intégration.&lt;&#x2F;li&gt;
+&lt;li&gt;Intégration continue avec Gitlab CI.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’outils de tests de non-régression et de performance.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’un outil de déploiement en Javafx, Kotlin Maven.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;projet-eazy-collect&quot;&gt;Projet Eazy Collect&lt;&#x2F;h3&gt;
+&lt;p&gt;Développement d’écrans de supervision de la chaîne de traitement : états des modules de traitement, terminaux connectés et messages reçus. Appli web .net C#, aspx, CSS, Javascript.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;environnement&quot;&gt;Environnement&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;C# C++, Gitlab CI, Kotlin&lt;&#x2F;li&gt;
+&lt;li&gt;Visual Studio 2019, IntelliJ&lt;&#x2F;li&gt;
+&lt;li&gt;Javafx et WPF&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>📡 Développeur chez CLS</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/cls/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/cls/</id>
+		<content type="html">&lt;p&gt;Cette mission concerne l&#x27;amélioration des applications utilisées pour opérer les tournées de ramassage d&#x27;ordure.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;projet-collect-circuit&quot;&gt;Projet Collect + Circuit&lt;&#x2F;h3&gt;
+&lt;p&gt;Développement sur un client lourd Windows en C++ permettant de concevoir et optimiser les tournées de ramassages d’ordure.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement C++ Visual studio.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement Java de webservices CXF.&lt;&#x2F;li&gt;
+&lt;li&gt;Migration de donnée avec Spoon outil ETL de la suite Pentaho.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;projet-novacore&quot;&gt;Projet Novacore&lt;&#x2F;h3&gt;
+&lt;p&gt;Chaîne de traitement de messages issus des camions poubelles en C#. Visual Studio 2019.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redesign et améliorations pour rendre scalable.&lt;&#x2F;li&gt;
+&lt;li&gt;Mise en place des tests unitaires et d’intégration.&lt;&#x2F;li&gt;
+&lt;li&gt;Intégration continue avec Gitlab CI.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’outils de tests de non-régression et de performance.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’un outil de déploiement en Javafx, Kotlin Maven.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;projet-eazy-collect&quot;&gt;Projet Eazy Collect&lt;&#x2F;h3&gt;
+&lt;p&gt;Développement d’écrans de supervision de la chaîne de traitement : états des modules de traitement, terminaux connectés et messages reçus. Appli web .net C#, aspx, CSS, Javascript.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;environnement&quot;&gt;Environnement&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;C# C++, Gitlab CI, Kotlin&lt;&#x2F;li&gt;
+&lt;li&gt;Visual Studio 2019, IntelliJ&lt;&#x2F;li&gt;
+&lt;li&gt;Javafx et WPF&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🛬 Intervenant technique - Tales avionics</title>
+		<published>2015-05-14T00:00:00+00:00</published>
+		<updated>2015-05-14T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/thales/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/thales/</id>
+		<content type="html">&lt;p&gt;Analyse et caractérisation d’un driver A429 utilisé dans le transfert de données entre modules embarqués. Rédaction d’un rapport sur l’amélioration des performances pour une application Java swing qui utilise ce driver.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows XP, 7&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, Ant&lt;&#x2F;li&gt;
+&lt;li&gt;Java Swing&lt;&#x2F;li&gt;
+&lt;li&gt;Visual 2010&lt;&#x2F;li&gt;
+&lt;li&gt;Test bench: cockpits, embedded equipment, A249 sniffer.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>📊 Scrum Master for Intel</title>
+		<published>2015-01-01T00:00:00+00:00</published>
+		<updated>2015-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/intel/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/intel/</id>
+		<content type="html">&lt;p&gt;Assurer la fonction de Scrum Master pour un work package de la division Android d&#x27;INTEL Toulouse. Dans une équipe BI dont le but est de générer des rapports sur l&#x27;état de maturité des différents projets.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Dans un premier temps sur des rapports SSRS (SQL Server Reporting Service). Dans un deuxième temps assurer les tâches de développement back-end pour des rapports similaires dans un nouvel environnement : Server IIS, angular, highchart, telerik.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scrum Master, communication entre l&#x27;équipe (6 personnes) et Intel.&lt;&#x2F;li&gt;
+&lt;li&gt;Gérer les tâches de l&#x27;équipe. Reporting.&lt;&#x2F;li&gt;
+&lt;li&gt;Développer corriger les Rapports SSRS.&lt;&#x2F;li&gt;
+&lt;li&gt;Mise en production hebdomadaire sur les servers Sharepoint.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement C# de démons pour aspirer les données nécessaires à la production des rapports, envoie automatique de mail, consolidation de données...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows 8&lt;&#x2F;li&gt;
+&lt;li&gt;Visual 2013 et 2015&lt;&#x2F;li&gt;
+&lt;li&gt;Gestion de version : TFS (Team Fundation Service)&lt;&#x2F;li&gt;
+&lt;li&gt;Clients lourd en WPF&lt;&#x2F;li&gt;
+&lt;li&gt;NoSql : Mongo DB&lt;&#x2F;li&gt;
+&lt;li&gt;SQL Server&lt;&#x2F;li&gt;
+&lt;li&gt;MongoDB&lt;&#x2F;li&gt;
+&lt;li&gt;Servers IIS et Sharepoint&lt;&#x2F;li&gt;
+&lt;li&gt;SSRS Reports&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🪪 👆️ Développeur pour GAXU S.A.</title>
+		<published>2013-01-01T00:00:00+00:00</published>
+		<updated>2013-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/gaxu/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/gaxu/</id>
+		<content type="html">&lt;p&gt;Le projet d&#x27;affectation permanente : créer un Sdk Android et Windows .NET qui permet aux clients de créer des applications de vérification d&#x27;identité utilisant l’empreinte digitale et les deux versions de la carte d&#x27;identité chilienne.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Intégrer la vérification Match-On-Card : Bibliothèque de communication NFC en C pour Windows, bibliothèque java pour Android.&lt;&#x2F;li&gt;
+&lt;li&gt;Windows environnement ASP.NET :&lt;&#x2F;li&gt;
+&lt;li&gt;Application de démo en C#&lt;&#x2F;li&gt;
+&lt;li&gt;Server IIS 7 .NET 2.0 en C# :&lt;&#x2F;li&gt;
+&lt;li&gt;Web Services.&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données SQL Server&lt;&#x2F;li&gt;
+&lt;li&gt;Interface Web avec framework Oboot.&lt;&#x2F;li&gt;
+&lt;li&gt;Module Applet Java et ActiveX.&lt;&#x2F;li&gt;
+&lt;li&gt;Programme d’installation.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows 7, dispositifs Android, Windows Mobile, lecteurs d&#x27;empreinte digitale, lecteurs NFC, lecteurs de code barre.&lt;&#x2F;li&gt;
+&lt;li&gt;Serveurs IIS&lt;&#x2F;li&gt;
+&lt;li&gt;Java, C, C#&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts SQL Server. Javascript, html, css&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, Visual. SVN (Administrateur), Redmine&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🪪 👆️ Développeur pour GAXU S.A.</title>
+		<published>2013-01-01T00:00:00+00:00</published>
+		<updated>2013-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/gaxu/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/gaxu/</id>
+		<content type="html">&lt;p&gt;Le projet d&#x27;affectation permanente : créer un Sdk Android et Windows .NET qui permet aux clients de créer des applications de vérification d&#x27;identité utilisant l’empreinte digitale et les deux versions de la carte d&#x27;identité chilienne.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Intégrer la vérification Match-On-Card : Bibliothèque de communication NFC en C pour Windows, bibliothèque java pour Android.&lt;&#x2F;li&gt;
+&lt;li&gt;Windows environnement ASP.NET :&lt;&#x2F;li&gt;
+&lt;li&gt;Application de démo en C#&lt;&#x2F;li&gt;
+&lt;li&gt;Server IIS 7 .NET 2.0 en C# :&lt;&#x2F;li&gt;
+&lt;li&gt;Web Services.&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données SQL Server&lt;&#x2F;li&gt;
+&lt;li&gt;Interface Web avec framework Oboot.&lt;&#x2F;li&gt;
+&lt;li&gt;Module Applet Java et ActiveX.&lt;&#x2F;li&gt;
+&lt;li&gt;Programme d’installation.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows 7, dispositifs Android, Windows Mobile, lecteurs d&#x27;empreinte digitale, lecteurs NFC, lecteurs de code barre.&lt;&#x2F;li&gt;
+&lt;li&gt;Serveurs IIS&lt;&#x2F;li&gt;
+&lt;li&gt;Java, C, C#&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts SQL Server. Javascript, html, css&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, Visual. SVN (Administrateur), Redmine&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>📨 Développeur embarqué pour Neopost</title>
+		<published>2010-01-01T00:00:00+00:00</published>
+		<updated>2010-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/neopost/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/neopost/</id>
+		<content type="html">&lt;p&gt;Membre d’un plateau forfait chez NEOPOST Fabricant de machines à affranchir. (5 à 8 personnes) pour le développement d’un logiciel commun à différentes gammes de machines.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h4 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Correction de bugs. Développement d&#x27;évolutions. Tests unitaires et d&#x27;intégration.&lt;&#x2F;li&gt;
+&lt;li&gt;Outils pour améliorer la productivité de la R&amp;amp;D python, php, javascript&lt;&#x2F;li&gt;
+&lt;li&gt;Participation à la mise en place de la méthode agile SCRUM localement puis avec une équipe offshore (Vietnam)&lt;&#x2F;li&gt;
+&lt;li&gt;Organisation des meetings journaliers avec le Vietnam.&lt;&#x2F;li&gt;
+&lt;li&gt;Gestion de l&#x27;équipe française et vietnamienne, reporting en l’absence du chef d&#x27;équipe.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PC sous Windows XP&lt;&#x2F;li&gt;
+&lt;li&gt;Windows C.E.&lt;&#x2F;li&gt;
+&lt;li&gt;Serveur apache&lt;&#x2F;li&gt;
+&lt;li&gt;C++, PHP, Python&lt;&#x2F;li&gt;
+&lt;li&gt;Visual C++, Target Process, (Administrateur), SVN, Redmine&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>⚙️ Développeur drivers windows</title>
+		<published>2009-01-01T00:00:00+00:00</published>
+		<updated>2009-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/philog/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/philog/</id>
+		<content type="html">&lt;p&gt;Participation aux projets, de la conception à la recette et au support. Conception et développement de drivers Windows (en C), affectation permanente sur un support de logiciel de supervision de réseau IP et X25 sous HP-UX.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Système de partition privée permettant d&#x27;utiliser une partie d&#x27;un disque dur ou d&#x27;une clé USB en tant que disque indépendant activable ou non.&lt;&#x2F;li&gt;
+&lt;li&gt;Contrôleur Windows d&#x27;imprimante série et USB.&lt;&#x2F;li&gt;
+&lt;li&gt;Driver d&#x27;acquisition vidéo&lt;&#x2F;li&gt;
+&lt;li&gt;Système de récupération de fichier NTFS et FAT32.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows XP, Sniffer USB,&lt;&#x2F;li&gt;
+&lt;li&gt;Windows NT, XP, Vista, Unix HPUX. USB, RS232, systèmes de fichier NTFS FAT32&lt;&#x2F;li&gt;
+&lt;li&gt;C, WDK&lt;&#x2F;li&gt;
+&lt;li&gt;Visual C++, SVN, Redmine, Installshield&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>⚙️ Développeur drivers windows</title>
+		<published>2009-01-01T00:00:00+00:00</published>
+		<updated>2009-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/philog/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/philog/</id>
+		<content type="html">&lt;p&gt;Participation aux projets, de la conception à la recette et au support. Conception et développement de drivers Windows (en C), affectation permanente sur un support de logiciel de supervision de réseau IP et X25 sous HP-UX.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Système de partition privée permettant d&#x27;utiliser une partie d&#x27;un disque dur ou d&#x27;une clé USB en tant que disque indépendant activable ou non.&lt;&#x2F;li&gt;
+&lt;li&gt;Contrôleur Windows d&#x27;imprimante série et USB.&lt;&#x2F;li&gt;
+&lt;li&gt;Driver d&#x27;acquisition vidéo&lt;&#x2F;li&gt;
+&lt;li&gt;Système de récupération de fichier NTFS et FAT32.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows XP, Sniffer USB,&lt;&#x2F;li&gt;
+&lt;li&gt;Windows NT, XP, Vista, Unix HPUX. USB, RS232, systèmes de fichier NTFS FAT32&lt;&#x2F;li&gt;
+&lt;li&gt;C, WDK&lt;&#x2F;li&gt;
+&lt;li&gt;Visual C++, SVN, Redmine, Installshield&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

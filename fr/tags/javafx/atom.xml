@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Adrien Touzouli - JavaFX</title>
+	<subtitle>Site web professionel &#x2F; personnel</subtitle>
+	<link href="https://ad2ien.github.io/fr/tags/javafx/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2019-01-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/fr/tags/javafx/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>📡 Développeur chez CLS</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/cls/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/cls/</id>
+		<content type="html">&lt;p&gt;Cette mission concerne l&#x27;amélioration des applications utilisées pour opérer les tournées de ramassage d&#x27;ordure.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;projet-collect-circuit&quot;&gt;Projet Collect + Circuit&lt;&#x2F;h3&gt;
+&lt;p&gt;Développement sur un client lourd Windows en C++ permettant de concevoir et optimiser les tournées de ramassages d’ordure.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement C++ Visual studio.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement Java de webservices CXF.&lt;&#x2F;li&gt;
+&lt;li&gt;Migration de donnée avec Spoon outil ETL de la suite Pentaho.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;projet-novacore&quot;&gt;Projet Novacore&lt;&#x2F;h3&gt;
+&lt;p&gt;Chaîne de traitement de messages issus des camions poubelles en C#. Visual Studio 2019.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redesign et améliorations pour rendre scalable.&lt;&#x2F;li&gt;
+&lt;li&gt;Mise en place des tests unitaires et d’intégration.&lt;&#x2F;li&gt;
+&lt;li&gt;Intégration continue avec Gitlab CI.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’outils de tests de non-régression et de performance.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’un outil de déploiement en Javafx, Kotlin Maven.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;projet-eazy-collect&quot;&gt;Projet Eazy Collect&lt;&#x2F;h3&gt;
+&lt;p&gt;Développement d’écrans de supervision de la chaîne de traitement : états des modules de traitement, terminaux connectés et messages reçus. Appli web .net C#, aspx, CSS, Javascript.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;environnement&quot;&gt;Environnement&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;C# C++, Gitlab CI, Kotlin&lt;&#x2F;li&gt;
+&lt;li&gt;Visual Studio 2019, IntelliJ&lt;&#x2F;li&gt;
+&lt;li&gt;Javafx et WPF&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

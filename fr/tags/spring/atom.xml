@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Adrien Touzouli - Spring</title>
+	<subtitle>Site web professionel &#x2F; personnel</subtitle>
+	<link href="https://ad2ien.github.io/fr/tags/spring/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2018-04-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/fr/tags/spring/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>✈️ Développeur chez Air France</title>
+		<published>2018-04-01T00:00:00+00:00</published>
+		<updated>2018-04-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/air-france/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/air-france/</id>
+		<content type="html">&lt;p&gt;Cette mission concerne en particulier la gestion de la documentation embarquée dans les avions Air France.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;projet-acdc&quot;&gt;Projet ACDC&lt;&#x2F;h2&gt;
+&lt;p&gt;Solution permettant de monitorer l&#x27;état des EFB (Electronic Flight Bag: tablettes tactiles embarquées dans les cockpits) en temps réel. Composé d&#x27;un backend springboot d&#x27;un frontend angular et d&#x27;une partie embarquée en NodeJs, le tout communiquant par websocket.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement&lt;&#x2F;li&gt;
+&lt;li&gt;Configuration de l&#x27;environnement d&#x27;intégration continue (Bamboo, Nexus)&lt;&#x2F;li&gt;
+&lt;li&gt;Trouver un bon nom de projet :)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;projet-loaderboard&quot;&gt;Projet LoaderBoard&lt;&#x2F;h2&gt;
+&lt;p&gt;Client lourd permettant de gérer les différents environnements des &amp;quot;loaders&amp;quot; (PC portable sous Windows 7) servant à la mise à jour des documents et outils sur EFB. Outil destiné aux IT. Techno : framework Electron permettant d’utiliser Angular 4 en donnant accès aux librairies système sur lequel il tourne.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations-1&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rôle de PO : rédaction de spécifications&lt;&#x2F;li&gt;
+&lt;li&gt;Développement&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;projet-acarsweb&quot;&gt;Projet ACARSWEB&lt;&#x2F;h2&gt;
+&lt;p&gt;Projet servant d’interface avec les données ACARS (messages échangés par les avions). Ce projet permet d’exploiter les données de vols.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations-2&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Batchs de compilation et parsing de messages ACARS destiné à alimenter un outil de monitoring de consommation de fuel.&lt;&#x2F;li&gt;
+&lt;li&gt;Interface avec KLM (Pays-Bas)&lt;&#x2F;li&gt;
+&lt;li&gt;Développement TDD (Test Driven Development.)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;projet-amphore&quot;&gt;Projet : AMPHORE&lt;&#x2F;h2&gt;
+&lt;p&gt;Système de gestion de documents destinés aux EFB pour les différents type d&#x27;avion.
+Composé d’une application web, de batchs de traitements ainsi que des loaders.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations-3&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement&lt;&#x2F;li&gt;
+&lt;li&gt;Redesigns suivant le paradigme DDD Domain Driven Design.&lt;&#x2F;li&gt;
+&lt;li&gt;Recherche d’amélioration des performances.&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts C# pour les loaders. Système de synchronisation automatique d&#x27;applications.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 7,&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, IntelliJ, Webstorm&lt;&#x2F;li&gt;
+&lt;li&gt;Servers d’application tomcat.&lt;&#x2F;li&gt;
+&lt;li&gt;Server linux&lt;&#x2F;li&gt;
+&lt;li&gt;Java J2E, Maven, Spring, hibernate&lt;&#x2F;li&gt;
+&lt;li&gt;Springboot 5,&lt;&#x2F;li&gt;
+&lt;li&gt;Angular 6, typescript&lt;&#x2F;li&gt;
+&lt;li&gt;NodeJs&lt;&#x2F;li&gt;
+&lt;li&gt;Websocket&lt;&#x2F;li&gt;
+&lt;li&gt;Junit&lt;&#x2F;li&gt;
+&lt;li&gt;Xsd, xml, jaxB&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données DB2, Oracle, Postgres&lt;&#x2F;li&gt;
+&lt;li&gt;Git flow.&lt;&#x2F;li&gt;
+&lt;li&gt;Suite atlassian : Bamboo, Bitbucket, Jira, Confluence.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🌱 🇨🇵 Développeur web au Ministère de l&#x27;agriculture</title>
+		<published>2016-03-01T00:00:00+00:00</published>
+		<updated>2016-03-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/maaf/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/maaf/</id>
+		<content type="html">&lt;p&gt;Développement « from scratch » d’une application web destinée à gérer les dossiers liés à la réglementation française sur la forêt. Démarrage du projet avec mise en place du fonctionnement agile. Développement avec le framework du ministère de l’agriculture appelé Orion, une surcouche de Spring.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement d’une application web Java EE avec le framework « Orion »&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’agents java backend pour automatiser le traitement des dossiers. Récupération et traitement de données sous forme xml d’un organisme partenaire.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 7, Netbeans, Eclipse.&lt;&#x2F;li&gt;
+&lt;li&gt;Servers d’application glassfish, tomcat&lt;&#x2F;li&gt;
+&lt;li&gt;Server linux, application JMX, agent Camel&lt;&#x2F;li&gt;
+&lt;li&gt;Java J2E, Maven, Spring, hibernate&lt;&#x2F;li&gt;
+&lt;li&gt;Junit&lt;&#x2F;li&gt;
+&lt;li&gt;Xsd, xml, jaxB&lt;&#x2F;li&gt;
+&lt;li&gt;Affichage de couches géographiques : gml.&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données PostgreSQL&lt;&#x2F;li&gt;
+&lt;li&gt;SVN&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

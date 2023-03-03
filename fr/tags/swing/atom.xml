@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Adrien Touzouli - Swing</title>
+	<subtitle>Site web professionel &#x2F; personnel</subtitle>
+	<link href="https://ad2ien.github.io/fr/tags/swing/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2015-05-14T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/fr/tags/swing/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>🛬 Intervenant technique - Tales avionics</title>
+		<published>2015-05-14T00:00:00+00:00</published>
+		<updated>2015-05-14T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/thales/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/thales/</id>
+		<content type="html">&lt;p&gt;Analyse et caractérisation d’un driver A429 utilisé dans le transfert de données entre modules embarqués. Rédaction d’un rapport sur l’amélioration des performances pour une application Java swing qui utilise ce driver.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows XP, 7&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, Ant&lt;&#x2F;li&gt;
+&lt;li&gt;Java Swing&lt;&#x2F;li&gt;
+&lt;li&gt;Visual 2010&lt;&#x2F;li&gt;
+&lt;li&gt;Test bench: cockpits, embedded equipment, A249 sniffer.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

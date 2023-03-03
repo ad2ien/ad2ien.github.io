@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Adrien Touzouli - Kotlin</title>
+	<subtitle>Personnal professional presentation web site</subtitle>
+	<link href="https://ad2ien.github.io/tags/kotlin/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-01-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/tags/kotlin/atom.xml</id>
+	<entry xml:lang="en">
+		<title>🐝 IOT project : cloud processing</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/it-xp/maya33/" type="text/html"/>
+		<id>https://ad2ien.github.io/it-xp/maya33/</id>
+		<content type="html">&lt;h3 id=&quot;project&quot;&gt;Project&lt;&#x2F;h3&gt;
+&lt;p&gt;Process, display, data from farming sensors : weight, temperature, sound. AWS cloud architecture, website, monitoring, supervision.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;achievements&quot;&gt;Achievements&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Manage AWS services : EC2, SQL Database, IOT core, SQS queues, Python Lambda functions&lt;&#x2F;li&gt;
+&lt;li&gt;Web app Kotlin &#x2F; Angular&lt;&#x2F;li&gt;
+&lt;li&gt;Micro service in Golang to process sound data sent by devices and feed a AWS bucket&lt;&#x2F;li&gt;
+&lt;li&gt;Grafana dashboards&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>📡 CLS developer</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/it-xp/cls/" type="text/html"/>
+		<id>https://ad2ien.github.io/it-xp/cls/</id>
+		<content type="html">&lt;p&gt;This mission, initially for Novacom, consisted of improving applications and data used for garbage collection.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;collect-circuit-project&quot;&gt;Collect + Circuit Project&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Development for an Windows C++ application allowing to design and optimize garbage collection round.
+C++ dev on Visual studio.&lt;&#x2F;li&gt;
+&lt;li&gt;Java CXF webservices dev.&lt;&#x2F;li&gt;
+&lt;li&gt;Data migration with Spoon ETL tool from Pentaho suite.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;novacore-project&quot;&gt;Novacore Project&lt;&#x2F;h2&gt;
+&lt;p&gt;C# message processing chain receiving data from garbage collection truck. Visual Studio 2019.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Redesign to make it scalable.&lt;&#x2F;li&gt;
+&lt;li&gt;Unit an integration test setup&lt;&#x2F;li&gt;
+&lt;li&gt;Continuous integration continue with Gitlab CI.&lt;&#x2F;li&gt;
+&lt;li&gt;Performance and non-regression tools&lt;&#x2F;li&gt;
+&lt;li&gt;Deployment tool with Javafx, Kotlin Maven.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;eazy-collect-project&quot;&gt;Eazy Collect Project&lt;&#x2F;h2&gt;
+&lt;p&gt;Supervision screen for this processing chain : processing module state, connected terminals and received messages. Web app .net C#, aspx, CSS, Javascript.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;environment&quot;&gt;Environment&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;C# C++, Gitlab CI, Kotlin&lt;&#x2F;li&gt;
+&lt;li&gt;Visual Studio 2019, IntelliJ&lt;&#x2F;li&gt;
+&lt;li&gt;Javafx et WPF&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

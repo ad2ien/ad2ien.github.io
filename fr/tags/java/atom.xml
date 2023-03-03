@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Adrien Touzouli - Java</title>
+	<subtitle>Site web professionel &#x2F; personnel</subtitle>
+	<link href="https://ad2ien.github.io/fr/tags/java/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2020-05-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/fr/tags/java/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>🛞 Projet Tourniquet d&#x27;accès</title>
+		<published>2020-05-01T00:00:00+00:00</published>
+		<updated>2020-05-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/turnstile/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/turnstile/</id>
+		<content type="html">&lt;h3 id=&quot;projet&quot;&gt;Projet&lt;&#x2F;h3&gt;
+&lt;p&gt;Tourniquet d&#x27;accès avec mesure d&#x27;électricité statique pour usine de composant électronique. Développement embarqué sur carte Debian.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;realisation&quot;&gt;Réalisation&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Serveur web avec JHipster (Springboot &#x2F; Angular)&lt;&#x2F;li&gt;
+&lt;li&gt;Appli Python&lt;&#x2F;li&gt;
+&lt;li&gt;Processus d&#x27;installation système.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Afin de :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Logger des accès&lt;&#x2F;li&gt;
+&lt;li&gt;Configurer le matériel&lt;&#x2F;li&gt;
+&lt;li&gt;Lancer et valider des mesures&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Jhipster Springboot Angular&lt;&#x2F;li&gt;
+&lt;li&gt;Python3&lt;&#x2F;li&gt;
+&lt;li&gt;Debian&lt;&#x2F;li&gt;
+&lt;li&gt;Visual Studio Code et IntelliJ&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>✈️ Développeur chez Air France</title>
+		<published>2018-04-01T00:00:00+00:00</published>
+		<updated>2018-04-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/air-france/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/air-france/</id>
+		<content type="html">&lt;p&gt;Cette mission concerne en particulier la gestion de la documentation embarquée dans les avions Air France.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;projet-acdc&quot;&gt;Projet ACDC&lt;&#x2F;h2&gt;
+&lt;p&gt;Solution permettant de monitorer l&#x27;état des EFB (Electronic Flight Bag: tablettes tactiles embarquées dans les cockpits) en temps réel. Composé d&#x27;un backend springboot d&#x27;un frontend angular et d&#x27;une partie embarquée en NodeJs, le tout communiquant par websocket.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement&lt;&#x2F;li&gt;
+&lt;li&gt;Configuration de l&#x27;environnement d&#x27;intégration continue (Bamboo, Nexus)&lt;&#x2F;li&gt;
+&lt;li&gt;Trouver un bon nom de projet :)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;projet-loaderboard&quot;&gt;Projet LoaderBoard&lt;&#x2F;h2&gt;
+&lt;p&gt;Client lourd permettant de gérer les différents environnements des &amp;quot;loaders&amp;quot; (PC portable sous Windows 7) servant à la mise à jour des documents et outils sur EFB. Outil destiné aux IT. Techno : framework Electron permettant d’utiliser Angular 4 en donnant accès aux librairies système sur lequel il tourne.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations-1&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Rôle de PO : rédaction de spécifications&lt;&#x2F;li&gt;
+&lt;li&gt;Développement&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;projet-acarsweb&quot;&gt;Projet ACARSWEB&lt;&#x2F;h2&gt;
+&lt;p&gt;Projet servant d’interface avec les données ACARS (messages échangés par les avions). Ce projet permet d’exploiter les données de vols.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations-2&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Batchs de compilation et parsing de messages ACARS destiné à alimenter un outil de monitoring de consommation de fuel.&lt;&#x2F;li&gt;
+&lt;li&gt;Interface avec KLM (Pays-Bas)&lt;&#x2F;li&gt;
+&lt;li&gt;Développement TDD (Test Driven Development.)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;projet-amphore&quot;&gt;Projet : AMPHORE&lt;&#x2F;h2&gt;
+&lt;p&gt;Système de gestion de documents destinés aux EFB pour les différents type d&#x27;avion.
+Composé d’une application web, de batchs de traitements ainsi que des loaders.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;realisations-3&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement&lt;&#x2F;li&gt;
+&lt;li&gt;Redesigns suivant le paradigme DDD Domain Driven Design.&lt;&#x2F;li&gt;
+&lt;li&gt;Recherche d’amélioration des performances.&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts C# pour les loaders. Système de synchronisation automatique d&#x27;applications.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 7,&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, IntelliJ, Webstorm&lt;&#x2F;li&gt;
+&lt;li&gt;Servers d’application tomcat.&lt;&#x2F;li&gt;
+&lt;li&gt;Server linux&lt;&#x2F;li&gt;
+&lt;li&gt;Java J2E, Maven, Spring, hibernate&lt;&#x2F;li&gt;
+&lt;li&gt;Springboot 5,&lt;&#x2F;li&gt;
+&lt;li&gt;Angular 6, typescript&lt;&#x2F;li&gt;
+&lt;li&gt;NodeJs&lt;&#x2F;li&gt;
+&lt;li&gt;Websocket&lt;&#x2F;li&gt;
+&lt;li&gt;Junit&lt;&#x2F;li&gt;
+&lt;li&gt;Xsd, xml, jaxB&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données DB2, Oracle, Postgres&lt;&#x2F;li&gt;
+&lt;li&gt;Git flow.&lt;&#x2F;li&gt;
+&lt;li&gt;Suite atlassian : Bamboo, Bitbucket, Jira, Confluence.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🌱 🇨🇵 Développeur web au Ministère de l&#x27;agriculture</title>
+		<published>2016-03-01T00:00:00+00:00</published>
+		<updated>2016-03-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/maaf/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/maaf/</id>
+		<content type="html">&lt;p&gt;Développement « from scratch » d’une application web destinée à gérer les dossiers liés à la réglementation française sur la forêt. Démarrage du projet avec mise en place du fonctionnement agile. Développement avec le framework du ministère de l’agriculture appelé Orion, une surcouche de Spring.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Développement d’une application web Java EE avec le framework « Orion »&lt;&#x2F;li&gt;
+&lt;li&gt;Développement d’agents java backend pour automatiser le traitement des dossiers. Récupération et traitement de données sous forme xml d’un organisme partenaire.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 7, Netbeans, Eclipse.&lt;&#x2F;li&gt;
+&lt;li&gt;Servers d’application glassfish, tomcat&lt;&#x2F;li&gt;
+&lt;li&gt;Server linux, application JMX, agent Camel&lt;&#x2F;li&gt;
+&lt;li&gt;Java J2E, Maven, Spring, hibernate&lt;&#x2F;li&gt;
+&lt;li&gt;Junit&lt;&#x2F;li&gt;
+&lt;li&gt;Xsd, xml, jaxB&lt;&#x2F;li&gt;
+&lt;li&gt;Affichage de couches géographiques : gml.&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données PostgreSQL&lt;&#x2F;li&gt;
+&lt;li&gt;SVN&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🛬 Intervenant technique - Tales avionics</title>
+		<published>2015-05-14T00:00:00+00:00</published>
+		<updated>2015-05-14T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/thales/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/thales/</id>
+		<content type="html">&lt;p&gt;Analyse et caractérisation d’un driver A429 utilisé dans le transfert de données entre modules embarqués. Rédaction d’un rapport sur l’amélioration des performances pour une application Java swing qui utilise ce driver.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows XP, 7&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, Ant&lt;&#x2F;li&gt;
+&lt;li&gt;Java Swing&lt;&#x2F;li&gt;
+&lt;li&gt;Visual 2010&lt;&#x2F;li&gt;
+&lt;li&gt;Test bench: cockpits, embedded equipment, A249 sniffer.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>🪪 👆️ Développeur pour GAXU S.A.</title>
+		<published>2013-01-01T00:00:00+00:00</published>
+		<updated>2013-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/gaxu/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/gaxu/</id>
+		<content type="html">&lt;p&gt;Le projet d&#x27;affectation permanente : créer un Sdk Android et Windows .NET qui permet aux clients de créer des applications de vérification d&#x27;identité utilisant l’empreinte digitale et les deux versions de la carte d&#x27;identité chilienne.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;realisations&quot;&gt;Réalisations&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Intégrer la vérification Match-On-Card : Bibliothèque de communication NFC en C pour Windows, bibliothèque java pour Android.&lt;&#x2F;li&gt;
+&lt;li&gt;Windows environnement ASP.NET :&lt;&#x2F;li&gt;
+&lt;li&gt;Application de démo en C#&lt;&#x2F;li&gt;
+&lt;li&gt;Server IIS 7 .NET 2.0 en C# :&lt;&#x2F;li&gt;
+&lt;li&gt;Web Services.&lt;&#x2F;li&gt;
+&lt;li&gt;Base de données SQL Server&lt;&#x2F;li&gt;
+&lt;li&gt;Interface Web avec framework Oboot.&lt;&#x2F;li&gt;
+&lt;li&gt;Module Applet Java et ActiveX.&lt;&#x2F;li&gt;
+&lt;li&gt;Programme d’installation.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows 7, dispositifs Android, Windows Mobile, lecteurs d&#x27;empreinte digitale, lecteurs NFC, lecteurs de code barre.&lt;&#x2F;li&gt;
+&lt;li&gt;Serveurs IIS&lt;&#x2F;li&gt;
+&lt;li&gt;Java, C, C#&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts SQL Server. Javascript, html, css&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, Visual. SVN (Administrateur), Redmine&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

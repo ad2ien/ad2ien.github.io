@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Adrien Touzouli - Swing</title>
+	<subtitle>Personnal professional presentation web site</subtitle>
+	<link href="https://ad2ien.github.io/tags/swing/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2015-05-14T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/tags/swing/atom.xml</id>
+	<entry xml:lang="en">
+		<title>🛬 Technical consultant - Tales avionics</title>
+		<published>2015-05-14T00:00:00+00:00</published>
+		<updated>2015-05-14T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/it-xp/thales/" type="text/html"/>
+		<id>https://ad2ien.github.io/it-xp/thales/</id>
+		<content type="html">&lt;p&gt;Embedded Tablet for Sukhoi planes allowing document reading, maintenance configuration and monitoring of various connected equipment.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;achievements&quot;&gt;Achievements&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyze and characterization of an A429 driver used for data transfer between embedded modules. Performance optimization for a java application using this driver.&lt;&#x2F;li&gt;
+&lt;li&gt;Test protocol setup.&lt;&#x2F;li&gt;
+&lt;li&gt;Coding of a loopback in java and C++.&lt;&#x2F;li&gt;
+&lt;li&gt;Report stating different actions to be taken to improve system performances.&lt;&#x2F;li&gt;
+&lt;li&gt;Then corrections and evolutions on this java swing application.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environment&quot;&gt;Environment&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows XP, 7&lt;&#x2F;li&gt;
+&lt;li&gt;Eclipse, Ant&lt;&#x2F;li&gt;
+&lt;li&gt;Java Swing&lt;&#x2F;li&gt;
+&lt;li&gt;Visual 2010&lt;&#x2F;li&gt;
+&lt;li&gt;Test bench: cockpits, embedded equipment, A249 sniffer.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

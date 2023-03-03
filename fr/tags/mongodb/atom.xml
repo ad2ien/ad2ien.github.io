@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>Adrien Touzouli - MongoDB</title>
+	<subtitle>Site web professionel &#x2F; personnel</subtitle>
+	<link href="https://ad2ien.github.io/fr/tags/mongodb/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://ad2ien.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2015-01-01T00:00:00+00:00</updated>
+	<id>https://ad2ien.github.io/fr/tags/mongodb/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>📊 Scrum Master for Intel</title>
+		<published>2015-01-01T00:00:00+00:00</published>
+		<updated>2015-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://ad2ien.github.io/fr/it-xp/intel/" type="text/html"/>
+		<id>https://ad2ien.github.io/fr/it-xp/intel/</id>
+		<content type="html">&lt;p&gt;Assurer la fonction de Scrum Master pour un work package de la division Android d&#x27;INTEL Toulouse. Dans une équipe BI dont le but est de générer des rapports sur l&#x27;état de maturité des différents projets.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Dans un premier temps sur des rapports SSRS (SQL Server Reporting Service). Dans un deuxième temps assurer les tâches de développement back-end pour des rapports similaires dans un nouvel environnement : Server IIS, angular, highchart, telerik.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scrum Master, communication entre l&#x27;équipe (6 personnes) et Intel.&lt;&#x2F;li&gt;
+&lt;li&gt;Gérer les tâches de l&#x27;équipe. Reporting.&lt;&#x2F;li&gt;
+&lt;li&gt;Développer corriger les Rapports SSRS.&lt;&#x2F;li&gt;
+&lt;li&gt;Mise en production hebdomadaire sur les servers Sharepoint.&lt;&#x2F;li&gt;
+&lt;li&gt;Développement C# de démons pour aspirer les données nécessaires à la production des rapports, envoie automatique de mail, consolidation de données...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;environnement-technique&quot;&gt;Environnement Technique&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PC Windows 8&lt;&#x2F;li&gt;
+&lt;li&gt;Visual 2013 et 2015&lt;&#x2F;li&gt;
+&lt;li&gt;Gestion de version : TFS (Team Fundation Service)&lt;&#x2F;li&gt;
+&lt;li&gt;Clients lourd en WPF&lt;&#x2F;li&gt;
+&lt;li&gt;NoSql : Mongo DB&lt;&#x2F;li&gt;
+&lt;li&gt;SQL Server&lt;&#x2F;li&gt;
+&lt;li&gt;MongoDB&lt;&#x2F;li&gt;
+&lt;li&gt;Servers IIS et Sharepoint&lt;&#x2F;li&gt;
+&lt;li&gt;SSRS Reports&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>
