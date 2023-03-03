@@ -201,3 +201,12 @@ image_alt = "avatar"
 name = "Adrien Touzouli"
 avatar = "/images/avatar-stable-diffusion.jpeg"
 avatar_alt = "avatar"
+
+[extra.favicon]
+favicon = "/icons/favicon.ico"
+favicon_16x16 = "/icons/favicon-16x16.png"
+favicon_32x32 = "/icons/favicon-32x32.png"
+apple_touch_icon = "/icons/apple-touch-icon.png"
+android_chrome_512 = "/icons/android-chrome-512x512.png"
+android_chrome_192 = "/icons/android-chrome-192x192.png"
+manifest = "/icons/site.webmanifest"
