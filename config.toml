@@ -72,7 +72,12 @@ extra_syntaxes = []
 
 # The theme to use for code highlighting.
 # See below for list of allowed values.
-highlight_theme = "base16-ocean-dark"
+highlight_theme = "css"
+
+highlight_themes_css = [
+  { theme = "base16-ocean-dark", filename = "syntax-dark.css" },
+  { theme = "base16-ocean-light", filename = "syntax-light.css" },
+]
 
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
