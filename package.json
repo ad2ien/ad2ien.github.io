@@ -28,7 +28,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "cssnano": "^5.0.9",
-    "postcss": "^8.3.11",
+    "postcss": "^8.4.31",
     "postcss-cli": "^9.0.2",
     "tailwindcss": "^2.2.19",
     "uglifyjs-folder": "^3.2.0"
