@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup node environment (for building)
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 16.18
+          node-version: 20.11
 
       - name: Fetch dependencies
         run: |
@@ -30,6 +30,6 @@ jobs:
           yarn prod
 
       - name: Zola build and deploy
-        uses: shalzz/zola-deploy-action@v0.16.1-1
+        uses: shalzz/zola-deploy-action@v0.18.0
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
