@@ -9,7 +9,7 @@ logo = "https://media.licdn.com/dms/image/C4E0BAQG_jFdctRyOfg/company-logo_100_1
 duration_month = "15"
 +++
 
-This mission is mainly related to the management of documentation embedded in Air France aircraft.
+This mission is mainly related to the management of documentation embedded in Air France aircrafts.
 <!-- more -->
 
 ## ACDC Projet
