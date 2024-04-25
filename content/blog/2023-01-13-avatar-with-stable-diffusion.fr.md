@@ -6,7 +6,7 @@ categories=["blog"]
 
 Que faire quand on a une idée d'illustration et aucune compétence artistique : utiliser Stable Diffusion.
 
-<!-- plus -->
+<!-- more -->
 
 ## L'idée 💡
 
