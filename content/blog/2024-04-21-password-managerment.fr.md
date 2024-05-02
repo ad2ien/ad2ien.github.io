@@ -55,6 +55,8 @@ Se logguer dans le navigateur Firefox. On peut alors synchroniser ses favoris et
 
 Veillez quand même à créer un mot de passe principal pour accéder aux mots de passe enregistrés dans Firefox : <https://support.mozilla.org/fr/kb/utiliser-mot-passe-principal-proteger-identifiants> sinon n'importe qui qui a un accès à une session ouverte sur votre ordinateur pourra voir vos mots de passe!
 
+Vous pourrez de surcroit entrer vos e-mails et vérifier si vos mots de passe ont été compromis <https://monitor.mozilla.org/> et même être prévenus si ça arrive.
+
 ### Avec un fichier Keepass
 
 Un fichier keepass (*.kdbx) est un simple fichier dont le format est assez répandu mais nécessite quand même d'installer un logiciel quelque soit votre système d'exploitation. Ce fichier est chiffré et on ne peut l'ouvrir qu'avec un mot de passe.
