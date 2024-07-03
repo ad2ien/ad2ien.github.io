@@ -1,7 +1,6 @@
 +++
 title = "Hi, there"
 description = "Introduction"
-date = 2021-11-12
 +++
 
 Hello 👋

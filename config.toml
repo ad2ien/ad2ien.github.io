@@ -26,12 +26,12 @@ minify_html = false
 ignored_content = []
 
 # When set to "true", a feed is automatically generated.
-generate_feed = false
+generate_feeds = false
 
 # The filename to use for the feed. Used as the template filename, too.
 # Defaults to "atom.xml", which has a built-in template that renders an Atom 1.0 feed.
 # There is also a built-in template "rss.xml" that renders an RSS 2.0 feed.
-feed_filename = "atom.xml"
+feed_filenames = ["atom.xml"]
 
 # The number of articles to include in the feed. All items are included if
 # this limit is not set (the default).
@@ -143,7 +143,7 @@ path-lang = ""
 [languages.fr]
 title = "Adrien Touzouli"
 description = "Site web professionel / personnel"
-generate_feed = false
+generate_feeds = false
 taxonomies = [
     {name = "tags", paginate_by = 10, feed = true},
     {name = "categories", paginate_by = 10, feed = true},

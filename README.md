@@ -20,3 +20,9 @@ css processing along side `zola serve`
 ```bash
 yarn watch
 ```
+
+Or even better :
+
+```bash
+docker run --rm -u "$(id -u):$(id -g)" -v $PWD:/app --workdir /app ghcr.io/getzola/zola serve --interface 0.0.0.0 --port 8080 --base-url localhost
+```

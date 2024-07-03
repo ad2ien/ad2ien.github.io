@@ -1,7 +1,6 @@
 +++
 title = "Adischatz!"
 description = "Introduction"
-date = 2022-12-12
 +++
 
 Bonjour 👋
