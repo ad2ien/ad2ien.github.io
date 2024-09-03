@@ -30,6 +30,6 @@ jobs:
           yarn prod
 
       - name: Zola build and deploy
-        uses: shalzz/zola-deploy-action@v0.19.1
+        uses: shalzz/zola-deploy-action@v0.19.2
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
