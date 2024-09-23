@@ -10,6 +10,9 @@
   h2 {
     @apply text-xl;
   }
+  h3, h4 {
+    @apply font-bold;
+  }
 }
 
 /* Global default styles */
@@ -21,10 +24,10 @@ html {
 #page-content a {
     @apply underline;
 }
-#page-content p, h2 {
+#page-content p, h2, h3 {
     @apply py-4;
 }
-#page-content :is(h1, h2, h3, h4, h5, h6) {
+#page-content :is(h1, h2, h3) {
     @apply underline;
 }
 #page-content pre {
