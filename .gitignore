@@ -3,3 +3,5 @@ public/
 static/css
 static/js
 static/syntax*.css
+
+package-lock.json
