@@ -5,9 +5,9 @@
   "scripts": {
     "mkdir": "mkdir -p ./static/js && mkdir -p ./static/css",
     "uglify": "uglifyjs-folder ./src/js/ -eo ./static/js -x .js",
-    "watch": "NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css -w --verbose",
-    "dev": "npm run uglify && NODE_ENV=development postcss ./src/css/main.css -o ./static/css/main.css --verbose",
-    "prod": "npm run uglify && NODE_ENV=production postcss ./src/css/main.css -o ./static/css/main.css --verbose",
+    "watch": "NODE_ENV=development postcss -d ./src/css/ -o ./static/css/ -w --verbose",
+    "dev": "npm run uglify && NODE_ENV=development postcss ./src/css/ -d ./static/css/ --verbose",
+    "prod": "npm run uglify && NODE_ENV=production postcss ./src/css/ -d ./static/css/ --verbose",
     "test": "uglifyjs ./src/js/main.js --compress --mangle -o ./static/js/main.js"
   },
   "repository": {

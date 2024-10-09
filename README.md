@@ -9,7 +9,7 @@ It is based on [Zola](https://github.com/getzola/zola) and this nice template : 
 ## Start server
 
 ```bash
-yarn prod
+yarn dev
 zola serve
 ```
 

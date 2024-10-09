@@ -56,6 +56,7 @@ taxonomies = [
     {name = "tags", paginate_by = 10, feed = true},
     {name = "categories", paginate_by = 10, feed = true},
     {name = "location"},
+    {name = "cv"},
 ]
 
 # When set to "true", a search index is built from the pages and section
@@ -148,6 +149,7 @@ taxonomies = [
     {name = "tags", paginate_by = 10, feed = true},
     {name = "categories", paginate_by = 10, feed = true},
     {name = "location"},
+    {name = "cv"},
 ]
 build_search_index = true
 
@@ -182,12 +184,14 @@ items = [
         { url = "/categories/other-xp", name = "Other XP" },
         { url = "/categories/blog", name = "Blog" },
         { url = "/tags", name = "Tags" },
+        { url = "/cv", name = "One-page printable CV" },
     ] }, { lang = "fr", links = [
         { url = "/fr", name = "Accueil" },
         { url = "/fr/it-xp", name = "IT XP" },
         { url = "/fr/categories/other-xp", name = "Autres XP" },
         { url = "/fr/categories/blog", name = "Blog" },
         { url = "/tags", name = "Tags" },
+        { url = "/cv", name = "CV imprimable" },
     ] },
 ]
 title = "Adrien Touzouli"

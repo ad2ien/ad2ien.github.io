@@ -4,6 +4,7 @@ title = "✈️ Air France developer"
 location=["Toulouse"]
 categories=["IT XP"]
 tags=["Java", "NodeJS", "Spring", "Springboot", "Electron"]
+cv = ["it-xp"]
 [extra]
 logo = "/images/air-france.jpg"
 duration_month = "15"
