@@ -16,11 +16,13 @@ This mission is mainly related to the management of documentation embedded in Ai
 ## ACDC Projet
 
 Solution to monitor EFB (Electronic Flight Bag: aircraft embedded tablet)
-• Springboot backend
-• Angular frontend
-• EFB embedded software in NodeJs
-• Everything communicating with websocket
-• CI (continuous integration) configuration with Bamboo and Nexus
+
+- Springboot backend
+- Angular frontend
+- EFB embedded software in NodeJs
+- Everything communicating with websocket
+- CI (continuous integration) configuration with Bamboo and Nexus
+- Find a good project name ^^
 
 ### LoaderBoard Projet
 
@@ -30,13 +32,14 @@ Electron framework allowing to access system PC libraries using Angular 4. PO (p
 ### ACARSWEB Projet
 
 This project is an interface with ACARS messages (message format use to communicate with aircrafts) it allows to exploit flight data.
-• Java agent that parse and compile ACARS messages and send a report to a fuel consumption tool.
-• Interface avec KLM (Netherland)
-• Real TDD Development! (Test Driven Development.)
+
+- Java agent that parse and compile ACARS messages and send a report to a fuel consumption tool.
+- Interface avec KLM (Netherland)
+- Real TDD Development! (Test Driven Development.)
 
 ### AMPHORE Projet
 
-EFB Document management system for various aircraft types. Consists of a web application, java agents and Loaders.
+EFB Document management system for various aircraft types. Consists of a Spring web application, java agents and Loaders.
 • Development
 • Redesigns following DDD Domain Driven Design paradigm.
 • Improvement and performance studies.
@@ -44,17 +47,14 @@ EFB Document management system for various aircraft types. Consists of a web app
 
 ### Environment
 
-- Windows 7,
 - Eclipse, IntelliJ, Webstorm
-- Servers d’application tomcat.
-- Server linux
-- Java J2E, Maven, Spring, hibernate
-- Springboot 5,
+- Server linux, Tomcat
+- Java J2E, Maven, Spring, Springboot, hibernate
 - Angular 6, typescript
 - NodeJs
 - Websocket
 - Junit
 - Xsd, xml, jaxB
-- Base de données DB2, Oracle, Postgres
+- Data base DB2, Oracle, Postgres
 - Git flow.
-- Suite Atlassian : Bamboo, Bitbucket, Jira, Confluence.
+- Atlassian suite: Bamboo, Bitbucket, Jira, Confluence.

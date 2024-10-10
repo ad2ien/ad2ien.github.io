@@ -4,7 +4,6 @@ title = "✈️ Développeur chez Air France"
 location=["Toulouse"]
 categories=["IT XP"]
 tags=["Java", "NodeJS", "Spring", "Springboot", "Electron"]
-cv = ["it-xp"]
 [extra]
 logo = "/images/air-france.jpg"
 duration_month = "15"
@@ -16,19 +15,15 @@ Cette mission concerne en particulier la gestion de la documentation embarquée 
 
 ## Projet ACDC
 
-Solution permettant de monitorer l'état des EFB (Electronic Flight Bag: tablettes tactiles embarquées dans les cockpits) en temps réel. Composé d'un backend springboot d'un frontend angular et d'une partie embarquée en NodeJs, le tout communiquant par websocket.
-
-### Réalisations
+Solution permettant de monitorer l'état des EFB (Electronic Flight Bag: tablettes tactiles embarquées dans les cockpits) en temps réel. Composé d'un backend Springboot d'un frontend Adngular et d'une partie embarquée en NodeJs, le tout communiquant par websocket.
 
 - Développement
 - Configuration de l'environnement d'intégration continue (Bamboo, Nexus)
-- Trouver un bon nom de projet :)
+- Trouver un bon nom de projet ^^
 
 ## Projet LoaderBoard
 
 Client lourd permettant de gérer les différents environnements des "loaders" (PC portable sous Windows 7) servant à la mise à jour des documents et outils sur EFB. Outil destiné aux IT. Techno : framework Electron permettant d’utiliser Angular 4 en donnant accès aux librairies système sur lequel il tourne.
-
-### Réalisations
 
 - Rôle de PO : rédaction de spécifications
 - Développement
@@ -36,8 +31,6 @@ Client lourd permettant de gérer les différents environnements des "loaders" (
 ## Projet ACARSWEB
 
 Projet servant d’interface avec les données ACARS (messages échangés par les avions). Ce projet permet d’exploiter les données de vols.
-
-### Réalisations
 
 - Batchs de compilation et parsing de messages ACARS destiné à alimenter un outil de monitoring de consommation de fuel.
 - Interface avec KLM (Pays-Bas)
@@ -48,8 +41,6 @@ Projet servant d’interface avec les données ACARS (messages échangés par le
 Système de gestion de documents destinés aux EFB pour les différents type d'avion.
 Composé d’une application web, de batchs de traitements ainsi que des loaders.
 
-### Réalisations
-
 - Développement
 - Redesigns suivant le paradigme DDD Domain Driven Design.
 - Recherche d’amélioration des performances.
@@ -57,7 +48,6 @@ Composé d’une application web, de batchs de traitements ainsi que des loaders
 
 ## Environnement Technique
 
-- Windows 7,
 - Eclipse, IntelliJ, Webstorm
 - Servers d’application tomcat.
 - Server linux
