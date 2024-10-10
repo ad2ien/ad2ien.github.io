@@ -22,9 +22,7 @@
           </div>
         </li>
         <li>
-          <div class="flex flex-row">
-            ✉️ {{config.extra.social.email}}
-          </div>
+          <div class="flex flex-row">✉️ {{config.extra.social.email}}</div>
         </li>
       </ul>
     </div>
@@ -58,13 +56,15 @@
     {% set intro = get_section(path="_index.md") %} {{ intro.content | safe }}
   </div>
 
-  <!-- /* Select it stuff */ -->
-  <!-- /* 2 columns flex wrap */ -->
+  {% set it_xp_term = terms | filter(attribute="name", value="it-xp") | first %}
   <h2 class="flex text-bold">Main experiences</h2>
-  <div class="flex flex-wrap gap-4">
-    {% for page in terms[0].pages %}
+  {% if not it_xp_term %}
+  <p>No IT experiences found</p>
+  {% else %}
+  <div class="flex flex-wrap gap-2">
+    {% for page in it_xp_term.pages %}
     <div
-      class="flex w-almosthalf m-2 flex-col border border-2 border-gray-200 rounded-xl p-3"
+      class="flex w-almosthalf flex-col border border-2 border-gray-200 rounded-xl p-3"
     >
       <div class="flex flex-row">
         <div class="flex w-4/5">
@@ -80,9 +80,66 @@
     </div>
     {% endfor %}
   </div>
-</div>
+  {% endif %}
 
-<!-- /* Training */ -->
+  <!-- -->
+
+  {% set training_term = terms | filter(attribute="name", value="training") |
+  first %}
+  <h2 class="flex text-bold">Trainings</h2>
+  {% if not training_term %}
+  <p>No trainings found</p>
+  {% else %}
+  <div class="flex flex-wrap gap-2">
+    {% for page in training_term.pages %}
+    <div
+      class="flex w-almosthalf flex-col border border-2 border-gray-200 rounded-xl p-3"
+    >
+      <div class="flex flex-row">
+        <div class="flex w-4/5">
+          <h3>{{ page.title }}</h3>
+        </div>
+        <div class="flex w-1/5 relative">
+          <div class="absolute inset-y-0 right-0">
+            <p class="text-xs">{{ page.date }}</p>
+          </div>
+        </div>
+      </div>
+      <div id="page-content" class="text-xs">{{ page.content | safe }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- -->
+  
+  {% set side_skills_term = terms | filter(attribute="name",
+  value="side-skills") | first %}
+  <h2 class="flex text-bold">Everything else</h2>
+  {% if not side_skills_term %}
+  <p>No side skills found</p>
+  {% else %}
+  <div class="flex flex-wrap gap-2">
+    {% for page in side_skills_term.pages %}
+    <div
+      class="flex w-almosthalf flex-col border border-2 border-gray-200 rounded-xl p-3"
+    >
+      <div class="flex flex-row">
+        <div class="flex w-4/5">
+          <h3>{{ page.title }}</h3>
+        </div>
+        <div class="flex w-1/5 relative">
+          <div class="absolute inset-y-0 right-0">
+            <p class="text-xs">{{ page.date }}</p>
+          </div>
+        </div>
+      </div>
+      <div id="page-content" class="text-xs">{{ page.content | safe }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
 
 <!-- /* Other xp sous forme de petites cards */ -->
 {% endblock content %}

@@ -2,6 +2,7 @@
 title = "🧑‍🌾 Agriculture degree"
 [taxonomies]
 categories=["Other XP"]
+cv=["training"]
 [extra]
 noreadmore = true
 +++

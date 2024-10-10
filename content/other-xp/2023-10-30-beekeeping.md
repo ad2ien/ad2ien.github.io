@@ -2,6 +2,7 @@
 title = "🐝 Bee keeping"
 [taxonomies]
 categories=["Other XP"]
+cv=["side-skills"]
 [extra]
 noreadmore = true
 +++

@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       width: {
         a4: '210mm',
-        almosthalf: '46.6%'
+        almosthalf: '49.2%'
      },
      height: {
        a4: '297mm',
