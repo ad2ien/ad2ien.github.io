@@ -184,14 +184,12 @@ items = [
         { url = "/categories/other-xp", name = "Other XP" },
         { url = "/categories/blog", name = "Blog" },
         { url = "/tags", name = "Tags" },
-        { url = "/cv", name = "One-page printable CV" },
     ] }, { lang = "fr", links = [
         { url = "/fr", name = "Accueil" },
         { url = "/fr/it-xp", name = "IT XP" },
         { url = "/fr/categories/other-xp", name = "Autres XP" },
         { url = "/fr/categories/blog", name = "Blog" },
         { url = "/tags", name = "Tags" },
-        { url = "/cv", name = "CV imprimable" },
     ] },
 ]
 title = "Adrien Touzouli"
