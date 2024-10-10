@@ -4,7 +4,6 @@ title = "🛞 Projet Tourniquet d'accès"
 location=["Toulouse"]
 categories=["IT XP"]
 tags=["Springboot", "Debian", "Angular", "Typescript", "Java", "Python", "JHipster" ]
-cv = ["it-xp"]
 [extra]
 logo = "/images/rf-innovation.jpg"
 duration_month = "7"
