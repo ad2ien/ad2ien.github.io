@@ -16,4 +16,4 @@ Profitez d'un accompagnement pour **digitaliser**, **automatiser**, **s'outiller
 - Sans dépendre des GAFAM 👿
 - Tout en mettant la satisfaction des utilisatrices et utilisateurs au centre de la démarche 💙
 
-<contact@ad2ien.dev>
+__✉️ Parlons-en : <contact@ad2ien.dev>__
