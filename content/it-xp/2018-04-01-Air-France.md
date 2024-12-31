@@ -19,15 +19,13 @@ Solution to monitor EFB (Electronic Flight Bag: aircraft embedded tablet)
 
 - Springboot backend
 - Angular frontend
-- EFB embedded software in NodeJs
-- Everything communicating with websocket
+- EFB embedded software in NodeJs and Websocket
 - CI (continuous integration) configuration with Bamboo and Nexus
-- Find a good project name ^^
+- Finding a good project name ^^
 
 ### LoaderBoard Projet
 
-Loaders are windows 7 PC laptops used to update documents and tools of embedded EFBs. Loaderboard is a PC application to manage a fleet of loaders.
-Electron framework allowing to access system PC libraries using Angular 4. PO (product owner) and developer.
+Loaders are windows 7 PC laptops used to update documents and tools of embedded EFBs. Loaderboard is a Electron / Angular 4 PC application to manage a fleet of loaders.
 
 ### ACARSWEB Projet
 
@@ -35,7 +33,7 @@ This project is an interface with ACARS messages (message format use to communic
 
 - Java agent that parse and compile ACARS messages and send a report to a fuel consumption tool.
 - Interface avec KLM (Netherland)
-- Real TDD Development! (Test Driven Development.)
+- Real TDD Development (Test Driven Development.)
 
 ### AMPHORE Projet
 
@@ -48,13 +46,9 @@ EFB Document management system for various aircraft types. Consists of a Spring 
 ### Environment
 
 - Eclipse, IntelliJ, Webstorm
-- Server linux, Tomcat
-- Java J2E, Maven, Spring, Springboot, hibernate
+- Java J2E, Maven, Spring, Springboot, hibernate, Junit
 - Angular 6, typescript
 - NodeJs
 - Websocket
-- Junit
-- Xsd, xml, jaxB
 - Data base DB2, Oracle, Postgres
-- Git flow.
 - Atlassian suite: Bamboo, Bitbucket, Jira, Confluence.

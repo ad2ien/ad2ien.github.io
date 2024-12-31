@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   h1 {
     @apply text-2xl;
@@ -10,7 +9,8 @@
   h2 {
     @apply text-xl;
   }
-  h3, h4 {
+  h3,
+  h4 {
     @apply font-bold;
   }
 }
@@ -22,20 +22,28 @@ html {
 
 /* Default Pages content styles */
 #cv-header a {
-    @apply underline;
+  @apply underline;
 }
 #page-content h2 {
-    @apply text-base;
+  @apply text-base;
 }
-#page-content p, h2, h3 {
-    @apply py-1;
+#page-content p,
+h2,
+h3 {
+  @apply py-1;
 }
 #page-content :is(h1, h2, h3) {
-    @apply underline;
+  @apply underline;
 }
 #page-content pre {
-    @apply p-4 my-4 overflow-x-auto;
+  @apply p-4 my-4 overflow-x-auto;
 }
 #page-content ul {
   @apply list-disc pl-5;
+}
+.pagebreak {
+  break-after: page;
+}
+.falsepagebreak {
+  height: 100px;
 }

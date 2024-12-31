@@ -1,4 +1,5 @@
 {% extends "layout-clear-page.html" %} {% block content %}
+{% set_global count = 0 %}
 <div class="m-5 w-a4 flex flex-col">
   <div id="cv-header" class="w-full flex flex-row">
     <div
@@ -78,6 +79,11 @@
       </div>
       <div id="page-content" class="text-xs">{{ page.content | safe }}</div>
     </div>
+    {% if count % 4 == 3 %}
+      <div class="flex w-almosthalf flex-col falsepagebreak"></div>
+      <div class="flex w-almosthalf flex-col falsepagebreak"></div>
+    {% endif%}
+    {% set_global count = count + 1 %}
     {% endfor %}
   </div>
   {% endif %}
