@@ -8,7 +8,7 @@ logo = ""
 duration_month = "2"
 +++
 
-Ici sont référencés de quelques __projets personnels__
+Ici sont référencés de quelques **projets personnels**
 
 <!-- more -->
 

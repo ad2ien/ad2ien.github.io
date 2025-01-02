@@ -9,12 +9,11 @@ logo = ""
 duration_month = "2"
 +++
 
-I'm referencing here some __personal projects__
+I'm referencing here some **personal projects**
 
 <!-- more -->
 
 ---
-
 
 ### Vue.js
 
