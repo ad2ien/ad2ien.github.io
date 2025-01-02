@@ -1,5 +1,4 @@
 {% extends "layout-clear-page.html" %} {% block content %}
-{% set_global count = 0 %}
 <div class="m-5 w-a4 flex flex-col">
   <div id="cv-header" class="w-full flex flex-row">
     <div
@@ -79,19 +78,17 @@
       </div>
       <div id="page-content" class="text-xs">{{ page.content | safe }}</div>
     </div>
-    {% if count % 4 == 3 %}
+    {% if loop.index0 % 4 == 3 %}
       <div class="flex w-almosthalf flex-col falsepagebreak"></div>
       <div class="flex w-almosthalf flex-col falsepagebreak"></div>
-    {% endif%}
-    {% set_global count = count + 1 %}
+    {% endif  %}
     {% endfor %}
   </div>
   {% endif %}
 
   <!-- -->
 
-  {% set training_term = terms | filter(attribute="name", value="training") |
-  first %}
+  {% set training_term = terms | filter(attribute="name", value="training") | last %}
   <h2 class="flex text-bold">Trainings</h2>
   {% if not training_term %}
   <p>No trainings found</p>
