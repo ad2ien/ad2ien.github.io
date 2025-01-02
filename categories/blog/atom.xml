@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Adrien Touzouli - blog</title>
+    <subtitle>Personal professional presentation web site</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://ad2ien.github.io/categories/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ad2ien.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-13T00:00:00+00:00</updated>
+    <id>https://ad2ien.github.io/categories/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>🖼️ I made an avatar with Stable Diffusion 🤓</title>
+        <published>2023-01-13T00:00:00+00:00</published>
+        <updated>2023-01-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/blog/avatar-with-stable-diffusion/"/>
+        <id>https://ad2ien.github.io/blog/avatar-with-stable-diffusion/</id>
+        
+        <summary type="html">&lt;p&gt;What to do when you have an illustration idea and no artistic skill at all : use Stable Diffusion.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Agriculture 🌱 VS IT 💻️</title>
+        <published>2020-06-15T00:00:00+00:00</published>
+        <updated>2020-06-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/blog/agri-vs-it/"/>
+        <id>https://ad2ien.github.io/blog/agri-vs-it/</id>
+        
+        <summary type="html">&lt;p&gt;This is a kind of article that lists the commonalities between agriculture and computer science. Maybe a little biased at the end...&lt;&#x2F;p&gt;
+&lt;p&gt;⚠️ Spoiler alert, there are going to be some platitudes that may not be very interesting if you know the subject.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Developers and superpowers 🦸</title>
+        <published>2020-04-01T00:00:00+00:00</published>
+        <updated>2020-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/blog/witches-and-wizards/"/>
+        <id>https://ad2ien.github.io/blog/witches-and-wizards/</id>
+        
+        <summary type="html">&lt;h2 id=&quot;developers-have-superpowers&quot;&gt;Developers have superpowers&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;&quot;Technically, computer developers are witches,&quot; says Bakunin&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;standing-on-the-shoulders-of-giants-oh-yeah&quot;&gt;Standing on the shoulders of giants, &lt;strong&gt;oh yeah!&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+</summary>
+        
+    </entry>
+</feed>
