@@ -1,0 +1,624 @@
+<!doctype html>
+    <html lang="fr">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- FAVICON -->
+      
+      
+      <link href='&#x2F;icons&#x2F;favicon-16x16.png' rel="icon" sizes="16x16" type="image/png" />
+      
+      
+      <link href='&#x2F;icons&#x2F;favicon-32x32.png' rel="icon" sizes="32x32" type="image/png" />
+      
+      
+      <link href='&#x2F;icons&#x2F;android-chrome-512x512.png' rel="android-chrome" sizes="512x512" />
+      
+      
+      <link href='&#x2F;icons&#x2F;android-chrome-192x192.png' rel="android-chrome" sizes="192x192" />
+      
+      
+      <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+      
+      
+      <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+      
+
+      <link href="/css/main.css" rel="stylesheet">
+      <link id="syntax_highlight" rel="stylesheet">
+
+      <title>
+        
+        Adrien Touzouli
+        
+      </title>
+  </head>
+  <body class="dark:bg-gray-700 flex flex-col h-screen justify-between">
+  <!---------------------------------------------------------->
+  <!------------------------- NAVBAR ------------------------->
+  <!---------------------------------------------------------->
+  <nav id="navbar" class="bg-gray-200 dark:bg-gray-800">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="flex items-center sm:hidden">
+          <!-- Mobile menu button-->
+          <button id="toggle-mobile-menu" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <!--
+              Icon when menu is closed.
+              Heroicon name: outline/menu
+              Menu open: "hidden", Menu closed: "block"
+            -->
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <!--
+              Icon when menu is open.
+              Heroicon name: outline/x
+              Menu open: "block", Menu closed: "hidden"
+            -->
+            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 flex items-center">
+          <div class="flex-shrink-0 flex items-center ml-2">
+            <a href="/" class="text-xl text-gray-800 dark:text-white">Adrien Touzouli</a>
+            <!-- <img class="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
+            <img class="hidden lg:block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg" alt="Workflow"> -->
+          </div>
+          <div class="hidden sm:block sm:ml-6">
+            <div class="nav-links flex space-x-4">
+              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+              
+                
+              
+                
+                  
+                    <a href="&#x2F;fr" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
+                  
+                    <a href="&#x2F;fr&#x2F;it-xp" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">IT XP</a>
+                  
+                    <a href="&#x2F;fr&#x2F;categories&#x2F;other-xp" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Autres XP</a>
+                  
+                    <a href="&#x2F;fr&#x2F;categories&#x2F;blog" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                  
+                    <a href="&#x2F;tags" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Tags</a>
+                  
+                
+              
+
+              
+            </div>
+          </div>
+
+          
+          <!-- Search input in navbar -->
+          <div class="flex ml-auto relative items-center sm:mr-4">
+            <input id="search" class="rounded-xl border border-black dark:border-gray-200 h-9 text-black dark:text-gray-200 dark:bg-gray-700 w-24 sm:w-full" type="text">
+            <svg class="w-6 h-6 absolute left-2 text-black dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            <span class="absolute right-2 hidden sm:block text-gray-400 text-sm leading-5 py-0.5 px-1.5 border border-gray-300 rounded-md">
+              <kbd class="font-sans">
+                <abbr title="Command" class="no-underline">⌘</abbr>
+              </kbd>
+              <kbd class="font-sans">K</kbd>
+            </span>
+          </div>
+
+          <!---------------------------- Search box modal ---------------------------->
+          <!-- inspired by https://www.tailwindtoolbox.com/components/modal -->
+          <div id="search-modal" class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex z-10">
+            <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
+
+            <div class="modal-container text-gray-800 bg-gray-200 dark:bg-gray-800 dark:text-gray-400 w-11/12 md:max-w-md mx-auto rounded-lg shadow-lg z-50 mt-40 sm:mt-32 h-36 border border-2 border-gray-800 dark:border-gray-400">
+
+              <div class="modal-close absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-4 mr-4 text-white text-sm z-50">
+                <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                  <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
+                </svg>
+                <span class="text-sm">(Esc)</span>
+              </div>
+
+              <!-- Modal Content-->
+              <div class="py-4 text-left px-6 flex flex-col">
+                <!-- Modal Title -->
+                <div class="flex justify-between items-center pb-3">
+                  <p class="text-2xl font-bold">Search</p>
+                  <div class="modal-close cursor-pointer z-50">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                  </div>
+                </div>
+
+                <!-- Modal Body -->
+                <input id="search-input" class="rounded-xl border border-black h-12 text-bold text-2xl pl-2 text-black dark:text-gray-200 bg-gray-700" type="text">
+                <!-- Search results -->
+                <div id="search-results">
+                  <ul id="results-list" class="flex flex-col justify-center max-h-2xl mt-2 overflow-scroll"></ul>
+                <!--Footer-->
+                <!-- <div class="flex justify-end pt-2">
+                  <button class="px-4 bg-transparent p-3 rounded-lg text-indigo-500 hover:bg-gray-100 hover:text-indigo-400 mr-2">Action</button>
+                  <button class="modal-close px-4 bg-indigo-500 p-3 rounded-lg text-white hover:bg-indigo-400">Close</button>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!---------------------------- Sidebar Menu ---------------------------->
+        
+
+        
+          <!-- Language change button -->
+          <div class="flex p-2 ml-4 relative">
+            <button id="switch-lang" type="button" class="bg-gray-200 text-gray-800 hover:text-gray-900 dark:bg-gray-800 dark:text-gray-400 dark:hover:text-white p-1 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+              <svg class="w-6 h-6 bg-gray-200 text-gray-800 hover:text-gray-900 dark:bg-gray-800 dark:text-gray-400 dark:hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+              </svg>
+            </button>
+            <div id="switch-lang-panel" class="hidden absolute top-12 -left-1/2 z-10 p-4 rounded-lg divide-y bg-gray-300 dark:bg-gray-800 text-gray-800 dark:text-gray-400 flex flex-col w-28 ">
+              <span class="sr-only">Switch Lang</span>
+              
+                
+              
+                
+                  
+                    <a class="flex justify-center py-2 hover:text-gray-800 dark:hover:text-white" href="&#x2F;">Anglais</a>
+                  
+                    <a class="flex justify-center py-2 hover:text-gray-800 dark:hover:text-white" href="&#x2F;fr">Français</a>
+                  
+                
+              
+            </div>
+          </div>
+        
+        <!-- Theme switch button -->
+        <div class="flex p-2">
+          <button id="switch-theme" type="button" class="bg-gray-200 text-gray-800 hover:text-gray-900 dark:bg-gray-800 dark:text-gray-400 dark:hover:text-white p-1 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+            <span class="sr-only">Switch Theme</span>
+            <!-- Heroicon name: outline/light -->
+            <svg id="light" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+            </svg>
+            <!-- Heroicon name: outline/dark -->
+            <svg id="dark" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+            </svg>
+          </button>
+
+          <!-- Profile dropdown -->
+          <!-- <div class="ml-3 relative">
+            <div>
+              <button type="button" class="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                <span class="sr-only">Open user menu</span>
+                <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              </button>
+            </div> -->
+
+            <!--
+              Dropdown menu, show/hide based on menu state.
+
+              Entering: "transition ease-out duration-100"
+                From: "transform opacity-0 scale-95"
+                To: "transform opacity-100 scale-100"
+              Leaving: "transition ease-in duration-75"
+                From: "transform opacity-100 scale-100"
+                To: "transform opacity-0 scale-95"
+            -->
+            <!-- Active: "bg-gray-100", Not Active: "" -->
+            <!-- <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------- Mobile menu ----------------------------->
+    <div id="mobile-menu" class="sm:hidden fixed z-10 overflow-hidden">
+      <div class="nav-links flex flex-col space-y-4 items-center w-screen dark:bg-gray-800 transition-all ease-out duration-500 h-0">
+        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+        
+          
+        
+          
+            
+              <a href="&#x2F;fr" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
+            
+              <a href="&#x2F;fr&#x2F;it-xp" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">IT XP</a>
+            
+              <a href="&#x2F;fr&#x2F;categories&#x2F;other-xp" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Autres XP</a>
+            
+              <a href="&#x2F;fr&#x2F;categories&#x2F;blog" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+            
+              <a href="&#x2F;tags" class="text-gray-800 dark:text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Tags</a>
+            
+          
+        
+
+        
+      </div>
+    </div>
+  </nav>
+  <!----------------------------------------------------------->
+  <!------------------------- CONTENT ------------------------->
+  <!----------------------------------------------------------->
+  <main class="max-w-7xl mx-auto text-black dark:text-gray-200 w-full mb-auto">
+    
+<div class="flex items-center flex-col mt-10">
+  <h1 class="text-2xl text-bold mb-6">
+    IT XP
+  </h1>
+  <div class="flex items-center flex-col m-5 ">
+   <p>Expériences en tant que développeur informatique</p>
+<h2 id="arrow-right-cv-format-pdf-gbarrow-left">➡️<a href="/docs/CV-Touzouli-en.pdf">CV format PDF 🇬🇧</a>⬅️</h2>
+<h2 id="arrow-right-cv-mono-page-gbarrow-left">➡️<a href="/cv">CV mono page 🇬🇧</a>⬅️</h2>
+
+  </div>
+
+  <div class="flex flex-col gap-y-6 w-full px-4 sm:w-2/3">
+    
+    
+    
+
+    
+      <div class="border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800">
+        <div class="flex flex-col py-2 justify-center">
+         <h2 class="text-2xl text-bold"><a href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;2024-personal-projects&#x2F;'>🪀 Projets perso de 2024</a></h2>
+          <p class="text-bold"></p>
+        </div>
+
+        <!-- Read time and word count -->
+        <div class="flex flex-wrap py-2">
+          <div class="flex items-center w-1/3">
+            <div class="flex space-x-3 text-gray-900 dark:text-gray-400">
+              <span class="flex">
+                <!-- Icon clock -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span class="ml-1">1 min</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="text-bold mt-2">
+          <p>Ici sont référencés de quelques <strong>projets personnels</strong></p>
+
+          <a class="flex py-2" href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;2024-personal-projects&#x2F;'>
+            Read More
+            <svg class="w-6 h-6 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      
+      <div class="border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800">
+        <div class="flex flex-col py-2 justify-center">
+         <h2 class="text-2xl text-bold"><a href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;2024-training&#x2F;'>🧑‍🏫 Formations 2024</a></h2>
+          <p class="text-bold"></p>
+        </div>
+
+        <!-- Read time and word count -->
+        <div class="flex flex-wrap py-2">
+          <div class="flex items-center w-1/3">
+            <div class="flex space-x-3 text-gray-900 dark:text-gray-400">
+              <span class="flex">
+                <!-- Icon clock -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span class="ml-1">1 min</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="text-bold mt-2">
+          <p>Ici sont référencés de quelques <strong>formations</strong></p>
+
+          <a class="flex py-2" href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;2024-training&#x2F;'>
+            Read More
+            <svg class="w-6 h-6 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      
+      <div class="border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800">
+        <div class="flex flex-col py-2 justify-center">
+         <h2 class="text-2xl text-bold"><a href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;eimis&#x2F;'>🧑‍⚕ Dev &amp; Devops pour EIMIS</a></h2>
+          <p class="text-bold"></p>
+        </div>
+
+        <!-- Read time and word count -->
+        <div class="flex flex-wrap py-2">
+          <div class="flex items-center w-1/3">
+            <div class="flex space-x-3 text-gray-900 dark:text-gray-400">
+              <span class="flex">
+                <!-- Icon clock -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span class="ml-1">1 min</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="text-bold mt-2">
+          <p>EIMIS est une start-up d'état initiée par <a href="https://beta.gouv.fr/">beta.gouv.fr</a> et financée par l'<a href="https://esante.gouv.fr/">ANS</a> qui vise à faciliter et sécuriser les communications instantanées pour les professionnels de santé. Ceci, en utilisant et en promouvant le protocole <a href="https://matrix.org">Matrix</a> auprès des éditeurs de logiciels.</p>
+
+          <a class="flex py-2" href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;eimis&#x2F;'>
+            Read More
+            <svg class="w-6 h-6 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      
+      <div class="border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800">
+        <div class="flex flex-col py-2 justify-center">
+         <h2 class="text-2xl text-bold"><a href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;okp4&#x2F;'>⛓️ Fullstack &#x2F; devops ingénieur pour OKP4</a></h2>
+          <p class="text-bold"></p>
+        </div>
+
+        <!-- Read time and word count -->
+        <div class="flex flex-wrap py-2">
+          <div class="flex items-center w-1/3">
+            <div class="flex space-x-3 text-gray-900 dark:text-gray-400">
+              <span class="flex">
+                <!-- Icon clock -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span class="ml-1">1 min</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="text-bold mt-2">
+          <p>OKP4 développe une blockchain <a href="https://github.com/cosmos/cosmos-sdk">cosmos</a> de niveau un qui vise à faciliter l’échange de données en récompensant les acteurs impliqués dans la création de connaissances et en mettant en place des mécanismes de gouvernance des données.</p>
+
+          <a class="flex py-2" href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;okp4&#x2F;'>
+            Read More
+            <svg class="w-6 h-6 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      
+      <div class="border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800">
+        <div class="flex flex-col py-2 justify-center">
+         <h2 class="text-2xl text-bold"><a href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;maya33&#x2F;'>🐝 Project IOT : traitement cloud</a></h2>
+          <p class="text-bold"></p>
+        </div>
+
+        <!-- Read time and word count -->
+        <div class="flex flex-wrap py-2">
+          <div class="flex items-center w-1/3">
+            <div class="flex space-x-3 text-gray-900 dark:text-gray-400">
+              <span class="flex">
+                <!-- Icon clock -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span class="ml-1">1 min</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="text-bold mt-2">
+          <h3 id="projet">Projet</h3>
+<p>Traiter, afficher, exploiter les données provenant de capteurs de device liés à l'élevage : poids, température, son. Architecture cloud AWS, site web, monitoring, supervision.</p>
+
+          <a class="flex py-2" href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;maya33&#x2F;'>
+            Read More
+            <svg class="w-6 h-6 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      
+      <div class="border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800">
+        <div class="flex flex-col py-2 justify-center">
+         <h2 class="text-2xl text-bold"><a href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;turnstile&#x2F;'>🛞 Projet Tourniquet d&#x27;accès</a></h2>
+          <p class="text-bold"></p>
+        </div>
+
+        <!-- Read time and word count -->
+        <div class="flex flex-wrap py-2">
+          <div class="flex items-center w-1/3">
+            <div class="flex space-x-3 text-gray-900 dark:text-gray-400">
+              <span class="flex">
+                <!-- Icon clock -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span class="ml-1">1 min</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="text-bold mt-2">
+          <h3 id="projet">Projet</h3>
+<p>Tourniquet d'accès avec mesure d'électricité statique pour usine de composant électronique. Développement embarqué sur carte Debian.</p>
+
+          <a class="flex py-2" href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;turnstile&#x2F;'>
+            Read More
+            <svg class="w-6 h-6 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      
+      <div class="border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800">
+        <div class="flex flex-col py-2 justify-center">
+         <h2 class="text-2xl text-bold"><a href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;cls&#x2F;'>📡 Développeur chez CLS</a></h2>
+          <p class="text-bold"></p>
+        </div>
+
+        <!-- Read time and word count -->
+        <div class="flex flex-wrap py-2">
+          <div class="flex items-center w-1/3">
+            <div class="flex space-x-3 text-gray-900 dark:text-gray-400">
+              <span class="flex">
+                <!-- Icon clock -->
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span class="ml-1">1 min</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="text-bold mt-2">
+          <p>Cette mission concerne l'amélioration des applications utilisées pour opérer les tournées de ramassage d'ordure.</p>
+
+          <a class="flex py-2" href='https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;cls&#x2F;'>
+            Read More
+            <svg class="w-6 h-6 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+      
+  </div>
+</div>
+
+  </main>
+
+  <!----------------------------------------------------------->
+  <!------------------------- PAGINATION ---------------------->
+  <!----------------------------------------------------------->
+  
+
+  <div class="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto w-full">
+    <div class="flex items-center justify-between">
+      
+      <!-- Disabled -->
+        <span class="flex items-center border border-gray-400 dark:border-black rounded-lg px-3 py-4 bg-gray-400 text-gray-200">
+          <svg class="w-7 h-7 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path>
+          </svg>
+        Previous
+      </span>
+      
+      <ul class="flex gap-x-2">
+        
+        <li class="">
+          <a class="p-4 border border-gray-400 dark:border-black rounded-lg text-gray-800 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 hover:text-white rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-blue-500" href="https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;page&#x2F;1" aria-label="Page 1">
+            1
+          </a>
+        </li>
+        
+        <li class="">
+          <a class="p-4 border border-gray-400 dark:border-black rounded-lg text-gray-800 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600 hover:text-white rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800" href="https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;page&#x2F;2" aria-label="Page 2">
+            2
+          </a>
+        </li>
+        
+      </ul>
+      
+      <!-- Active -->
+        <a class="flex items-center border border-gray-400 dark:border-black rounded-lg text-gray-800 dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800" href="https:&#x2F;&#x2F;ad2ien.github.io&#x2F;fr&#x2F;it-xp&#x2F;page&#x2F;2&#x2F;">
+          Next page
+          <svg class="w-7 h-7 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </a>
+      
+    </div>
+  </div>
+
+
+
+  <!---------------------------------------------------------->
+  <!------------------------- FOOTER ------------------------->
+  <!---------------------------------------------------------->
+  <footer class="max-w-7xl mx-auto relative pt-1 px-2 border-b-2 border-gray-300 dark:border-gray-200 w-full">
+    <!-- <div class="container mx-auto px-6">
+      <div class="sm:flex sm:mt-8">
+        <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
+          <div class="flex flex-col">
+            <span class="font-bold text-gray-700 uppercase mb-2">Footer header 1</span>
+            <span class="my-2"><a href="#" class="text-blue-700  text-md hover:text-blue-500">link 1</a></span>
+            <span class="my-2"><a href="#" class="text-blue-700  text-md hover:text-blue-500">link 1</a></span>
+            <span class="my-2"><a href="#" class="text-blue-700  text-md hover:text-blue-500">link 1</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2">Footer header 2</span>
+            <span class="my-2"><a href="#" class="text-blue-700 text-md hover:text-blue-500">link 1</a></span>
+            <span class="my-2"><a href="#" class="text-blue-700  text-md hover:text-blue-500">link 1</a></span>
+            <span class="my-2"><a href="#" class="text-blue-700 text-md hover:text-blue-500">link 1</a></span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2">Footer header 3</span>
+            <span class="my-2"><a href="#" class="text-blue-700  text-md hover:text-blue-500">link 1</a></span>
+            <span class="my-2"><a href="#" class="text-blue-700  text-md hover:text-blue-500">link 1</a></span>
+            <span class="my-2"><a href="#" class="text-blue-700  text-md hover:text-blue-500">link 1</a></span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+      <div class="sm:w-2/3 text-center py-6">
+        <p class="text-sm text-black dark:text-white font-bold mb-2">
+          Website made with <a href="https://github.com/tchartron/blow" target="_blank"> blow theme</a> and <a href="https://www.getzola.org/" target="_blank">Zola</a>. Thanks 💖
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!------------------------- SCRIPTS ------------------------->
+  <script defer src="/js/main.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+    <script src="/search_index.fr.js"></script>
+    <script defer src="/js/lunr.stemmer.support.js"></script>
+    <script defer src="/js/lunr.fr.js"></script>
+    <script defer src="/js/search.js"></script>
+  
+  
+    <script defer src="/js/lang.js"></script>
+  
+  
+  
+  
+  </body>
+</html>
