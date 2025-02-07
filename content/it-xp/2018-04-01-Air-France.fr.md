@@ -13,13 +13,13 @@ Cette mission concerne en particulier la gestion de la documentation embarquée 
 
 <!-- more -->
 
-## Projet ACDC
+## Projet AirCraft Data Connectivity
 
 Solution permettant de monitorer l'état des EFB (Electronic Flight Bag: tablettes tactiles embarquées dans les cockpits) en temps réel. Composé d'un backend Springboot d'un frontend Adngular et d'une partie embarquée en NodeJs, le tout communiquant par websocket.
 
 - Développement
 - Configuration de l'environnement d'intégration continue (Bamboo, Nexus)
-- Trouver un bon nom de projet ^^
+- Trouver un bon nom de projet : _ACDC_
 
 ## Projet LoaderBoard
 
@@ -41,7 +41,6 @@ Projet servant d’interface avec les données ACARS (messages échangés par le
 Système de gestion de documents destinés aux EFB pour les différents type d'avion.
 Composé d’une application web, de batchs de traitements ainsi que des loaders.
 
-- Développement
 - Redesigns suivant le paradigme DDD Domain Driven Design.
 - Recherche d’amélioration des performances.
 - Scripts C# pour les loaders. Système de synchronisation automatique d'applications.
@@ -49,15 +48,12 @@ Composé d’une application web, de batchs de traitements ainsi que des loaders
 ## Environnement Technique
 
 - Eclipse, IntelliJ, Webstorm
-- Servers d’application tomcat.
-- Server linux
-- Java J2E, Maven, Spring, hibernate
+- Serveurs Linux, et serveurs d’application Tomcat.
+- Java J2E, Maven, Spring, Hibernate, Postgres
 - Springboot 5,
 - Angular 6, typescript
-- NodeJs
-- Websocket
+- NodeJs, Websocket
 - Junit
 - Xsd, xml, jaxB
-- Base de données DB2, Oracle, Postgres
 - Git flow.
-- Suite atlassian : Bamboo, Bitbucket, Jira, Confluence.
+- Suite Atlassian : Bamboo, Bitbucket, Jira, Confluence.

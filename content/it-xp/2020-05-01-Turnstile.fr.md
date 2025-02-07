@@ -19,7 +19,7 @@ Tourniquet d'accès avec mesure d'électricité statique pour usine de composant
 
 - Serveur web avec JHipster (Springboot / Angular)
 - Appli Python
-- Processus d'installation système.
+- Script d'installation système.
 
 Afin de :
 

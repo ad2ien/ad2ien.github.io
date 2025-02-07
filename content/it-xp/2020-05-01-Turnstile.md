@@ -20,7 +20,7 @@ Access turnstile with static electricity measurement for electronic component fa
 
 - Web server with JHipster (Springboot / Angular)
 - Python App
-- System installation process.
+- System installation scripts.
 
 To:
 

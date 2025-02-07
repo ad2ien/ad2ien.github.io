@@ -11,9 +11,10 @@ duration_month = "15"
 +++
 
 This mission is mainly related to the management of documentation embedded in Air France aircrafts.
+
 <!-- more -->
 
-## ACDC Projet
+### AirCraft Data Connectivity Projet
 
 Solution to monitor EFB (Electronic Flight Bag: aircraft embedded tablet)
 
@@ -21,7 +22,7 @@ Solution to monitor EFB (Electronic Flight Bag: aircraft embedded tablet)
 - Angular frontend
 - EFB embedded software in NodeJs and Websocket
 - CI (continuous integration) configuration with Bamboo and Nexus
-- Finding a good project name ^^
+- Finding a good project name : _ACDC_
 
 ### LoaderBoard Projet
 
@@ -33,22 +34,19 @@ This project is an interface with ACARS messages (message format use to communic
 
 - Java agent that parse and compile ACARS messages and send a report to a fuel consumption tool.
 - Interface avec KLM (Netherland)
-- Real TDD Development (Test Driven Development.)
+- TDD Development (Test Driven Development.)
 
 ### AMPHORE Projet
 
 EFB Document management system for various aircraft types. Consists of a Spring web application, java agents and Loaders.
-• Development
 • Redesigns following DDD Domain Driven Design paradigm.
-• Improvement and performance studies.
+• Improvement and performance monitoring
 • C# Scripts for the loaders.
 
 ### Environment
 
 - Eclipse, IntelliJ, Webstorm
-- Java J2E, Maven, Spring, Springboot, hibernate, Junit
-- Angular 6, typescript
-- NodeJs
-- Websocket
-- Data base DB2, Oracle, Postgres
+- Java J2E, Maven, Spring, Springboot, Hibernate, Postgres, Junit
+- Angular 6, Typescript
+- NodeJs, Websocket
 - Atlassian suite: Bamboo, Bitbucket, Jira, Confluence.
