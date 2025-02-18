@@ -23,7 +23,7 @@ Solution permettant de monitorer l'état des EFB (Electronic Flight Bag: tablett
 
 ## Projet LoaderBoard
 
-Client lourd permettant de gérer les différents environnements des "loaders" (PC portable sous Windows 7) servant à la mise à jour des documents et outils sur EFB. Outil destiné aux IT. Techno : framework Electron permettant d’utiliser Angular 4 en donnant accès aux librairies système sur lequel il tourne.
+Client lourd permettant de gérer les différents environnements des "loaders" (PC portable sous Windows 7) servant à la mise à jour des documents et outils sur EFB. Outil destiné aux IT. Techno : framework Electron / Angular.
 
 - Rôle de PO : rédaction de spécifications
 - Développement

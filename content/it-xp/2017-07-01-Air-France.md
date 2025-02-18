@@ -26,7 +26,7 @@ Solution to monitor EFB (Electronic Flight Bag: aircraft embedded tablet)
 
 ### LoaderBoard Projet
 
-Loaders are windows 7 PC laptops used to update documents and tools of embedded EFBs. Loaderboard is a Electron / Angular 4 PC application to manage a fleet of loaders.
+Loaders are windows 7 PC laptops used to update documents and tools of embedded EFBs. Loaderboard is a Electron / Angular. PC application to manage a fleet of loaders.
 
 ### ACARSWEB Projet
 
