@@ -3,7 +3,7 @@ title = "🛞 Access turnstile"
 [taxonomies]
 location=["Toulouse"]
 categories=["IT XP"]
-tags=["Springboot", "Debian", "Angular", "Typescript", "Java", "Python", "JHipster" ]
+tags=["Springboot", "Debian", "Angular", "Typescript", "Java", "Springboot", "Angular", "Python", "JHipster" ]
 cv = ["it-xp"]
 [extra]
 logo = "/images/rf-innovation.jpg"
