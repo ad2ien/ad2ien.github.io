@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title>Adrien Touzouli - Swing</title>
+    <subtitle>Site web professionnel &#x2F; personnel</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://ad2ien.github.io/fr/tags/swing/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ad2ien.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2015-05-14T00:00:00+00:00</updated>
+    <id>https://ad2ien.github.io/fr/tags/swing/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>🛬 Intervenant technique - Tales avionics</title>
+        <published>2015-05-14T00:00:00+00:00</published>
+        <updated>2015-05-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/it-xp/thales/"/>
+        <id>https://ad2ien.github.io/fr/it-xp/thales/</id>
+        
+        <summary type="html">&lt;p&gt;Tablette tactile embarquée pour Sukhoi permettant la lecture de document et la maintenance : configuration et monitoring de différents équipements connectés.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>

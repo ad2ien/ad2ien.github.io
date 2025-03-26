@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title>Adrien Touzouli - Matrix</title>
+    <subtitle>Site web professionnel &#x2F; personnel</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://ad2ien.github.io/fr/tags/matrix/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ad2ien.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-05-20T00:00:00+00:00</updated>
+    <id>https://ad2ien.github.io/fr/tags/matrix/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>🧑‍⚕ Dev &amp; Devops pour EIMIS</title>
+        <published>2023-05-20T00:00:00+00:00</published>
+        <updated>2023-05-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/it-xp/eimis/"/>
+        <id>https://ad2ien.github.io/fr/it-xp/eimis/</id>
+        
+        <summary type="html">&lt;p&gt;EIMIS est une start-up d&#x27;état initiée par &lt;a href=&quot;https:&#x2F;&#x2F;beta.gouv.fr&#x2F;&quot;&gt;beta.gouv.fr&lt;&#x2F;a&gt; et financée par l&#x27;&lt;a href=&quot;https:&#x2F;&#x2F;esante.gouv.fr&#x2F;&quot;&gt;ANS&lt;&#x2F;a&gt; qui vise à faciliter et sécuriser les communications instantanées pour les professionnels de santé. Ceci, en utilisant et en promouvant le protocole &lt;a href=&quot;https:&#x2F;&#x2F;matrix.org&quot;&gt;Matrix&lt;&#x2F;a&gt; auprès des éditeurs de logiciels.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
