@@ -2,7 +2,7 @@
 title = "🪀 Projets perso de 2024"
 [taxonomies]
 categories=["IT XP"]
-tags=["Vue.js", "Go", "NextJS", "Rust", "WebAssembly"]
+tags=["Vue.js", "Go", "NextJS", "Rust", "WebAssembly", "Ansible", "Docker", "Traefik", "Restic", "Grafana", "Prometheus","Nextcloud"]
 [extra]
 logo = ""
 duration_month = "2"
@@ -13,6 +13,12 @@ Ici sont référencés de quelques **projets personnels**
 <!-- more -->
 
 ---
+
+### Configuration de VPS
+
+Une config de VPS pour différents outils avec Docker Compose et Ansible.
+
+- <https://github.com/ad2ien/a-vps-config/>
 
 ### Vue.js
 

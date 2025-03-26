@@ -2,7 +2,7 @@
 title = "🪀 Personal projects of 2024"
 [taxonomies]
 categories=["IT XP"]
-tags=["Vue.js", "Go", "Rust", "WebAssembly"]
+tags=["Vue.js", "Go", "Rust", "WebAssembly", "Ansible", "Docker", "Traefik", "Restic", "Grafana", "Prometheus","Nextcloud"]
 cv=["training"]
 [extra]
 logo = ""
@@ -14,6 +14,12 @@ I'm referencing here some **personal projects**
 <!-- more -->
 
 ---
+
+### VPS setup
+
+A VPS config for several tools with Docker Compose and Ansible.
+
+- <https://github.com/ad2ien/a-vps-config/>
 
 ### Vue.js
 
