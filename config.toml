@@ -57,6 +57,7 @@ taxonomies = [
     {name = "categories", paginate_by = 10, feed = true},
     {name = "location"},
     {name = "cv"},
+    {name = "tech-file"},
 ]
 
 # When set to "true", a search index is built from the pages and section
@@ -135,6 +136,8 @@ month = "months"
 published-on = "Published on"
 read-more = "Read more"
 path-lang = ""
+everything-else = "Everything else"
+tech-file-it-xp = "All IT experiences"
 
 # Additional languages definition
 # You can define language specific config values and translations:
@@ -150,6 +153,7 @@ taxonomies = [
     {name = "categories", paginate_by = 10, feed = true},
     {name = "location"},
     {name = "cv"},
+    {name = "tech-file"},
 ]
 build_search_index = true
 
@@ -158,6 +162,8 @@ month = "mois"
 published-on = "Publié le"
 read-more = "Lire la suite"
 path-lang = "fr"
+everything-else = "Tout le reste"
+tech-file-it-xp = "Toutes les expériences IT"
 
 [extra]
 enable_multilingue = true

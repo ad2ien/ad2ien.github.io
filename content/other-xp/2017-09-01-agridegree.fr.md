@@ -2,6 +2,7 @@
 title = "🧑‍🌾 BTS ACSE"
 [taxonomies]
 categories=["Other XP"]
+tech-file=["other-xp"]
 [extra]
 noreadmore = true
 +++

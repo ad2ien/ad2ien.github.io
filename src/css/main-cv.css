@@ -32,6 +32,9 @@ h2,
 h3 {
   @apply py-1;
 }
+#page-content a{
+  @apply underline;
+}
 #page-content :is(h1, h2, h3) {
   @apply underline;
 }

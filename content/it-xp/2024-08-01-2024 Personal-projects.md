@@ -2,6 +2,7 @@
 title = "🪀 Personal projects of 2024"
 [taxonomies]
 categories=["IT XP"]
+tech-file=["it-xp"]
 tags=["Vue.js", "Go", "Rust", "WebAssembly", "Ansible", "Docker", "Traefik", "Restic", "Grafana", "Prometheus","Nextcloud"]
 cv=["training"]
 [extra]

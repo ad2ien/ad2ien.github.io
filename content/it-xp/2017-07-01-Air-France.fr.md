@@ -3,6 +3,7 @@ title = "✈️ Développeur chez Air France"
 [taxonomies]
 location=["Toulouse"]
 categories=["IT XP"]
+tech-file=["it-xp"]
 tags=["Java", "NodeJS", "Spring", "Springboot", "Electron"]
 [extra]
 logo = "/images/air-france.jpg"

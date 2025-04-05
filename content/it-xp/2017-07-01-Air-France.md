@@ -3,6 +3,7 @@ title = "✈️ Air France developer"
 [taxonomies]
 location=["Toulouse"]
 categories=["IT XP"]
+tech-file=["it-xp"]
 tags=["Java", "NodeJS", "Spring", "Springboot", "Electron"]
 cv = ["it-xp"]
 [extra]

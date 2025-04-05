@@ -3,6 +3,7 @@ title = "🛞 Access turnstile"
 [taxonomies]
 location=["Toulouse"]
 categories=["IT XP"]
+tech-file=["it-xp"]
 tags=["Springboot", "Debian", "Angular", "Typescript", "Java", "Springboot", "Angular", "Python", "JHipster" ]
 cv = ["it-xp"]
 [extra]
