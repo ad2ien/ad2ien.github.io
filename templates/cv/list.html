@@ -36,7 +36,12 @@
         <p class="italic">Fullstack developer / Devops</p>
       </div>
       <div class="flex place-content-center print:hidden">
-        <p><a href="javascript:window.print();">Print</a> / <a target="_blank" href="{{config.base_url}}/docs/CV-Touzouli-en.pdf">PDF</a></p>
+        <p>
+          <a href="javascript:window.print();">Print</a> /
+          <a target="_blank" href="{{config.base_url}}/docs/CV-Touzouli-en.pdf"
+            >PDF</a
+          >
+        </p>
       </div>
     </div>
     <div
@@ -44,7 +49,12 @@
     >
       <ul>
         <li>
-          <div class="flex flex-row">🌐 <a target="_blank" href="{{config.base_url}}">https://ad2ien.github.io</a></div>
+          <div class="flex flex-row">
+            🌐
+            <a target="_blank" href="{{config.base_url}}"
+              >https://ad2ien.github.io</a
+            >
+          </div>
         </li>
         <li>
           <div class="flex flex-row">📍 Toulouse (FR)</div>
@@ -82,16 +92,16 @@
       <div id="page-content" class="text-xs">{{ page.content | safe }}</div>
     </div>
     {% if loop.index0 % 4 == 3 %}
-      <div class="flex w-almosthalf flex-col falsepagebreak"></div>
-      <div class="flex w-almosthalf flex-col falsepagebreak"></div>
-    {% endif  %}
-    {% endfor %}
+    <div class="flex w-almosthalf flex-col falsepagebreak"></div>
+    <div class="flex w-almosthalf flex-col falsepagebreak"></div>
+    {% endif %} {% endfor %}
   </div>
   {% endif %}
 
   <!-- -->
 
-  {% set training_term = terms | filter(attribute="name", value="training") | last %}
+  {% set training_term = terms | filter(attribute="name", value="training") |
+  last %}
   <h2 class="flex text-bold">Trainings</h2>
   {% if not training_term %}
   <p>No trainings found</p>
@@ -118,7 +128,7 @@
   {% endif %}
 
   <!-- -->
-  
+
   {% set side_skills_term = terms | filter(attribute="name",
   value="side-skills") | first %}
   <h2 class="flex text-bold">Everything else</h2>
