@@ -75,6 +75,16 @@
     {{ intro.content | safe }}
   </div>
 
+  <div class="content-center">
+    <h2 class="font-semibold text-center mt-4">{{ trans(key="main-skills", lang=lang) }}</h2>
+  </div>
+  <div class="flex flex-wrap justify-center">
+
+    {% set badges = get_page(path="it-xp/2025-04-04-main-skills.md") %}
+    {{ badges.content | safe }}
+    
+  </div>
+
   {% set it_xp_term = terms | filter(attribute="slug", value="it-xp") | first %}
   <h2 class="font-semibold text-center mt-4">{{ trans(key="tech-file-it-xp", lang=lang) }}</h2>
   {% if not it_xp_term %}

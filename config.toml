@@ -138,6 +138,7 @@ read-more = "Read more"
 path-lang = ""
 everything-else = "Everything else"
 tech-file-it-xp = "All IT experiences"
+main-skills = "Main skills"
 
 # Additional languages definition
 # You can define language specific config values and translations:
@@ -164,6 +165,7 @@ read-more = "Lire la suite"
 path-lang = "fr"
 everything-else = "Tout le reste"
 tech-file-it-xp = "Toutes les expériences IT"
+main-skills = "Compétences principales"
 
 [extra]
 enable_multilingue = true
