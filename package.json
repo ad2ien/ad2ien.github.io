@@ -26,11 +26,11 @@
   "license": "MIT",
   "homepage": "https://ad2ien.github.io/",
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "cssnano": "^5.0.9",
-    "postcss": "^8.4.31",
-    "postcss-cli": "^9.0.2",
-    "tailwindcss": "^2.2.19",
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.17",
     "uglifyjs-folder": "^3.2.0"
   }
 }
