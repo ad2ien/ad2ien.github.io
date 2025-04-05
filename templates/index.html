@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div class="flex items-center flex-col mt-40">
+<div class="flex items-center flex-col mt-20">
   <h1 class="text-xl text-bold">
     {{ config.extra.index.title }}
   </h1>
@@ -64,6 +64,12 @@
   <!-- Content -->
   <div class="text-bold text-center mt-2">
     {{ section.content | safe }}
+    {% if lang == 'fr' %}
+    {% set links = get_page(path="_intern-links.fr.md") %}
+    {% else %}
+    {% set links = get_page(path="_intern-links.md") %}
+    {% endif %}
+    {{ links.content | safe}}
   </div>
   {% if config.extra.social.matrix %}
   <div class="text-bold text-center flex items-center mt-2">
