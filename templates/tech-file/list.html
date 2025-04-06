@@ -39,11 +39,17 @@
         <p>
           <a href="javascript:window.print();">Print</a>/
           {% if lang == 'fr' %}
-           <a target="_blank" href="{{config.base_url}}/docs/tech-file-Touzouli-fr.pdf"
-            >PDF</a>
+            <a
+              target="_blank"
+              href="{{config.base_url}}/docs/tech-file-Touzouli-fr.pdf"
+              >PDF
+            </a>
           {% else %}
-            <a target="_blank" href="{{config.base_url}}/docs/tech-file-Touzouli-en.pdf"
-            >PDF</a>
+            <a
+              target="_blank"
+              href="{{config.base_url}}/docs/tech-file-Touzouli-en.pdf"
+              >PDF
+            </a>
           {% endif %}
         </p>
       </div>
@@ -80,19 +86,25 @@
   </div>
 
   <div class="content-center">
-    <h2 class="font-semibold text-center mt-4">{{ trans(key="main-skills", lang=lang) }}</h2>
+    <h2 class="font-semibold text-center mt-4">
+      {{ trans(key="main-skills", lang=lang) }}
+    </h2>
   </div>
   <div class="flex flex-wrap justify-center space-x-2 space-y-4">
-
     {% set badges = load_data(path="content/main-skill-badges.json") %}
     <div></div>
     {% for img in badges %}
-        <img src="https://img.shields.io/badge/{{ img.category }}-{{ img.name }}-{{ img.color }}?logo={{ img.logo }}" alt="{{ img.name }}" />
+    <img
+      src="https://img.shields.io/badge/{{ img.category }}-{{ img.name }}-{{ img.color }}?logo={{ img.logo }}"
+      alt="{{ img.name }}"
+    />
     {% endfor %}
   </div>
 
   {% set it_xp_term = terms | filter(attribute="slug", value="it-xp") | first %}
-  <h2 class="font-semibold text-center mt-4">{{ trans(key="tech-file-it-xp", lang=lang) }}</h2>
+  <h2 class="font-semibold text-center mt-4">
+    {{ trans(key="tech-file-it-xp", lang=lang) }}
+  </h2>
   {% if not it_xp_term %}
   <p>No IT experiences found</p>
   {% else %}
@@ -108,22 +120,27 @@
         <div class="grow"></div>
         <div class="grow-0 w-48 relative">
           <div class="absolute inset-y-0 right-0">
-            <p>{{ page.date }} - {{ page.extra.duration_month}} {{ trans(key="month", lang=lang)}}</p>
+            <p>
+              {{ page.date }} - {{ page.extra.duration_month}} {{
+              trans(key="month", lang=lang)}}
+            </p>
           </div>
         </div>
       </div>
       <div id="page-content" class="text-sm">{{ page.content | safe }}</div>
     </div>
-     {% endfor %}
+    {% endfor %}
   </div>
   {% endif %}
 
   <!-- -->
 
-  {% set side_skills_term = terms | filter(attribute="slug",
-  value="other-xp") | first %}
+  {% set side_skills_term = terms | filter(attribute="slug", value="other-xp") |
+  first %}
 
-  <h2 class="font-semibold text-center mt-4">{{ trans(key="everything-else", lang=lang) }}</h2>
+  <h2 class="font-semibold text-center mt-4">
+    {{ trans(key="everything-else", lang=lang) }}
+  </h2>
   {% if not side_skills_term %}
   <p>No side skills found</p>
   {% else %}
