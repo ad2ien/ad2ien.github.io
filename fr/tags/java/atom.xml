@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title>Adrien Touzouli - Java</title>
+    <subtitle>Site web professionnel &#x2F; personnel</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://ad2ien.github.io/fr/tags/java/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ad2ien.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2018-12-01T00:00:00+00:00</updated>
+    <id>https://ad2ien.github.io/fr/tags/java/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>🛞 Projet Tourniquet d&#x27;accès</title>
+        <published>2018-12-01T00:00:00+00:00</published>
+        <updated>2018-12-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/it-xp/turnstile/"/>
+        <id>https://ad2ien.github.io/fr/it-xp/turnstile/</id>
+        
+        <summary type="html">&lt;h3 id=&quot;projet&quot;&gt;Projet&lt;&#x2F;h3&gt;
+&lt;p&gt;Tourniquet d&#x27;accès avec mesure d&#x27;électricité statique pour usine de composant électronique. Développement embarqué sur carte Debian.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>✈️ Développeur chez Air France</title>
+        <published>2017-07-01T00:00:00+00:00</published>
+        <updated>2017-07-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/it-xp/air-france/"/>
+        <id>https://ad2ien.github.io/fr/it-xp/air-france/</id>
+        
+        <summary type="html">&lt;p&gt;Cette mission concerne en particulier la gestion de la documentation embarquée dans les avions Air France.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>🌱 🇨🇵 Développeur web au Ministère de l&#x27;agriculture</title>
+        <published>2016-03-01T00:00:00+00:00</published>
+        <updated>2016-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/it-xp/maaf/"/>
+        <id>https://ad2ien.github.io/fr/it-xp/maaf/</id>
+        
+        <summary type="html">&lt;p&gt;Développement « from scratch » d’une application web destinée à la gestion de dossiers liés à la réglementation française sur la forêt. Démarrage du projet avec mise en place du fonctionnement agile. Développement avec le framework du ministère de l’agriculture appelé Orion, une surcouche de Spring.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>🛬 Intervenant technique - Tales avionics</title>
+        <published>2015-05-14T00:00:00+00:00</published>
+        <updated>2015-05-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/it-xp/thales/"/>
+        <id>https://ad2ien.github.io/fr/it-xp/thales/</id>
+        
+        <summary type="html">&lt;p&gt;Tablette tactile embarquée pour Sukhoi permettant la lecture de document et la maintenance : configuration et monitoring de différents équipements connectés.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>🪪 👆️ Développeur pour GAXU S.A.</title>
+        <published>2013-01-01T00:00:00+00:00</published>
+        <updated>2013-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/it-xp/gaxu/"/>
+        <id>https://ad2ien.github.io/fr/it-xp/gaxu/</id>
+        
+        <summary type="html">&lt;p&gt;Le projet d&#x27;affectation permanente : créer un Sdk Android et Windows .NET qui permet aux clients de créer des applications de vérification d&#x27;identité utilisant l’empreinte digitale et les deux versions de la carte d&#x27;identité chilienne.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
