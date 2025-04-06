@@ -37,7 +37,14 @@
       </div>
       <div class="flex place-content-center print:hidden">
         <p>
-          <a href="javascript:window.print();">Print</a>
+          <a href="javascript:window.print();">Print</a>/
+          {% if lang == 'fr' %}
+           <a target="_blank" href="{{config.base_url}}/docs/tech-file-Touzouli-fr.pdf"
+            >PDF</a>
+          {% else %}
+            <a target="_blank" href="{{config.base_url}}/docs/tech-file-Touzouli-en.pdf"
+            >PDF</a>
+          {% endif %}
         </p>
       </div>
     </div>
@@ -92,20 +99,20 @@
   <div class="flex flex-col gap-2">
     {% for page in it_xp_term.pages %}
     <div
-      class="flex flex-col border border-2 border-gray-200 rounded-xl p-3"
+      class="my-break flex flex-col border border-2 border-gray-200 rounded-xl p-3"
     >
-      <div class="flex flex-row">
-        <div class="flex w-4/5">
+      <div class="flex">
+        <div class="grow-0">
           <h3>{{ page.title }}</h3>
         </div>
-        <div class="flex w-1/5 relative">
+        <div class="grow"></div>
+        <div class="grow-0 w-48 relative">
           <div class="absolute inset-y-0 right-0">
-            <p class="text-s">{{ page.date }} - {{ page.extra.duration_month}} {{ trans(key="month", lang=lang)}}</p>
-            <p class="text-s"></p>
+            <p>{{ page.date }} - {{ page.extra.duration_month}} {{ trans(key="month", lang=lang)}}</p>
           </div>
         </div>
       </div>
-      <div id="page-content" class="text-s">{{ page.content | safe }}</div>
+      <div id="page-content" class="text-sm">{{ page.content | safe }}</div>
     </div>
      {% endfor %}
   </div>
@@ -123,7 +130,7 @@
   <div class="flex flex-col gap-2">
     {% for page in side_skills_term.pages %}
     <div
-      class="flex flex-col border border-2 border-gray-200 rounded-xl p-3"
+      class="my-break flex flex-col border border-2 border-gray-200 rounded-xl p-3"
     >
       <div class="flex flex-row">
         <div class="flex w-4/5">

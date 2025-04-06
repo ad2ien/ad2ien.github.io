@@ -51,7 +51,7 @@
         <li>
           <div class="flex flex-row">
             🌐
-            <a target="_blank" href="{{config.base_url}}"
+            <a target="_blank" href="https://ad2ien.github.io"
               >https://ad2ien.github.io</a
             >
           </div>
@@ -76,7 +76,7 @@
   <div class="flex flex-wrap gap-2">
     {% for page in it_xp_term.pages %}
     <div
-      class="flex w-almosthalf flex-col border border-2 border-gray-200 rounded-xl p-3"
+      class="my-break flex w-almosthalf flex-col border border-2 border-gray-200 rounded-xl p-3"
     >
       <div class="flex flex-row">
         <div class="flex w-4/5">
@@ -91,10 +91,7 @@
       </div>
       <div id="page-content" class="text-xs">{{ page.content | safe }}</div>
     </div>
-    {% if loop.index0 % 4 == 3 %}
-    <div class="flex w-almosthalf flex-col falsepagebreak"></div>
-    <div class="flex w-almosthalf flex-col falsepagebreak"></div>
-    {% endif %} {% endfor %}
+ {% endfor %}
   </div>
   {% endif %}
 

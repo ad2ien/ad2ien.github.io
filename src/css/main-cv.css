@@ -50,3 +50,7 @@ h3 {
 .falsepagebreak {
   height: 100px;
 }
+
+.my-break{
+  break-inside: avoid;
+}
