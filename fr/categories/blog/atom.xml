@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title>Adrien Touzouli - blog</title>
+    <subtitle>Site web professionnel &#x2F; personnel</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://ad2ien.github.io/fr/categories/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ad2ien.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-11-04T00:00:00+00:00</updated>
+    <id>https://ad2ien.github.io/fr/categories/blog/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>🧑‍🔧 Prestation de service</title>
+        <published>2024-11-04T00:00:00+00:00</published>
+        <updated>2024-11-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/blog/oss-consult-service/"/>
+        <id>https://ad2ien.github.io/fr/blog/oss-consult-service/</id>
+        
+        <summary type="html">&lt;h2 id=&quot;developpement-et-mise-en-place-de-logiciels-libres&quot;&gt;Développement et mise en place de logiciels libres&lt;&#x2F;h2&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>🔑 Gestion de ses mots de passe</title>
+        <published>2024-04-21T00:00:00+00:00</published>
+        <updated>2024-04-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/blog/password-managerment/"/>
+        <id>https://ad2ien.github.io/fr/blog/password-managerment/</id>
+        
+        <summary type="html">&lt;h2 id=&quot;je-pers-toujours-mes-mots-de-passe&quot;&gt;&lt;em&gt;Je pers toujours mes mots de passe!&lt;&#x2F;em&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Par moment, la famille et les amis sont conscients qu&#x27;il y a quelques failles dans leur gestion de mots passe. Je leur dis en général que je m&#x27;y connais pas plus que n&#x27;importe qui sinon c&#x27;est trop long. Mais des fois il me semble que je me prends moins la tête que la moyenne et c&#x27;est pas sympa de pas partager les conseils. Et puis comme ça je pourrai dire : &lt;em&gt;&quot;beh tu lis pas mon blog?&quot;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>🖼️ J&#x27;ai fait un avatar avec une Stable Diffusion🤓</title>
+        <published>2023-01-13T00:00:00+00:00</published>
+        <updated>2023-01-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/blog/avatar-with-stable-diffusion/"/>
+        <id>https://ad2ien.github.io/fr/blog/avatar-with-stable-diffusion/</id>
+        
+        <summary type="html">&lt;p&gt;Que faire quand on a une idée d&#x27;illustration et aucune compétence artistique : utiliser Stable Diffusion.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Agriculture 🌱 VS informatique 💻️</title>
+        <published>2020-06-15T00:00:00+00:00</published>
+        <updated>2020-06-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/blog/agri-vs-it/"/>
+        <id>https://ad2ien.github.io/fr/blog/agri-vs-it/</id>
+        
+        <summary type="html">&lt;p&gt;Un espèce d&#x27;article qui liste les points communs entre l&#x27;agriculture et l&#x27;informatique. Peut être un peu orienté sur la fin...&lt;&#x2F;p&gt;
+&lt;p&gt;⚠️ Spoiler alert, il va y avoir des lieux communs peut être pas très intéressants si vous connaissez le sujet.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="fr">
+        <title>Super pouvoir des devs 🦸</title>
+        <published>2020-04-01T00:00:00+00:00</published>
+        <updated>2020-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/blog/witches-and-wizards/"/>
+        <id>https://ad2ien.github.io/fr/blog/witches-and-wizards/</id>
+        
+        <summary type="html">&lt;h2 id=&quot;les-devs-ont-des-supers-pouvoirs&quot;&gt;Les Devs ont des supers pouvoirs&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;« Techniquement, les développeuses et développeurs informatiques sont des sorcières» dixit Bakounine&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;standing-on-the-shoulders-of-giants-oh-yeah&quot;&gt;Standing on the shoulders of giants, &lt;strong&gt;oh yeah!&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+</summary>
+        
+    </entry>
+</feed>
