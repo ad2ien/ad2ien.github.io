@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Adrien Touzouli - Ubuntu</title>
+    <subtitle>Personal professional presentation web site</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://ad2ien.github.io/tags/ubuntu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ad2ien.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-06-01T00:00:00+00:00</updated>
+    <id>https://ad2ien.github.io/tags/ubuntu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>🐝 IOT project : cloud processing</title>
+        <published>2020-06-01T00:00:00+00:00</published>
+        <updated>2020-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/it-xp/maya33/"/>
+        <id>https://ad2ien.github.io/it-xp/maya33/</id>
+        
+        <summary type="html">&lt;h3 id=&quot;project&quot;&gt;Project&lt;&#x2F;h3&gt;
+&lt;p&gt;Process, display, data from farming sensors : weight, temperature, sound. AWS cloud architecture, website, monitoring, supervision.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>

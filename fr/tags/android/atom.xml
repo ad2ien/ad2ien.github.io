@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <title>Adrien Touzouli - Android</title>
+    <subtitle>Site web professionnel &#x2F; personnel</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://ad2ien.github.io/fr/tags/android/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ad2ien.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2013-01-01T00:00:00+00:00</updated>
+    <id>https://ad2ien.github.io/fr/tags/android/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>🪪 👆️ Développeur pour GAXU S.A.</title>
+        <published>2013-01-01T00:00:00+00:00</published>
+        <updated>2013-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/fr/it-xp/gaxu/"/>
+        <id>https://ad2ien.github.io/fr/it-xp/gaxu/</id>
+        
+        <summary type="html">&lt;p&gt;Le projet d&#x27;affectation permanente : créer un Sdk Android et Windows .NET qui permet aux clients de créer des applications de vérification d&#x27;identité utilisant l’empreinte digitale et les deux versions de la carte d&#x27;identité chilienne.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
