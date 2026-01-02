@@ -211,12 +211,12 @@ mastodon = "@ad2ien@mastoot.fr"
 
 [extra.index]
 title = "Adrien Touzouli"
-image = "/images/avatar-stable-diffusion.jpeg"
+image = "/images/DSC_3691-cropped-square.jpg"
 image_alt = "avatar"
 
 [extra.default_author]
 name = "Adrien Touzouli"
-avatar = "/images/avatar-stable-diffusion.jpeg"
+avatar = "/images/DSC_3691-cropped-square.jpg"
 avatar_alt = "avatar"
 
 [extra.favicon]
