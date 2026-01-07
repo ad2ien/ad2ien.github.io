@@ -8,7 +8,7 @@ categories=["blog"]
 
 <!-- more -->
 
-- 🏢 Que vous soyer une PME, un service public ou une association
+- 🏢 Que vous soyez une PME, un service public ou une association
 - 🗺️ En milieu rural dans le sud ouest
 
 Profitez d'un accompagnement pour **digitaliser**, **automatiser**, **s'outiller**
