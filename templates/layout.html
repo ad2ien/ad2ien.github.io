@@ -35,6 +35,16 @@
         {{ config.title }}
         {% endblock title %}
       </title>
+      <script>
+        // ---------------- Switch Theme -------------------------
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark')
+        } else {
+          console.log('Dark theme disable');
+          document.documentElement.classList.remove('dark')
+        }
+      </script>
   </head>
   <body class="dark:bg-gray-700 flex flex-col h-screen justify-between">
   <!---------------------------------------------------------->
