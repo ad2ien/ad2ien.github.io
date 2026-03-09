@@ -3,7 +3,7 @@ title = "🪀 Projets perso de 2024"
 [taxonomies]
 categories=["IT XP"]
 tech-file=["it-xp"]
-tags=["Vue.js", "Go", "NextJS", "Rust", "WebAssembly", "Ansible", "Docker", "Traefik", "Restic", "Grafana", "Prometheus","Nextcloud"]
+tags=["Vue.js", "Go", "Next.js", "Rust", "WebAssembly", "Ansible", "Docker", "Traefik", "Restic", "Grafana", "Prometheus","Nextcloud"]
 [extra]
 logo = ""
 duration_month = "2"
