@@ -62,11 +62,11 @@
   <!-- Content -->
   <div class="text-bold text-center mt-2">
     {{ section.content | safe }}
-    {% if lang == 'fr' %}
-    {% set links = get_page(path="_intern-links.fr.md") %}
-    {% else %}
-    {% set links = get_page(path="_intern-links.md") %}
+    {% set langExt = '' %}
+    {% if lang == 'fr'%}
+      {% set langExt = '.fr' %}
     {% endif %}
+    {% set links = get_page(path="_intern-links" ~ langExt ~ ".md") %}
     {{ links.content | safe}}
   </div>
   {% if config.extra.social.matrix %}

@@ -1,5 +1,5 @@
 +++
-title = "♞ Winter freelancing activities"
+title = "♞ Activités freelance"
 [taxonomies]
 categories=["IT XP"]
 tech-file=["it-xp"]

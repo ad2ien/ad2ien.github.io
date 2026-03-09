@@ -5,6 +5,7 @@ location=["Toulouse"]
 categories=["IT XP"]
 tech-file=["it-xp"]
 tags=["Java", "NodeJS", "Spring", "Springboot", "Electron"]
+cv = ["it-xp"]
 [extra]
 logo = "/images/air-france.jpg"
 duration_month = "15"

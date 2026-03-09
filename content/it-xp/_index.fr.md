@@ -9,8 +9,6 @@ paginate_by = 7
 
 Expériences en tant que développeur
 
-## ➡️[CV format PDF 🇬🇧](/docs/CV-Touzouli-en.pdf)⬅️
+## 📜 [Dossier technique](/fr/tech-file)
 
-## ➡️[CV mono page 🇬🇧](/cv)⬅️
-
-## ➡️[Dossier technique 🇫🇷](/fr/tech-file)⬅️
+## 📝 [CV](/fr/cv)

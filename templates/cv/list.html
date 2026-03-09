@@ -1,8 +1,14 @@
 {% extends "layout-clear-page.html" %} {% block content %}
+
+{% set langExt = '' %}
+{% if lang == 'fr'%}
+  {% set langExt = '.fr' %}
+{% endif %}
+
 <div class="m-5 w-a4 flex flex-col">
   <div id="cv-header" class="w-full flex flex-row">
     <div
-      class="flex w-1/3 flex-col border border-2 border-gray-200 rounded-xl p-3"
+      class="flex w-1/3 flex-col border-2 border-gray-200 rounded-xl p-3"
     >
       <ul>
         <li>
@@ -38,14 +44,14 @@
       <div class="flex place-content-center print:hidden">
         <p>
           <a href="javascript:window.print();">Print</a> /
-          <a target="_blank" href="{{config.base_url}}/docs/CV-Touzouli-en.pdf"
+          <a target="_blank" href="{{config.base_url}}/docs/CV-Touzouli-{{lang}}.pdf"
             >PDF</a
           >
         </p>
       </div>
     </div>
     <div
-      class="flex w-1/3 flex-col border border-2 border-gray-200 rounded-xl p-3"
+      class="flex w-1/3 flex-col border-2 border-gray-200 rounded-xl p-3"
     >
       <ul>
         <li>
@@ -63,13 +69,23 @@
     </div>
   </div>
 
-  <h2 class="flex text-bold">In a nutshell</h2>
-  <div class="text-xs italic">
-    {% set intro = get_section(path="_index.md") %} {{ intro.content | safe }}
+  <div class="text-xs text-center italic">
+    {% set intro = get_section(path="_index" ~ langExt ~ ".md") %} {{ intro.content | safe }}
+  </div>
+
+  <div class="flex flex-wrap justify-center space-x-2 space-y-2 my-2">
+    {% set badges = load_data(path="content/main-skill-badges.json") %}
+    <div></div>
+    {% for img in badges %}
+    <img
+      src="https://img.shields.io/badge/{{ img.category }}-{{ img.name }}-{{ img.color }}?logo={{ img.logo }}"
+      alt="{{ img.name }}"
+    />
+    {% endfor %}
+    <div></div>
   </div>
 
   {% set it_xp_term = terms | filter(attribute="name", value="it-xp") | first %}
-  <h2 class="flex text-bold">Main experiences</h2>
   {% if not it_xp_term %}
   <p>No IT experiences found</p>
   {% else %}
@@ -99,7 +115,7 @@
 
   {% set training_term = terms | filter(attribute="name", value="training") |
   last %}
-  <h2 class="flex text-bold">Trainings</h2>
+  <h2 class="flex text-bold">{{ trans(key="trainings", lang=lang) }}</h2>
   {% if not training_term %}
   <p>No trainings found</p>
   {% else %}
@@ -128,7 +144,8 @@
 
   {% set side_skills_term = terms | filter(attribute="name",
   value="side-skills") | first %}
-  <h2 class="flex text-bold">Everything else</h2>
+  <div class="my-break">
+  <h2 class="flex text-bold">{{ trans(key="everything-else", lang=lang) }}</h2>
   {% if not side_skills_term %}
   <p>No side skills found</p>
   {% else %}
@@ -152,6 +169,7 @@
     {% endfor %}
   </div>
   {% endif %}
+  </div>
 </div>
 
 {% endblock content %}

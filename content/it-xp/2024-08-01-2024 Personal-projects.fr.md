@@ -4,6 +4,7 @@ title = "🪀 Projets perso de 2024"
 categories=["IT XP"]
 tech-file=["it-xp"]
 tags=["Vue.js", "Go", "Next.js", "Rust", "WebAssembly", "Ansible", "Docker", "Traefik", "Restic", "Grafana", "Prometheus","Nextcloud"]
+cv = ["it-xp"]
 [extra]
 logo = ""
 duration_month = "2"

@@ -9,8 +9,6 @@ paginate_by = 7
 
 My IT development experience
 
-## ➡️[PDF resume](/docs/CV-Touzouli-en.pdf)⬅️
+## 📜 [Full tech file](/tech-file)
 
-## ➡️[One page simplified resume](/cv)⬅️
-
-## ➡️[Full tech file](/tech-file)⬅️
+## 📝 [Shorter resume](/cv)
