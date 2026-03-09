@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Adrien Touzouli - NodeJS</title>
+    <subtitle>Personal professional presentation web site</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://ad2ien.github.io/tags/nodejs/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ad2ien.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-08-01T00:00:00+00:00</updated>
+    <id>https://ad2ien.github.io/tags/nodejs/atom.xml</id>
+    <entry xml:lang="en">
+        <title>🧑‍🏫 Trainings of 2024</title>
+        <published>2024-08-01T00:00:00+00:00</published>
+        <updated>2024-08-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/it-xp/2024-training/"/>
+        <id>https://ad2ien.github.io/it-xp/2024-training/</id>
+        
+        <summary type="html">&lt;p&gt;I&#x27;m referencing here some &lt;strong&gt;trainings&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>✈️ Air France developer</title>
+        <published>2017-07-01T00:00:00+00:00</published>
+        <updated>2017-07-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ad2ien.github.io/it-xp/air-france/"/>
+        <id>https://ad2ien.github.io/it-xp/air-france/</id>
+        
+        <summary type="html">&lt;p&gt;This mission is mainly related to the management of documentation embedded in Air France aircrafts.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
