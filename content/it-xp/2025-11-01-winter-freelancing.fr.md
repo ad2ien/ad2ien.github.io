@@ -10,7 +10,7 @@ logo = ""
 duration_month = "6"
 +++
 
-Activités freelance hiver 2025-2026 : Golang, Next.js, React and Superset
+Activités freelance hiver 2025-2026 : Golang, Next.js, React et Superset
 
 ## Prestation de développement
 
