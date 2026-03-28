@@ -2,6 +2,38 @@
 
 @config "../../tailwind.config.js";
 
+@theme {
+  /* Light palette */
+  --color-bg-page: #f3f4f6;            /* gray-100 – page background */
+  --color-bg-surface: #ffffff;          /* white – cards, content blocks */
+  --color-bg-nav: #ffffff;              /* white – navbar */
+  --color-border-default: #e5e7eb;      /* gray-200 */
+  --color-border-subtle: #d1d5db;       /* gray-300 */
+  --color-text-primary: #111827;        /* gray-900 */
+  --color-text-secondary: #374151;      /* gray-700 */
+  --color-text-muted: #6b7280;          /* gray-500 */
+  --color-accent: #2563eb;              /* blue-600 */
+  --color-accent-hover: #1d4ed8;        /* blue-700 */
+  --color-pagination-active: #2563eb;   /* blue-600 */
+  --color-pagination-disabled: #9ca3af; /* gray-400 */
+}
+
+/* Dark palette */
+.dark {
+  --color-bg-page: #1e293b;            /* slate-900 – page background */
+  --color-bg-surface: #0f172a;          /* slate-800 – cards, content blocks */
+  --color-bg-nav: #1e293b;              /* slate-800 – navbar */
+  --color-border-default: #334155;      /* slate-700 */
+  --color-border-subtle: #475569;       /* slate-600 */
+  --color-text-primary: #f1f5f9;        /* slate-100 */
+  --color-text-secondary: #cbd5e1;      /* slate-300 */
+  --color-text-muted: #94a3b8;          /* slate-400 */
+  --color-accent: #60a5fa;              /* blue-400 */
+  --color-accent-hover: #93c5fd;        /* blue-300 */
+  --color-pagination-active: #3b82f6;   /* blue-500 */
+  --color-pagination-disabled: #475569; /* slate-600 */
+}
+
 /*
   The default border color has changed to `currentcolor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
@@ -16,19 +48,22 @@
   ::before,
   ::backdrop,
   ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
+    border-color: var(--color-border-default, currentcolor);
   }
 }
 
 @layer base {
   h1 {
-    @apply text-2xl;
+    @apply text-3xl font-bold text-text-primary;
   }
   h2 {
-    @apply text-xl;
+    @apply text-xl font-semibold border-b border-border-subtle pb-1 mb-2 text-text-primary;
   }
-  h3, h4 {
-    @apply font-bold;
+  h3 {
+    @apply text-lg font-semibold italic text-text-secondary;
+  }
+  h4 {
+    @apply text-base font-bold text-text-muted;
   }
 }
 
@@ -39,13 +74,10 @@ html {
 
 /* Default Pages content styles */
 #page-content a {
-    @apply underline;
+    @apply underline text-accent hover:text-accent-hover;
 }
 #page-content p, h2, h3 {
     @apply py-4;
-}
-#page-content :is(h1, h2, h3) {
-    @apply underline;
 }
 #page-content pre {
     @apply p-4 my-4 overflow-x-auto;

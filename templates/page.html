@@ -8,7 +8,7 @@
 </div>
 <div class="flex gap-x-8 place-content-center">
   <div
-    class="flex flex-col sm:w-3/4 w-full border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl bg-gray-200 dark:bg-gray-800">
+    class="flex flex-col sm:w-3/4 w-full border border-2 border-border-default rounded-xl p-5 shadow-md bg-bg-surface">
 
     <div class="flex flex-col py-2 justify-center">
       <!-- <h2 class="text-2xl text-bold"><a href='{{ page.permalink }}'>{{ page.title }}</a></h2> -->
@@ -107,7 +107,7 @@
   {% if page.extra.toc %}
   <div class="hidden sm:block sm:w-1/4 sm:flex sm:items-center sm:flex-col sm:mt-10 sm:w-1/5">
     <div
-      class="border border-2 border-gray-200 dark:border-black rounded-xl p-5 shadow-2xl bg-gray-200 dark:bg-gray-800 sticky top-12">
+      class="border border-2 border-border-default rounded-xl p-5 shadow-md bg-bg-surface sticky top-12">
       <p class="text-bold text-xl">Table of contents</p>
       <ul id="toc">
         {% for h1 in page.toc %}
@@ -142,7 +142,7 @@
 <div class="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto">
   <div class="flex items-center space-x-56 mt-4">
     {% if page.later %}
-    <a class="flex items-center border border-gray-400 dark:border-black rounded-lg text-gray-800 dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800"
+    <a class="flex items-center border border-border-subtle rounded-lg text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-bg-surface"
       href="{{ page.later.permalink }}">
       <svg class="w-7 h-7 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg">
@@ -152,7 +152,7 @@
     </a>
     {% endif %}
     {% if page.earlier %}
-    <a class="flex items-center border border-gray-400 dark:border-black rounded-lg text-gray-800 dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800"
+    <a class="flex items-center border border-border-subtle rounded-lg text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-bg-surface"
       href="{{ page.earlier.permalink }}">
       {{ page.earlier.title }}
       <svg class="w-7 h-7 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -162,7 +162,7 @@
     </a>
     {% endif %}
     {% if page.heavier %}
-    <a class="flex items-center border border-gray-400 dark:border-black rounded-lg text-gray-800 dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800"
+    <a class="flex items-center border border-border-subtle rounded-lg text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-bg-surface"
       href="{{ page.heavier.permalink }}">
       <svg class="w-7 h-7 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg">
@@ -172,7 +172,7 @@
     </a>
     {% endif %}
     {% if page.lighter %}
-    <a class="flex items-center border border-gray-400 dark:border-black rounded-lg text-gray-800 dark:text-gray-300 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-gray-200 dark:bg-gray-800"
+    <a class="flex items-center border border-border-subtle rounded-lg text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-bg-surface"
       href="{{ page.lighter.permalink }}">
       {{ page.lighter.title }}
       <svg class="w-7 h-7 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
