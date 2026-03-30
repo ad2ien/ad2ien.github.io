@@ -9,6 +9,8 @@
   --color-bg-nav: #ffffff;              /* white – navbar */
   --color-border-default: #e5e7eb;      /* gray-200 */
   --color-border-subtle: #d1d5db;       /* gray-300 */
+  --color-text-base-heading: #2ad06f;        /* base green for headings */
+  --color-heading-mix: black;                /* mix toward white in light mode */
   --color-text-primary: #111827;        /* gray-900 */
   --color-text-secondary: #374151;      /* gray-700 */
   --color-text-muted: #6b7280;          /* gray-500 */
@@ -25,6 +27,8 @@
   --color-bg-nav: #1e293b;              /* slate-800 – navbar */
   --color-border-default: #334155;      /* slate-700 */
   --color-border-subtle: #475569;       /* slate-600 */
+  --color-text-base-heading: #59d08b;        /* base green for headings */
+  --color-heading-mix: white;                /* mix toward black in dark mode */
   --color-text-primary: #f1f5f9;        /* slate-100 */
   --color-text-secondary: #cbd5e1;      /* slate-300 */
   --color-text-muted: #94a3b8;          /* slate-400 */
@@ -54,16 +58,24 @@
 
 @layer base {
   h1 {
-    @apply text-3xl font-bold text-text-primary;
+    @apply text-3xl font-bold;
+    color: color-mix(in srgb, var(--color-text-base-heading) 10%, var(--color-heading-mix) 90%);
   }
   h2 {
-    @apply text-xl font-semibold border-b border-border-subtle pb-1 mb-2 text-text-primary;
+    @apply text-xl font-semibold border-b border-border-subtle pb-1 mb-2;
+    color: color-mix(in srgb, var(--color-text-base-heading) 30%, var(--color-heading-mix) 70%);
   }
   h3 {
-    @apply text-lg font-semibold italic text-text-secondary;
+    @apply text-lg font-semibold italic;
+    color: color-mix(in srgb, var(--color-text-base-heading) 60%, var(--color-heading-mix) 40%);
   }
   h4 {
-    @apply text-base font-bold text-text-muted;
+    @apply text-base font-bold;
+    color: color-mix(in srgb, var(--color-text-base-heading) 90%, var(--color-heading-mix) 10%);
+  }
+  h5 {
+    @apply text-base;
+    color: var(--color-text-base-heading);
   }
 }
 
