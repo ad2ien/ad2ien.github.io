@@ -33,7 +33,7 @@ Un téléphone qui fonctionne, sans google, grâce à [/e/os](https://e.foundati
 - consulter ses mails et messageries et applications habituelles
 - sauvegarde des photos
 - filtrer les appels de Stéphane de Meilleur Energie 😤
-- vos besoins on sûrement une réponse libre
+- vos besoins ont sûrement une réponse libre
 
 ![/e/os](/images/presta-post/e-os-1.png)
 
@@ -56,7 +56,7 @@ Un téléphone qui fonctionne, sans google, grâce à [/e/os](https://e.foundati
 
 ## Prix
 
-- sur devis, en fonction de vos besoin
-- moins cher qu'un garagiste
+- sur devis, en fonction de vos besoins
+- pour un taux horaire de garagiste bon marché
 
 **✉️ Parlons-en : <contact@ad2ien.dev>** | 50 20 50 55 (préfixe : 06)
