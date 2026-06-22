@@ -28,7 +28,7 @@
   "homepage": "https://ad2ien.github.io/",
   "devDependencies": {
     "autoprefixer": "^10.4.27",
-    "cssnano": "^7.1.2",
+    "cssnano": "^8.0.2",
     "postcss": "^8.5.8",
     "postcss-cli": "^11.0.1",
     "tailwindcss": "^4.2.1",
