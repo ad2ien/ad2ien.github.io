@@ -1,5 +1,6 @@
 +++
 title = "💾 Disquette services"
+description="Prestataire informatique en logiciel libre et opensource dans le Gers, Tarn-et-Garonne, Haute-Garonne"
 [taxonomies]
 categories=["Other XP"]
 +++
