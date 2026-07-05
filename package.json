@@ -35,6 +35,6 @@
     "uglifyjs-folder": "^3.3.0"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.2.1"
+    "@tailwindcss/postcss": "^4.3.2"
   }
 }
