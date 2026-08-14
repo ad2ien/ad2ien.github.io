@@ -1,0 +1,62 @@
+[
+  {
+    "logo": "openjdk",
+    "name": "Java",
+    "color": "black",
+    "category": "dev"
+  },
+  {
+    "logo": "python",
+    "name": "Python",
+    "color": "3776AB",
+    "category": "dev"
+  },
+  {
+    "logo": "go",
+    "name": "Golang",
+    "color": "black",
+    "category": "dev"
+  },
+  {
+    "logo": "typescript",
+    "name": "Typescript",
+    "color": "3776AB",
+    "category": "dev"
+  },
+  {
+    "logo": "linux",
+    "name": "Linux",
+    "color": "FCC624",
+    "category": "devops"
+  },
+  {
+    "logo": "github",
+    "name": "Github%20CI",
+    "color": "181717",
+    "category": "devops"
+  },
+  {
+    "logo": "ansible",
+    "name": "Ansible",
+    "color": "EE0000",
+    "category": "devops"
+  },
+  {
+    "logo": "docker",
+    "name": "Docker",
+    "color": "2496ED",
+    "category": "devops"
+  },
+  {
+    "logo": "kubernetes",
+    "name": "Kubernetes",
+    "color": "326CE5",
+    "category": "devops"
+  },
+  {
+    "logo": "terraform",
+    "name": "Terraform",
+    "color": "844FBA",
+    "category": "devops"
+  }
+]
