@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       <!-- FAVICON -->
-      {% if config.extra.favicon.webmanifest %}
+      {% if config.extra.favicon?.webmanifest %}
       <link href="{{ config.extra.favicon.manifest }}"" rel="manifest" />
       {% endif %}
       {% if config.extra.favicon.favicon_16x16 %}
@@ -35,6 +35,7 @@
         {{ config.title }}
         {% endblock title %}
       </title>
+      <meta name="description" content="{{ page?.description or section?.description or config.description }}" />
   </head>
   <body class="bg-bg-page flex flex-col h-screen justify-between">
   <!----------------------------------------------------------->
@@ -49,7 +50,7 @@
   {% if config.extra.enable_multilingue %}
     <script defer src="/js/lang.js"></script>
   {% endif %}
-  {% if config.extra.enable_adsense %}
+  {% if config.extra?.enable_adsense %}
     <script async src="{{ config.extra.adsense_link | safe }}"
      crossorigin="anonymous"></script>
   {% endif %}

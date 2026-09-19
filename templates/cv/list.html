@@ -1,4 +1,10 @@
-{% extends "layout-clear-page.html" %} {% block content %} {% set langExt = '' %} {% if lang == 'fr'%} {% set langExt = '.fr' %} {% endif %}
+{% extends "layout-clear-page.html" %}
+{% block content %}
+
+{% set langExt = '' %}
+{% if lang == 'fr'%}
+  {% set langExt = '.fr' %}
+{% endif %}
 
 <div class="m-5 w-a4 flex flex-col">
   <div id="cv-header" class="w-full flex flex-row">
@@ -59,7 +65,8 @@
     <div></div>
   </div>
 
-  {% set it_xp_term = terms | filter(attribute="name", value="it-xp") | first %} {% if not it_xp_term %}
+  {% set it_xp_term = [t for t in terms if t.name == "it-xp"] | first %}
+  {% if not it_xp_term %}
   <p>No IT experiences found</p>
   {% else %}
   <div class="flex flex-wrap gap-2">
@@ -72,7 +79,7 @@
         <div class="flex w-1/5 relative">
           <div class="absolute inset-y-0 right-0">
             <p class="text-xs">{{ page.date }}</p>
-            <p class="text-xs">{{ page.extra.duration_month}} months</p>
+            <p class="text-xs">{{ page.extra?.duration_month}} months</p>
           </div>
         </div>
       </div>
@@ -84,7 +91,7 @@
 
   <!-- -->
 
-  {% set training_term = terms | filter(attribute="name", value="training") | last %}
+  {% set training_term = [t for t in terms if t.name == "training"] | last %}
   <h2 class="flex text-bold">{{ trans(key="trainings", lang=lang) }}</h2>
   {% if not training_term %}
   <p>No trainings found</p>
@@ -110,7 +117,7 @@
 
   <!-- -->
 
-  {% set side_skills_term = terms | filter(attribute="name", value="side-skills") | first %}
+  {% set side_skills_term = [t for t in terms if t.name == "side-skills"] | first %}
   <div class="my-break">
     <h2 class="flex text-bold">{{ trans(key="everything-else", lang=lang) }}</h2>
     {% if not side_skills_term %}
@@ -135,5 +142,5 @@
     </div>
     {% endif %}
   </div>
-  {% endblock content %}
 </div>
+{% endblock content %}

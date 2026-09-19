@@ -19,7 +19,7 @@ jobs:
       - name: Setup node environment (for building)
         uses: actions/setup-node@v7
         with:
-          node-version: 22.22.2
+          node-version: 24.15.0
 
       - name: Fetch dependencies
         run: |
@@ -30,6 +30,6 @@ jobs:
           yarn prod
 
       - name: Zola build and deploy
-        uses: shalzz/zola-deploy-action@v0.22.0
+        uses: shalzz/zola-deploy-action@v0.23.4
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,10 +3,10 @@
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="{{ page.description | default(value=section.description | default(value=config.description)) }}" />
+      <meta name="description" content="{{ page?.description or section?.description or config.description }}" />
 
       <!-- FAVICON -->
-      {% if config.extra.favicon.webmanifest %}
+      {% if config.extra.favicon?.webmanifest %}
       <link href="{{ config.extra.favicon.manifest }}"" rel="manifest" />
       {% endif %}
       {% if config.extra.favicon.favicon_16x16 %}
@@ -98,7 +98,7 @@
                 {% endif %}
               {% endfor %}
 
-              {% if config.extra.enable_sidebar %}
+              {% if config.extra?.enable_sidebar %}
               <!-- More ... Button (sidebar) -->
               <button id="toggle-sidebar">
                 <svg class="w-7 h-7 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -129,7 +129,7 @@
           <div id="search-modal" class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex z-10">
             <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
 
-            <div class="modal-container text-text-secondary bg-bg-surface w-11/12 md:max-w-md mx-auto rounded-lg shadow-lg z-50 mt-40 sm:mt-32 h-36 border border-2 border-gray-800 dark:border-gray-400">
+            <div class="modal-container text-text-secondary bg-bg-surface w-11/12 md:max-w-md mx-auto rounded-lg shadow-lg z-50 mt-40 sm:mt-32 h-36 border-gray-800 dark:border-gray-400">
 
               <div class="modal-close absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-4 mr-4 text-white text-sm z-50">
                 <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
@@ -168,7 +168,7 @@
         {% endif %}
 
         <!---------------------------- Sidebar Menu ---------------------------->
-        {% if config.extra.enable_sidebar %}
+        {% if config.extra?.enable_sidebar %}
           <div id="sidebar" class="nav-links -translate-x-full flex flex-col pt-6 p-2 text-2xl text-text-primary bg-bg-surface transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30 shadow-2xl">
             {% for item in config.extra.sidebar.items %}
               {% if lang == item.lang %}
@@ -256,7 +256,7 @@
           {% endif %}
         {% endfor %}
 
-        {% if config.extra.enable_sidebar %}
+        {% if config.extra?.enable_sidebar %}
             {% for item in config.extra.sidebar.items %}
               {% if lang == item.lang %}
                 {% for link in item.links %}
@@ -331,7 +331,7 @@
   {% if config.extra.enable_multilingue %}
     <script defer src="/js/lang.js"></script>
   {% endif %}
-  {% if config.extra.enable_adsense %}
+  {% if config.extra?.enable_adsense %}
     <script async src="{{ config.extra.adsense_link | safe }}"
      crossorigin="anonymous"></script>
   {% endif %}

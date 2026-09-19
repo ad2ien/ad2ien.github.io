@@ -32,10 +32,10 @@
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
               </svg>
-              {% if page.extra.author.name %}
-                <span class="ml-1">{{ page.extra.author.name }}</span>
-                {% if page.extra.author.avatar %}
-                  <img class="rounded-full h-9 w-9 ml-1" src="{{ page.extra.author.avatar }}"{% if page.extra.author.avatar_alt %} alt="{{ page.extra.author.avatar_alt }}"{% endif %}>
+              {% if page.extra?.author?.name %}
+                <span class="ml-1">{{ page.extra?.author?.name }}</span>
+                {% if page.extra?.author?.avatar %}
+                  <img class="rounded-full h-9 w-9 ml-1" src="{{ page.extra?.author?.avatar }}"{% if page.extra?.author?.avatar_alt %} alt="{{ page.extra?.author?.avatar_alt }}"{% endif %}>
                 {% endif %}
               {% else %}
                 <span class="ml-1">{{ config.extra.default_author.name }}</span>
@@ -50,13 +50,13 @@
           <div class="flex space-x-3 text-text-secondary">
             <span class="flex">
               <!-- Icon clock -->
-              {% if page.extra.duration_month %}
+              {% if page.extra?.duration_month %}
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
-              <span class="ml-1">{{ page.extra.duration_month }} {{ trans(key="month", lang=lang) }}</span>
+              <span class="ml-1">{{ page.extra?.duration_month }} {{ trans(key="month", lang=lang) }}</span>
               {% endif %}
             </span>
             <!-- <span class="flex">
@@ -77,7 +77,7 @@
       <!-- Summary -->
       <div class="text-bold mt-2">
         {{ page.summary | safe }}
-        {% if page.extra.noreadmore %}
+        {% if page.extra?.noreadmore %}
         <!-- don't display read more -->
         {% else %}
         <a class="flex py-2" href='{{ page.permalink }}'>
@@ -102,7 +102,7 @@
 {% endblock content %}
 
 {% block pagination %}
-{% if paginator.previous or paginator.next %}
+{% if paginator and (paginator.previous or paginator.next) %}
 <div class="max-w-7xl px-2 sm:px-6 lg:px-8 mx-auto w-full">
   <div class="flex items-center justify-between">
     {% if not paginator.previous %}
@@ -117,7 +117,7 @@
     </span>
     {% else %}
     <!-- Active -->
-    <a class="flex items-center border border-border-subtle rounded-lg text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-bg-surface"
+    <a class="flex items-center border border-border-subtle rounded-lg text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white px-3 py-4 text-sm font-medium transform transition duration-500 hover:scale-105 bg-bg-surface"
       href="{{ paginator.previous }}" {% if not paginator.previous %}disabled{% endif %}>
       <svg class="w-7 h-7 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg">
@@ -129,7 +129,7 @@
     <ul class="flex gap-x-2">
       {% for pager in range(start=1, end=paginator.number_pagers+1) %}
       <li class="">
-        <a class="p-4 border border-border-subtle rounded-lg text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 hover:text-white rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 {% if paginator.current_index == pager %}bg-pagination-active text-white{% else %}bg-bg-surface{% endif %}"
+        <a class="p-4 border border-border-subtle text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 hover:text-white rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 {% if paginator.current_index == pager %}bg-pagination-active text-white{% else %}bg-bg-surface{% endif %}"
           href="{{ paginator.base_url }}{{pager}}" aria-label="Page {{pager}}">
           {{pager}}
         </a>
@@ -148,7 +148,7 @@
     </span>
     {% else %}
     <!-- Active -->
-    <a class="flex items-center border border-border-subtle rounded-lg text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-bg-surface"
+    <a class="flex items-center border border-border-subtle text-text-primary hover:bg-gray-100 dark:hover:bg-gray-600 hover:text-white px-3 py-4 rounded-md text-sm font-medium transform transition duration-500 hover:scale-105 bg-bg-surface"
       href="{{ paginator.next }}">
       Next page
       <svg class="w-7 h-7 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
