@@ -29,7 +29,7 @@
   "devDependencies": {
     "autoprefixer": "^10.6.1",
     "cssnano": "^9.0.5",
-    "postcss": "^8.5.28",
+    "postcss": "^8.5.29",
     "postcss-cli": "^12.0.0",
     "tailwindcss": "^4.3.3",
     "uglifyjs-folder": "^3.3.0"
