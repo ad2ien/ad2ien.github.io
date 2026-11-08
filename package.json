@@ -31,7 +31,7 @@
     "cssnano": "^9.0.5",
     "postcss": "^8.5.28",
     "postcss-cli": "^12.0.0",
-    "tailwindcss": "^4.3.3",
+    "tailwindcss": "^4.3.4",
     "uglifyjs-folder": "^3.3.0"
   },
   "dependencies": {
